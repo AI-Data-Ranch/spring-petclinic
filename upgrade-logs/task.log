@@ -1,0 +1,10 @@
+=== Current Java Version Analysis ===
+Current Java version in pom.xml: 17
+Current Java version in build.gradle: 17
+System Java version: openjdk version "1.8.0_482"
+Target Java version: 21
+Analysis timestamp: 2026-02-05 06:11:40 UTC
+=== Build and Test Results ===
+Maven build: SUCCESS
+Maven tests: 58 tests run, 0 failures, 0 errors, 0 skipped
+Build completed at: 2026-02-05 06:15:23 UTC
