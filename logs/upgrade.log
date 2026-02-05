@@ -1,0 +1,16 @@
+=== Upgrade Log ===
+Upgrade Start Time: Thu Feb  5 00:38:17 UTC 2026
+
+[Thu Feb  5 00:38:34 UTC 2026] Created branch: devin/1770251910-java-17-to-21-upgrade
+[Thu Feb  5 00:38:50 UTC 2026] Updated pom.xml: java.version changed from 17 to 21
+[Thu Feb  5 00:38:50 UTC 2026] Updated build.gradle: languageVersion changed from 17 to 21
+[Thu Feb  5 00:39:14 UTC 2026] Updated .github/workflows/maven-build.yml: java matrix changed from 17 to 21
+[Thu Feb  5 00:39:14 UTC 2026] Updated .github/workflows/gradle-build.yml: java matrix changed from 17 to 21
+[Thu Feb  5 00:39:46 UTC 2026] Starting Maven build with Java 21...
+[Thu Feb  5 00:41:33 UTC 2026] Maven build completed successfully!
+[Thu Feb  5 00:41:33 UTC 2026] Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
+[Thu Feb  5 00:41:33 UTC 2026] BUILD SUCCESS
+[Thu Feb  5 00:42:46 UTC 2026] Starting local test: mvn clean package
+[Thu Feb  5 00:43:43 UTC 2026] Local test mvn clean package completed successfully!
+[Thu Feb  5 00:43:43 UTC 2026] Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
+[Thu Feb  5 00:43:43 UTC 2026] BUILD SUCCESS - Total time: 47.709 s
