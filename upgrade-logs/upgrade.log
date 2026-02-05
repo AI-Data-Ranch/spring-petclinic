@@ -1,0 +1,11 @@
+Spring Boot 4.1.0 Upgrade Log
+Started: Thu Feb  5 21:55:27 UTC 2026
+=== Current Dependencies Analysis ===
+Spring Boot Version: 4.0.0
+Java Version: 17
+Target Spring Boot Version: 4.1.0
+=== Upgrading Spring Boot from 4.0.0 to 4.1.0 ===
+Modified pom.xml: Spring Boot parent version 4.0.0 -> 4.1.0
+Modified build.gradle: Spring Boot plugin version 4.0.0 -> 4.1.0
+- Set Spring Boot parent to 4.1.0-M1 (added milestone repos)
+- Set java.version to 21

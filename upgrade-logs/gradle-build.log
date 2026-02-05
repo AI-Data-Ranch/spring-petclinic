@@ -1,0 +1,87 @@
+Downloading https://services.gradle.org/distributions/gradle-9.2.1-bin.zip
+............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+
+Welcome to Gradle 9.2.1!
+
+Here are the highlights of this release:
+ - Windows ARM support
+ - Improved publishing APIs
+ - Better guidance for dependency verification failures
+
+For more details see https://docs.gradle.org/9.2.1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :clean UP-TO-DATE
+> Task :compileJava
+
+> Task :cyclonedxDirectBom
+Unknown keyword meta:enum - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword
+Unknown keyword deprecated - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword
+
+> Task :cyclonedxBom
+> Task :processResources
+> Task :classes
+> Task :resolveMainClassName
+
+> Task :processAot
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.1.0-M1
+
+
+2026-02-05T22:00:42.320Z  INFO 8137 --- [           main] o.s.s.petclinic.PetClinicApplication     : Starting PetClinicApplication using Java 21.0.10 with PID 8137 (/home/ubuntu/repos/spring-petclinic/build/classes/java/main started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T22:00:42.324Z  INFO 8137 --- [           main] o.s.s.petclinic.PetClinicApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-02-05T22:00:43.125Z  INFO 8137 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-05T22:00:43.181Z  INFO 8137 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2026-02-05T22:00:44.365Z  INFO 8137 --- [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: AotMetamodel]
+2026-02-05T22:00:44.398Z  INFO 8137 --- [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.1.Final
+2026-02-05T22:00:44.727Z  INFO 8137 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-05T22:00:44.747Z  INFO 8137 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database dialect: SpringDataJpaAotDialect
+	Database version: 0.0
+	Default catalog/schema: unknown/unknown
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	JDBC fetch size: undefined/unknown
+	Pool: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-05T22:00:45.484Z  INFO 8137 --- [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-05T22:00:46.042Z  INFO 8137 --- [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+
+> Task :compileAotJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processAotResources
+> Task :aotClasses
+> Task :collectReachabilityMetadata
+> Task :bootJar
+> Task :jar
+> Task :assemble
+
+[Incubating] Problems report is available at: file:///home/ubuntu/repos/spring-petclinic/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 37s
+12 actionable tasks: 11 executed, 1 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html
