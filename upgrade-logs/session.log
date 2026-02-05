@@ -1,0 +1,17 @@
+2026-02-05 01:49:22 UTC - Task started: Upgrade Java 17 to Java 21
+2026-02-05 01:49:33 UTC - Exploring codebase for Java version references
+2026-02-05 01:50:12 UTC - Found Java version references in: pom.xml, build.gradle, maven-build.yml, gradle-build.yml, README.md, .devcontainer/Dockerfile
+2026-02-05 01:50:54 UTC - Created feature branch: devin/1770256249-upgrade-java-17-to-21
+2026-02-05 01:51:29 UTC - Updated Java version references in all files
+Files updated:
+- pom.xml: java.version 17 -> 21
+- build.gradle: languageVersion 17 -> 21
+- .github/workflows/maven-build.yml: java matrix 17 -> 21
+- .github/workflows/gradle-build.yml: java matrix 17 -> 21
+- README.md: Java version requirements updated to 21
+- .devcontainer/Dockerfile: VARIANT and JAVA_VERSION updated to 21
+2026-02-05 01:52:05 UTC - Running Maven build with Java 21
+2026-02-05 01:52:52 UTC - Running Maven tests with Java 21
+2026-02-05 01:54:22 UTC - Build and tests completed successfully
+Maven compile: SUCCESS
+Maven tests: 58 tests, 0 failures, 0 errors
