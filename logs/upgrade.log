@@ -1,0 +1,20 @@
+=== Upgrade Log ===
+Timestamp: 2026-02-05 21:56:09 UTC
+Files modified:
+  - pom.xml: java.version changed from 17 to 21
+  - build.gradle: languageVersion changed from 17 to 21
+  - .github/workflows/maven-build.yml: java matrix changed from 17 to 21
+  - .github/workflows/gradle-build.yml: java matrix changed from 17 to 21
+
+=== Upgrade Summary ===
+Upgrade completed: 2026-02-05 22:03:51 UTC
+Source Java version: 17
+Target Java version: 21
+Files modified: 4
+  - pom.xml
+  - build.gradle
+  - .github/workflows/maven-build.yml
+  - .github/workflows/gradle-build.yml
+Tests passed: 58
+Build status: SUCCESS
+Local app test: SUCCESS

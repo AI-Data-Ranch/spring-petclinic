@@ -1,0 +1,6 @@
+=== Analysis Log ===
+Timestamp: 2026-02-05 21:55:38 UTC
+Current Java version in pom.xml: 17
+Current Java version in build.gradle: 17
+System Java version: 17.0.13
+Target Java version: 21
