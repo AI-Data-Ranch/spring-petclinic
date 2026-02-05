@@ -1,0 +1,912 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 4.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.pom
+Progress (1): 827 BProgress (1): 2.5 kBProgress (1): 4.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.pom (4.9 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.4/surefire-3.5.4.pom
+Progress (1): 791 BProgress (1): 1.9 kBProgress (1): 3.7 kBProgress (1): 6.7 kBProgress (1): 8.8 kBProgress (1): 12 kB Progress (1): 14 kBProgress (1): 16 kBProgress (1): 19 kBProgress (1): 19 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.4/surefire-3.5.4.pom (19 kB at 504 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.jar
+Progress (1): 0.9/46 kBProgress (1): 2.3/46 kBProgress (1): 3.7/46 kBProgress (1): 5.0/46 kBProgress (1): 6.4/46 kBProgress (1): 7.8/46 kBProgress (1): 9.1/46 kBProgress (1): 11/46 kB Progress (1): 12/46 kBProgress (1): 12/46 kBProgress (1): 14/46 kBProgress (1): 15/46 kBProgress (1): 16/46 kBProgress (1): 18/46 kBProgress (1): 19/46 kBProgress (1): 21/46 kBProgress (1): 22/46 kBProgress (1): 23/46 kBProgress (1): 25/46 kBProgress (1): 26/46 kBProgress (1): 27/46 kBProgress (1): 29/46 kBProgress (1): 30/46 kBProgress (1): 31/46 kBProgress (1): 33/46 kBProgress (1): 34/46 kBProgress (1): 36/46 kBProgress (1): 37/46 kBProgress (1): 38/46 kBProgress (1): 40/46 kBProgress (1): 41/46 kBProgress (1): 42/46 kBProgress (1): 44/46 kBProgress (1): 46 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.5.4/maven-surefire-plugin-3.5.4.jar (46 kB at 1.2 MB/s)
+[INFO] 
+[INFO] --- enforcer:3.6.2:enforce (enforce-java) @ spring-petclinic ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- spring-javaformat:0.0.47:validate (default) @ spring-petclinic ---
+[INFO] 
+[INFO] --- checkstyle:3.6.0:check (nohttp-checkstyle-validation) @ spring-petclinic ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.14:prepare-agent (default) @ spring-petclinic ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.14/org.jacoco.agent-0.8.14-runtime.jar=destfile=/home/ubuntu/repos/spring-petclinic/target/jacoco.exec
+[INFO] 
+[INFO] --- git-commit-id:9.0.2:revision (default) @ spring-petclinic ---
+[INFO] dotGitDirectory '/home/ubuntu/repos/spring-petclinic/.git'
+[INFO] Collected git.build.user.name with value Devin AI
+[INFO] Collected git.build.user.email with value 158243242+devin-ai-integration[bot]@users.noreply.github.com
+[INFO] Collected git.branch with value feature/java21-upgrade_20260204_220057027
+[INFO] Collected git.commit.id.describe with value 3e1ce23-dirty
+[INFO] Collected git.commit.id.describe-short with value 3e1ce23-dirty
+[INFO] Collected git.commit.id with value 3e1ce239f4488f20abda24441388a515ea55a815
+[INFO] Collected git.commit.id.abbrev with value 3e1ce23
+[INFO] Collected git.dirty with value true
+[INFO] Collected git.commit.user.name with value Stéphane Nicoll
+[INFO] Collected git.commit.user.email with value stephane.nicoll@broadcom.com
+[INFO] Collected git.commit.message.full with value Polish
+[INFO] Collected git.commit.message.short with value Polish
+[INFO] Collected git.commit.time with value 2025-11-26T18:56:03Z
+[INFO] Collected git.commit.author.time with value 2025-11-26T18:56:03Z
+[INFO] Collected git.commit.committer.time with value 2025-11-26T18:56:03Z
+[INFO] Collected git.remote.origin.url with value https://github.com/AI-Data-Ranch/spring-petclinic
+[INFO] Collected git.tags with value 
+[INFO] Collected git.tag with value 
+[INFO] Collected git.closest.tag.name with value 
+[INFO] Collected git.closest.tag.commit.count with value 
+[INFO] Collected git.total.commit.count with value 1008
+[INFO] Collected git.local.branch.ahead with value NO_REMOTE
+[INFO] Collected git.local.branch.behind with value NO_REMOTE
+[INFO] Collected git.build.time with value 2024-11-28T14:37:52Z
+[INFO] Collected git.build.version with value 4.0.0-SNAPSHOT
+[INFO] Collected git.build.host with value devin-box
+[INFO] including property 'git.tags' in results
+[INFO] including property 'git.build.version' in results
+[INFO] including property 'git.branch' in results
+[INFO] including property 'git.build.host' in results
+[INFO] including property 'git.commit.id' in results
+[INFO] including property 'git.commit.user.email' in results
+[INFO] including property 'git.local.branch.behind' in results
+[INFO] including property 'git.commit.author.time' in results
+[INFO] including property 'git.build.user.name' in results
+[INFO] including property 'git.dirty' in results
+[INFO] including property 'git.closest.tag.commit.count' in results
+[INFO] including property 'git.commit.user.name' in results
+[INFO] including property 'git.commit.id.abbrev' in results
+[INFO] including property 'git.commit.id.describe-short' in results
+[INFO] including property 'git.total.commit.count' in results
+[INFO] including property 'git.commit.id.describe' in results
+[INFO] including property 'git.build.user.email' in results
+[INFO] including property 'git.commit.message.short' in results
+[INFO] including property 'git.commit.committer.time' in results
+[INFO] including property 'git.tag' in results
+[INFO] including property 'git.closest.tag.name' in results
+[INFO] including property 'git.local.branch.ahead' in results
+[INFO] including property 'git.commit.time' in results
+[INFO] including property 'git.build.time' in results
+[INFO] including property 'git.commit.message.full' in results
+[INFO] including property 'git.remote.origin.url' in results
+[INFO] Reading existing properties file [/home/ubuntu/repos/spring-petclinic/target/classes/git.properties] (for project petclinic)...
+[INFO] Properties file [/home/ubuntu/repos/spring-petclinic/target/classes/git.properties] is up-to-date (for module petclinic)...
+[INFO] 
+[INFO] --- spring-boot:4.0.0:build-info (default) @ spring-petclinic ---
+[INFO] 
+[INFO] --- cyclonedx:2.9.1:makeAggregateBom (default) @ spring-petclinic ---
+[INFO] CycloneDX: Resolving Dependencies
+[INFO] CycloneDX: Creating BOM version 1.6 with 108 component(s)
+[INFO] CycloneDX: Writing and validating BOM (JSON): /home/ubuntu/repos/spring-petclinic/target/classes/META-INF/sbom/application.cdx.json
+[WARNING] Unknown keyword meta:enum - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword
+[WARNING] Unknown keyword deprecated - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword
+[INFO]            attaching as spring-petclinic-4.0.0-SNAPSHOT-cyclonedx.json
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ spring-petclinic ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] Copying 47 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ spring-petclinic ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spring-petclinic ---
+[INFO] skip non existing resourceDirectory /home/ubuntu/repos/spring-petclinic/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ spring-petclinic ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 17 source files with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ spring-petclinic ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.4/surefire-api-3.5.4.pom
+Progress (1): 832 BProgress (1): 2.9 kBProgress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.4/surefire-api-3.5.4.pom (3.7 kB at 112 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.4/surefire-logger-api-3.5.4.pom
+Progress (1): 826 BProgress (1): 2.5 kBProgress (1): 3.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.4/surefire-logger-api-3.5.4.pom (3.5 kB at 106 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.4/surefire-shared-utils-3.5.4.pom
+Progress (1): 1.1 kBProgress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.4/surefire-shared-utils-3.5.4.pom (4.0 kB at 132 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.4/surefire-extensions-api-3.5.4.pom
+Progress (1): 833 BProgress (1): 3.1 kBProgress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.4/surefire-extensions-api-3.5.4.pom (3.6 kB at 119 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.4/maven-surefire-common-3.5.4.pom
+Progress (1): 823 BProgress (1): 4.1 kBProgress (1): 7.1 kBProgress (1): 7.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.4/maven-surefire-common-3.5.4.pom (7.3 kB at 261 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.4/surefire-booter-3.5.4.pom
+Progress (1): 827 BProgress (1): 3.5 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.4/surefire-booter-3.5.4.pom (5.0 kB at 161 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.4/surefire-extensions-spi-3.5.4.pom
+Progress (1): 873 BProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.4/surefire-extensions-spi-3.5.4.pom (1.7 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.4/surefire-api-3.5.4.jar
+Progress (1): 3.8/174 kBProgress (1): 8.0/174 kBProgress (1): 12/174 kB Progress (1): 16/174 kBProgress (1): 21/174 kBProgress (1): 25/174 kBProgress (1): 29/174 kBProgress (1): 33/174 kBProgress (1): 38/174 kBProgress (1): 42/174 kBProgress (1): 46/174 kBProgress (1): 50/174 kBProgress (1): 55/174 kBProgress (1): 59/174 kBProgress (1): 63/174 kBProgress (1): 67/174 kBProgress (1): 71/174 kBProgress (1): 76/174 kBProgress (1): 80/174 kBProgress (1): 84/174 kBProgress (1): 88/174 kBProgress (1): 93/174 kBProgress (1): 97/174 kBProgress (1): 101/174 kBProgress (1): 105/174 kBProgress (1): 110/174 kBProgress (1): 114/174 kBProgress (1): 130/174 kBProgress (1): 147/174 kBProgress (1): 163/174 kBProgress (1): 174 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/3.5.4/surefire-api-3.5.4.jar (174 kB at 4.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.4/surefire-logger-api-3.5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.4/surefire-shared-utils-3.5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.4/surefire-extensions-api-3.5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.4/maven-surefire-common-3.5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.4/surefire-booter-3.5.4.jar
+Progress (1): 7.7/14 kBProgress (1): 14 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-logger-api/3.5.4/surefire-logger-api-3.5.4.jar (14 kB at 400 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.4/surefire-extensions-spi-3.5.4.jar
+Progress (1): 0.9/119 kBProgress (2): 0.9/119 kB | 7.5/8.2 kBProgress (2): 2.3/119 kB | 7.5/8.2 kBProgress (2): 2.3/119 kB | 8.2 kB    Progress (2): 3.7/119 kB | 8.2 kBProgress (2): 5.0/119 kB | 8.2 kBProgress (2): 6.4/119 kB | 8.2 kBProgress (2): 7.8/119 kB | 8.2 kBProgress (2): 9.1/119 kB | 8.2 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-spi/3.5.4/surefire-extensions-spi-3.5.4.jar (8.2 kB at 149 kB/s)
+Progress (1): 11/119 kBProgress (1): 12/119 kBProgress (1): 13/119 kBProgress (1): 15/119 kBProgress (1): 16/119 kBProgress (1): 17/119 kBProgress (1): 19/119 kBProgress (1): 20/119 kBProgress (1): 21/119 kBProgress (1): 23/119 kBProgress (1): 24/119 kBProgress (1): 26/119 kBProgress (1): 27/119 kBProgress (1): 28/119 kBProgress (1): 30/119 kBProgress (1): 31/119 kBProgress (1): 32/119 kBProgress (1): 34/119 kBProgress (1): 35/119 kBProgress (1): 37/119 kBProgress (1): 38/119 kBProgress (1): 39/119 kBProgress (1): 41/119 kBProgress (1): 42/119 kBProgress (1): 43/119 kBProgress (1): 45/119 kBProgress (1): 46/119 kBProgress (2): 46/119 kB | 0.9/314 kBProgress (2): 47/119 kB | 0.9/314 kBProgress (2): 49/119 kB | 0.9/314 kBProgress (2): 49/119 kB | 2.3/314 kBProgress (2): 50/119 kB | 2.3/314 kBProgress (2): 50/119 kB | 3.7/314 kBProgress (2): 52/119 kB | 3.7/314 kBProgress (2): 52/119 kB | 5.0/314 kBProgress (2): 53/119 kB | 5.0/314 kBProgress (2): 53/119 kB | 6.4/314 kBProgress (2): 54/119 kB | 6.4/314 kBProgress (2): 54/119 kB | 7.8/314 kBProgress (2): 56/119 kB | 7.8/314 kBProgress (2): 56/119 kB | 9.1/314 kBProgress (2): 56/119 kB | 11/314 kB Progress (2): 60/119 kB | 11/314 kBProgress (2): 60/119 kB | 12/314 kBProgress (2): 60/119 kB | 13/314 kBProgress (2): 60/119 kB | 15/314 kBProgress (2): 60/119 kB | 16/314 kBProgress (2): 60/119 kB | 17/314 kBProgress (2): 60/119 kB | 19/314 kBProgress (2): 60/119 kB | 20/314 kBProgress (2): 60/119 kB | 21/314 kBProgress (3): 60/119 kB | 21/314 kB | 0.9/26 kBProgress (3): 60/119 kB | 23/314 kB | 0.9/26 kBProgress (3): 60/119 kB | 24/314 kB | 0.9/26 kBProgress (3): 60/119 kB | 24/314 kB | 2.3/26 kBProgress (3): 60/119 kB | 26/314 kB | 2.3/26 kBProgress (3): 60/119 kB | 26/314 kB | 3.7/26 kBProgress (3): 60/119 kB | 27/314 kB | 3.7/26 kBProgress (3): 60/119 kB | 27/314 kB | 5.0/26 kBProgress (3): 64/119 kB | 27/314 kB | 5.0/26 kBProgress (3): 64/119 kB | 28/314 kB | 5.0/26 kBProgress (3): 64/119 kB | 28/314 kB | 6.4/26 kBProgress (3): 64/119 kB | 28/314 kB | 7.8/26 kBProgress (3): 64/119 kB | 30/314 kB | 7.8/26 kBProgress (3): 68/119 kB | 30/314 kB | 7.8/26 kBProgress (3): 68/119 kB | 30/314 kB | 9.1/26 kBProgress (3): 68/119 kB | 31/314 kB | 9.1/26 kBProgress (3): 73/119 kB | 31/314 kB | 9.1/26 kBProgress (3): 73/119 kB | 31/314 kB | 11/26 kB Progress (3): 73/119 kB | 32/314 kB | 11/26 kBProgress (3): 73/119 kB | 32/314 kB | 12/26 kBProgress (3): 77/119 kB | 32/314 kB | 12/26 kBProgress (3): 77/119 kB | 32/314 kB | 13/26 kBProgress (3): 77/119 kB | 32/314 kB | 15/26 kBProgress (3): 81/119 kB | 32/314 kB | 15/26 kBProgress (3): 81/119 kB | 34/314 kB | 15/26 kBProgress (3): 81/119 kB | 34/314 kB | 16/26 kBProgress (3): 85/119 kB | 34/314 kB | 16/26 kBProgress (3): 85/119 kB | 34/314 kB | 17/26 kBProgress (3): 85/119 kB | 34/314 kB | 19/26 kBProgress (3): 90/119 kB | 34/314 kB | 19/26 kBProgress (3): 90/119 kB | 34/314 kB | 20/26 kBProgress (3): 90/119 kB | 35/314 kB | 20/26 kBProgress (3): 90/119 kB | 35/314 kB | 21/26 kBProgress (3): 90/119 kB | 36/314 kB | 21/26 kBProgress (3): 90/119 kB | 36/314 kB | 23/26 kBProgress (3): 90/119 kB | 38/314 kB | 23/26 kBProgress (3): 90/119 kB | 38/314 kB | 24/26 kBProgress (3): 90/119 kB | 39/314 kB | 24/26 kBProgress (3): 90/119 kB | 39/314 kB | 26/26 kBProgress (3): 90/119 kB | 39/314 kB | 26 kB   Progress (3): 90/119 kB | 41/314 kB | 26 kBProgress (3): 90/119 kB | 42/314 kB | 26 kBProgress (3): 90/119 kB | 43/314 kB | 26 kBProgress (4): 90/119 kB | 43/314 kB | 26 kB | 0/2.9 MBProgress (4): 90/119 kB | 45/314 kB | 26 kB | 0/2.9 MBProgress (4): 90/119 kB | 45/314 kB | 26 kB | 0/2.9 MBProgress (4): 90/119 kB | 46/314 kB | 26 kB | 0/2.9 MBProgress (4): 90/119 kB | 47/314 kB | 26 kB | 0/2.9 MBProgress (4): 90/119 kB | 47/314 kB | 26 kB | 0/2.9 MBProgress (4): 90/119 kB | 49/314 kB | 26 kB | 0/2.9 MB                                                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-extensions-api/3.5.4/surefire-extensions-api-3.5.4.jar (26 kB at 367 kB/s)
+Progress (3): 90/119 kB | 49/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 50/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 50/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 52/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 52/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 53/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 54/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 56/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 56/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 56/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 60/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 60/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 60/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 64/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 64/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 64/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 64/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 64/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 64/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 64/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 68/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 68/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 68/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 73/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 73/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 73/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 77/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 77/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 81/314 kB | 0/2.9 MBProgress (3): 90/119 kB | 81/314 kB | 0/2.9 MBProgress (3): 94/119 kB | 81/314 kB | 0/2.9 MBProgress (3): 94/119 kB | 81/314 kB | 0/2.9 MBProgress (3): 94/119 kB | 85/314 kB | 0/2.9 MBProgress (3): 94/119 kB | 85/314 kB | 0/2.9 MBProgress (3): 98/119 kB | 85/314 kB | 0/2.9 MBProgress (3): 98/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 98/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 102/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 102/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 102/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 106/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 106/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 106/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 111/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 111/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 111/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 115/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 115/119 kB | 89/314 kB | 0/2.9 MBProgress (3): 119 kB | 89/314 kB | 0/2.9 MB    Progress (3): 119 kB | 89/314 kB | 0/2.9 MBProgress (3): 119 kB | 89/314 kB | 0/2.9 MBProgress (3): 119 kB | 89/314 kB | 0/2.9 MBProgress (3): 119 kB | 89/314 kB | 0/2.9 MBProgress (3): 119 kB | 89/314 kB | 0/2.9 MBProgress (3): 119 kB | 89/314 kB | 0.1/2.9 MB                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/3.5.4/surefire-booter-3.5.4.jar (119 kB at 1.5 MB/s)
+Progress (2): 89/314 kB | 0.1/2.9 MBProgress (2): 89/314 kB | 0.1/2.9 MBProgress (2): 89/314 kB | 0.1/2.9 MBProgress (2): 89/314 kB | 0.1/2.9 MBProgress (2): 94/314 kB | 0.1/2.9 MBProgress (2): 98/314 kB | 0.1/2.9 MBProgress (2): 102/314 kB | 0.1/2.9 MBProgress (2): 106/314 kB | 0.1/2.9 MBProgress (2): 111/314 kB | 0.1/2.9 MBProgress (2): 115/314 kB | 0.1/2.9 MBProgress (2): 119/314 kB | 0.1/2.9 MBProgress (2): 123/314 kB | 0.1/2.9 MBProgress (2): 128/314 kB | 0.1/2.9 MBProgress (2): 132/314 kB | 0.1/2.9 MBProgress (2): 132/314 kB | 0.1/2.9 MBProgress (2): 136/314 kB | 0.1/2.9 MBProgress (2): 136/314 kB | 0.1/2.9 MBProgress (2): 140/314 kB | 0.1/2.9 MBProgress (2): 140/314 kB | 0.1/2.9 MBProgress (2): 144/314 kB | 0.1/2.9 MBProgress (2): 144/314 kB | 0.1/2.9 MBProgress (2): 144/314 kB | 0.1/2.9 MBProgress (2): 144/314 kB | 0.1/2.9 MBProgress (2): 149/314 kB | 0.1/2.9 MBProgress (2): 149/314 kB | 0.1/2.9 MBProgress (2): 153/314 kB | 0.1/2.9 MBProgress (2): 155/314 kB | 0.1/2.9 MBProgress (2): 159/314 kB | 0.1/2.9 MBProgress (2): 164/314 kB | 0.1/2.9 MBProgress (2): 168/314 kB | 0.1/2.9 MBProgress (2): 172/314 kB | 0.1/2.9 MBProgress (2): 176/314 kB | 0.1/2.9 MBProgress (2): 181/314 kB | 0.1/2.9 MBProgress (2): 185/314 kB | 0.1/2.9 MBProgress (2): 189/314 kB | 0.1/2.9 MBProgress (2): 189/314 kB | 0.1/2.9 MBProgress (2): 193/314 kB | 0.1/2.9 MBProgress (2): 198/314 kB | 0.1/2.9 MBProgress (2): 198/314 kB | 0.1/2.9 MBProgress (2): 202/314 kB | 0.1/2.9 MBProgress (2): 202/314 kB | 0.1/2.9 MBProgress (2): 206/314 kB | 0.1/2.9 MBProgress (2): 206/314 kB | 0.1/2.9 MBProgress (2): 206/314 kB | 0.1/2.9 MBProgress (2): 206/314 kB | 0.1/2.9 MBProgress (2): 206/314 kB | 0.1/2.9 MBProgress (2): 206/314 kB | 0.1/2.9 MBProgress (2): 210/314 kB | 0.1/2.9 MBProgress (2): 214/314 kB | 0.1/2.9 MBProgress (2): 219/314 kB | 0.1/2.9 MBProgress (2): 223/314 kB | 0.1/2.9 MBProgress (2): 239/314 kB | 0.1/2.9 MBProgress (2): 256/314 kB | 0.1/2.9 MBProgress (2): 256/314 kB | 0.1/2.9 MBProgress (2): 256/314 kB | 0.1/2.9 MBProgress (2): 272/314 kB | 0.1/2.9 MBProgress (2): 272/314 kB | 0.1/2.9 MBProgress (2): 286/314 kB | 0.1/2.9 MBProgress (2): 303/314 kB | 0.1/2.9 MBProgress (2): 314 kB | 0.1/2.9 MB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/3.5.4/maven-surefire-common-3.5.4.jar (314 kB at 3.9 MB/s)
+Progress (1): 0.1/2.9 MBProgress (1): 0.1/2.9 MBProgress (1): 0.1/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.2/2.9 MBProgress (1): 0.3/2.9 MBProgress (1): 0.3/2.9 MBProgress (1): 0.3/2.9 MBProgress (1): 0.3/2.9 MBProgress (1): 0.3/2.9 MBProgress (1): 0.3/2.9 MBProgress (1): 0.3/2.9 MBProgress (1): 0.4/2.9 MBProgress (1): 0.4/2.9 MBProgress (1): 0.4/2.9 MBProgress (1): 0.4/2.9 MBProgress (1): 0.4/2.9 MBProgress (1): 0.4/2.9 MBProgress (1): 0.5/2.9 MBProgress (1): 0.5/2.9 MBProgress (1): 0.5/2.9 MBProgress (1): 0.5/2.9 MBProgress (1): 0.5/2.9 MBProgress (1): 0.5/2.9 MBProgress (1): 0.5/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.6/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.7/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.8/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 0.9/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.0/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.1/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.2/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.3/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.4/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.5/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.6/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.7/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.8/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 1.9/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.0/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.1/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.2/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.3/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.4/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.5/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.6/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.7/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.8/2.9 MBProgress (1): 2.9/2.9 MBProgress (1): 2.9/2.9 MBProgress (1): 2.9/2.9 MBProgress (1): 2.9/2.9 MBProgress (1): 2.9/2.9 MBProgress (1): 2.9/2.9 MBProgress (1): 2.9 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-shared-utils/3.5.4/surefire-shared-utils-3.5.4.jar (2.9 MB at 19 MB/s)
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.4/surefire-junit-platform-3.5.4.pom
+Progress (1): 832 BProgress (1): 3.9 kBProgress (1): 5.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.4/surefire-junit-platform-3.5.4.pom (5.2 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.4/surefire-providers-3.5.4.pom
+Progress (1): 844 BProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/3.5.4/surefire-providers-3.5.4.pom (2.5 kB at 64 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.4/common-java5-3.5.4.pom
+Progress (1): 839 BProgress (1): 2.8 kBProgress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.4/common-java5-3.5.4.pom (3.1 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.pom
+Progress (1): 957 BProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.pom (3.2 kB at 103 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.pom
+Progress (1): 966 BProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.pom (2.8 kB at 83 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.pom
+Progress (1): 967 BProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.pom (3.0 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.4/surefire-junit-platform-3.5.4.jar
+Progress (1): 7.7/35 kBProgress (1): 16/35 kB Progress (1): 32/35 kBProgress (1): 35 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit-platform/3.5.4/surefire-junit-platform-3.5.4.jar (35 kB at 933 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.4/common-java5-3.5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.jar
+Progress (1): 7.7/152 kBProgress (1): 16/152 kB Progress (1): 32/152 kBProgress (1): 49/152 kBProgress (1): 65/152 kBProgress (1): 81/152 kBProgress (1): 98/152 kBProgress (1): 114/152 kBProgress (1): 131/152 kBProgress (1): 147/152 kBProgress (1): 152 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.12.1/junit-platform-commons-1.12.1.jar (152 kB at 5.4 MB/s)
+Progress (1): 3.8/256 kBProgress (1): 8.0/256 kBProgress (1): 12/256 kB Progress (1): 16/256 kBProgress (1): 20/256 kBProgress (1): 24/256 kBProgress (1): 29/256 kBProgress (1): 33/256 kBProgress (1): 37/256 kBProgress (1): 41/256 kBProgress (2): 41/256 kB | 7.7/18 kBProgress (2): 41/256 kB | 16/18 kB Progress (2): 45/256 kB | 16/18 kBProgress (3): 45/256 kB | 16/18 kB | 0.9/208 kBProgress (3): 45/256 kB | 18 kB | 0.9/208 kB   Progress (3): 45/256 kB | 18 kB | 2.3/208 kBProgress (3): 50/256 kB | 18 kB | 2.3/208 kBProgress (3): 50/256 kB | 18 kB | 3.7/208 kBProgress (3): 50/256 kB | 18 kB | 5.0/208 kBProgress (3): 50/256 kB | 18 kB | 6.4/208 kBProgress (3): 54/256 kB | 18 kB | 6.4/208 kBProgress (3): 54/256 kB | 18 kB | 7.8/208 kBProgress (3): 58/256 kB | 18 kB | 7.8/208 kBProgress (3): 58/256 kB | 18 kB | 9.1/208 kBProgress (3): 58/256 kB | 18 kB | 11/208 kB Progress (3): 62/256 kB | 18 kB | 11/208 kBProgress (3): 62/256 kB | 18 kB | 12/208 kBProgress (3): 62/256 kB | 18 kB | 12/208 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/3.5.4/common-java5-3.5.4.jar (18 kB at 568 kB/s)
+Progress (2): 62/256 kB | 14/208 kBProgress (2): 62/256 kB | 15/208 kBProgress (2): 62/256 kB | 16/208 kBProgress (2): 62/256 kB | 18/208 kBProgress (2): 62/256 kB | 19/208 kBProgress (2): 62/256 kB | 21/208 kBProgress (2): 62/256 kB | 22/208 kBProgress (2): 62/256 kB | 23/208 kBProgress (2): 62/256 kB | 25/208 kBProgress (2): 62/256 kB | 26/208 kBProgress (2): 62/256 kB | 27/208 kBProgress (2): 62/256 kB | 32/208 kBProgress (2): 62/256 kB | 36/208 kBProgress (2): 62/256 kB | 40/208 kBProgress (2): 62/256 kB | 44/208 kBProgress (2): 62/256 kB | 48/208 kBProgress (2): 62/256 kB | 53/208 kBProgress (2): 62/256 kB | 57/208 kBProgress (2): 62/256 kB | 61/208 kBProgress (2): 67/256 kB | 61/208 kBProgress (2): 71/256 kB | 61/208 kBProgress (2): 75/256 kB | 61/208 kBProgress (2): 79/256 kB | 61/208 kBProgress (2): 83/256 kB | 61/208 kBProgress (2): 88/256 kB | 61/208 kBProgress (2): 92/256 kB | 61/208 kBProgress (2): 96/256 kB | 61/208 kBProgress (2): 100/256 kB | 61/208 kBProgress (2): 105/256 kB | 61/208 kBProgress (2): 105/256 kB | 65/208 kBProgress (2): 105/256 kB | 70/208 kBProgress (2): 105/256 kB | 74/208 kBProgress (2): 121/256 kB | 74/208 kBProgress (2): 121/256 kB | 78/208 kBProgress (2): 121/256 kB | 82/208 kBProgress (2): 121/256 kB | 87/208 kBProgress (2): 137/256 kB | 87/208 kBProgress (2): 137/256 kB | 91/208 kBProgress (2): 143/256 kB | 91/208 kBProgress (2): 143/256 kB | 95/208 kBProgress (2): 143/256 kB | 99/208 kBProgress (2): 159/256 kB | 99/208 kBProgress (2): 159/256 kB | 103/208 kBProgress (2): 159/256 kB | 108/208 kBProgress (2): 159/256 kB | 112/208 kBProgress (2): 159/256 kB | 116/208 kBProgress (2): 175/256 kB | 116/208 kBProgress (2): 175/256 kB | 120/208 kBProgress (2): 175/256 kB | 125/208 kBProgress (2): 192/256 kB | 125/208 kBProgress (2): 192/256 kB | 129/208 kBProgress (2): 192/256 kB | 133/208 kBProgress (2): 192/256 kB | 137/208 kBProgress (2): 192/256 kB | 142/208 kBProgress (2): 208/256 kB | 142/208 kBProgress (2): 208/256 kB | 143/208 kBProgress (2): 208/256 kB | 148/208 kBProgress (2): 208/256 kB | 152/208 kBProgress (2): 225/256 kB | 152/208 kBProgress (2): 225/256 kB | 156/208 kBProgress (2): 225/256 kB | 160/208 kBProgress (2): 225/256 kB | 165/208 kBProgress (2): 225/256 kB | 169/208 kBProgress (2): 225/256 kB | 173/208 kBProgress (2): 225/256 kB | 177/208 kBProgress (2): 225/256 kB | 181/208 kBProgress (2): 225/256 kB | 186/208 kBProgress (2): 225/256 kB | 190/208 kBProgress (2): 225/256 kB | 194/208 kBProgress (2): 225/256 kB | 208 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/1.12.1/junit-platform-launcher-1.12.1.jar (208 kB at 5.3 MB/s)
+Progress (1): 241/256 kBProgress (1): 256 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.12.1/junit-platform-engine-1.12.1.jar (256 kB at 6.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.1/junit-platform-launcher-6.0.1.pom
+Progress (1): 967 BProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.1/junit-platform-launcher-6.0.1.pom (3.2 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.1/junit-platform-launcher-6.0.1.jar
+Progress (1): 7.7/246 kBProgress (1): 16/246 kB Progress (1): 32/246 kBProgress (1): 49/246 kBProgress (1): 65/246 kBProgress (1): 81/246 kBProgress (1): 98/246 kBProgress (1): 114/246 kBProgress (1): 131/246 kBProgress (1): 147/246 kBProgress (1): 163/246 kBProgress (1): 180/246 kBProgress (1): 196/246 kBProgress (1): 213/246 kBProgress (1): 229/246 kBProgress (1): 245/246 kBProgress (1): 246 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.1/junit-platform-launcher-6.0.1.jar (246 kB at 6.2 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+06:05:10.331 [main] INFO org.testcontainers.DockerClientFactory -- Testcontainers version: 2.0.2
+06:05:11.394 [main] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy -- Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+06:05:11.402 [main] INFO org.testcontainers.DockerClientFactory -- Docker host IP address is localhost
+06:05:11.422 [main] INFO org.testcontainers.DockerClientFactory -- Connected to docker: 
+  Server Version: 27.4.1
+  API Version: 1.47
+  Operating System: Ubuntu 22.04.5 LTS
+  Total Memory: 32122 MB
+06:05:11.436 [main] INFO org.testcontainers.images.PullPolicy -- Image pull policy will be performed by: DefaultPullPolicy()
+06:05:11.439 [main] INFO org.testcontainers.utility.ImageNameSubstitutor -- Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+06:05:11.468 [main] INFO tc.testcontainers/ryuk:0.13.0 -- Pulling docker image: testcontainers/ryuk:0.13.0. Please be patient; this may take some time but only needs to be done once.
+06:05:12.531 [docker-java-stream-2054886273] INFO tc.testcontainers/ryuk:0.13.0 -- Starting to pull image
+06:05:12.554 [docker-java-stream-2054886273] INFO tc.testcontainers/ryuk:0.13.0 -- Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+06:05:13.123 [docker-java-stream-2054886273] INFO tc.testcontainers/ryuk:0.13.0 -- Pulling image layers:  1 pending,  1 downloaded,  0 extracted, (73 KB/? MB)
+06:05:13.132 [docker-java-stream-2054886273] INFO tc.testcontainers/ryuk:0.13.0 -- Pulling image layers:  1 pending,  1 downloaded,  1 extracted, (280 KB/? MB)
+06:05:13.165 [docker-java-stream-2054886273] INFO tc.testcontainers/ryuk:0.13.0 -- Pulling image layers:  0 pending,  2 downloaded,  1 extracted, (280 KB/6 MB)
+06:05:13.209 [docker-java-stream-2054886273] INFO tc.testcontainers/ryuk:0.13.0 -- Pulling image layers:  0 pending,  2 downloaded,  2 extracted, (6 MB/6 MB)
+06:05:13.217 [main] INFO tc.testcontainers/ryuk:0.13.0 -- Image testcontainers/ryuk:0.13.0 pull took PT1.748787196S
+06:05:13.251 [main] INFO tc.testcontainers/ryuk:0.13.0 -- Creating container for image: testcontainers/ryuk:0.13.0
+06:05:13.369 [main] INFO tc.testcontainers/ryuk:0.13.0 -- Container testcontainers/ryuk:0.13.0 is starting: 2268f52030cf343919a7ba3ed9a3b67c099b9230d0af7db1eb3f3c20d5eec6ea
+06:05:13.717 [main] INFO tc.testcontainers/ryuk:0.13.0 -- Container testcontainers/ryuk:0.13.0 started in PT0.465868011S
+06:05:13.723 [main] INFO org.testcontainers.utility.RyukResourceReaper -- Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+06:05:13.723 [main] INFO org.testcontainers.DockerClientFactory -- Checking the system...
+06:05:13.724 [main] INFO org.testcontainers.DockerClientFactory -- ✔︎ Docker server version should be at least 1.6.0
+[INFO] Running org.springframework.samples.petclinic.MySqlIntegrationTests
+06:05:13.891 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.springframework.samples.petclinic.MySqlIntegrationTests]: MySqlIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+06:05:13.925 [main] INFO tc.mysql:9.5 -- Pulling docker image: mysql:9.5. Please be patient; this may take some time but only needs to be done once.
+06:05:14.939 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Starting to pull image
+06:05:14.940 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+06:05:15.492 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  9 pending,  1 downloaded,  0 extracted, (8 KB/? MB)
+06:05:15.511 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  8 pending,  2 downloaded,  0 extracted, (476 KB/? MB)
+06:05:15.698 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  7 pending,  3 downloaded,  0 extracted, (24 MB/? MB)
+06:05:15.794 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  6 pending,  4 downloaded,  0 extracted, (24 MB/? MB)
+06:05:15.819 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  5 pending,  5 downloaded,  0 extracted, (24 MB/? MB)
+06:05:15.985 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  4 pending,  6 downloaded,  0 extracted, (24 MB/? MB)
+06:05:16.118 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  3 pending,  7 downloaded,  0 extracted, (24 MB/? MB)
+06:05:16.380 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  2 pending,  8 downloaded,  0 extracted, (58 MB/? MB)
+06:05:16.396 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  1 pending,  9 downloaded,  0 extracted, (71 MB/? MB)
+06:05:17.248 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  1 pending,  9 downloaded,  1 extracted, (160 MB/? MB)
+06:05:17.259 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  1 pending,  9 downloaded,  2 extracted, (168 MB/? MB)
+06:05:17.277 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  1 pending,  9 downloaded,  3 extracted, (169 MB/? MB)
+06:05:17.475 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  1 pending,  9 downloaded,  4 extracted, (192 MB/? MB)
+06:05:17.489 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  1 pending,  9 downloaded,  5 extracted, (192 MB/? MB)
+06:05:17.499 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  1 pending,  9 downloaded,  6 extracted, (192 MB/? MB)
+06:05:18.090 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  6 extracted, (243 MB/262 MB)
+06:05:18.355 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  7 extracted, (260 MB/262 MB)
+06:05:18.364 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  8 extracted, (260 MB/262 MB)
+06:05:27.634 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  9 extracted, (262 MB/262 MB)
+06:05:27.643 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded, 10 extracted, (262 MB/262 MB)
+06:05:27.650 [main] INFO tc.mysql:9.5 -- Image mysql:9.5 pull took PT13.725010172S
+06:05:27.650 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pull complete. 10 layers, pulled in 12s (downloaded 262 MB at 21 MB/s)
+06:05:27.758 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.MySqlIntegrationTests
+06:05:27.885 [main] INFO tc.mysql:9.5 -- Creating container for image: mysql:9.5
+06:05:28.501 [main] INFO tc.mysql:9.5 -- Container mysql:9.5 is starting: bb44c0ae10b85459ac5a879b5b5d13c12c4ab63177191733171b122fd39eb0f7
+06:05:28.707 [main] INFO tc.mysql:9.5 -- Waiting for database connection to become available at jdbc:mysql://localhost:32769/test using query 'SELECT 1'
+06:05:37.383 [main] INFO tc.mysql:9.5 -- Container mysql:9.5 started in PT9.498694735S
+06:05:37.384 [main] INFO tc.mysql:9.5 -- Container is started (JDBC URL: jdbc:mysql://localhost:32769/test)
+06:05:37.446 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-05T06:05:37.786Z  INFO 8342 --- [           main] o.s.s.petclinic.MySqlIntegrationTests    : Starting MySqlIntegrationTests using Java 21.0.10 with PID 8342 (started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T06:05:37.787Z  INFO 8342 --- [           main] o.s.s.petclinic.MySqlIntegrationTests    : The following 1 profile is active: "mysql"
+2026-02-05T06:05:38.656Z  INFO 8342 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-05T06:05:38.744Z  INFO 8342 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2026-02-05T06:05:39.470Z  INFO 8342 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-02-05T06:05:39.489Z  INFO 8342 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-05T06:05:39.490Z  INFO 8342 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-02-05T06:05:39.546Z  INFO 8342 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1716 ms
+2026-02-05T06:05:39.784Z  INFO 8342 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-05T06:05:39.962Z  INFO 8342 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c8f1c73
+2026-02-05T06:05:39.964Z  INFO 8342 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-05T06:05:40.223Z  INFO 8342 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-05T06:05:40.279Z  INFO 8342 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2026-02-05T06:05:40.793Z  INFO 8342 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-05T06:05:40.914Z  INFO 8342 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:32769/test]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: test/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-05T06:05:42.141Z  INFO 8342 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-05T06:05:42.152Z  INFO 8342 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-05T06:05:42.188Z  INFO 8342 --- [           main] tc.mysql:9.5                             : Creating container for image: mysql:9.5
+2026-02-05T06:05:42.222Z  INFO 8342 --- [           main] tc.mysql:9.5                             : Container mysql:9.5 is starting: bb5986757522dcfc36340b00841efd6307e18a5b97cb28c2b4dae34ccdccc87f
+2026-02-05T06:05:42.407Z  INFO 8342 --- [           main] tc.mysql:9.5                             : Waiting for database connection to become available at jdbc:mysql://localhost:32770/test using query 'SELECT 1'
+2026-02-05T06:05:51.062Z  INFO 8342 --- [           main] tc.mysql:9.5                             : Container mysql:9.5 started in PT8.873895595S
+2026-02-05T06:05:51.062Z  INFO 8342 --- [           main] tc.mysql:9.5                             : Container is started (JDBC URL: jdbc:mysql://localhost:32770/test)
+2026-02-05T06:05:51.138Z  INFO 8342 --- [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-05T06:05:52.444Z  INFO 8342 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-02-05T06:05:52.521Z  INFO 8342 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 37827 (http) with context path '/'
+2026-02-05T06:05:52.530Z  INFO 8342 --- [           main] o.s.s.petclinic.MySqlIntegrationTests    : Started MySqlIntegrationTests in 15.096 seconds (process running for 43.441)
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (/home/ubuntu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+2026-02-05T06:05:53.390Z  INFO 8342 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-05T06:05:53.391Z  INFO 8342 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-05T06:05:53.393Z  INFO 8342 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.46 s -- in org.springframework.samples.petclinic.MySqlIntegrationTests
+[INFO] Running org.springframework.samples.petclinic.service.ClinicServiceTests
+2026-02-05T06:05:54.196Z  INFO 8342 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.ClinicServiceTests]: ClinicServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-05T06:05:54.223Z  INFO 8342 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.ClinicServiceTests
+2026-02-05T06:05:54.230Z  INFO 8342 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-05T06:05:54.254Z  INFO 8342 --- [           main] o.s.s.p.service.ClinicServiceTests       : Starting ClinicServiceTests using Java 21.0.10 with PID 8342 (started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T06:05:54.254Z  INFO 8342 --- [           main] o.s.s.p.service.ClinicServiceTests       : No active profile set, falling back to 1 default profile: "default"
+2026-02-05T06:05:54.314Z  INFO 8342 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-05T06:05:54.323Z  INFO 8342 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 3 JPA repository interfaces.
+2026-02-05T06:05:54.349Z  INFO 8342 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-02-05T06:05:54.633Z  INFO 8342 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn0: url=jdbc:h2:mem:44e61632-02a2-439a-95be-92941475fbcf user=SA
+2026-02-05T06:05:54.634Z  INFO 8342 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-02-05T06:05:54.716Z  INFO 8342 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-05T06:05:54.734Z  INFO 8342 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-05T06:05:54.746Z  INFO 8342 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:44e61632-02a2-439a-95be-92941475fbcf]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: 44E61632-02A2-439A-95BE-92941475FBCF/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-05T06:05:54.853Z  INFO 8342 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-05T06:05:54.854Z  INFO 8342 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-05T06:05:54.898Z  INFO 8342 --- [           main] o.s.s.p.service.ClinicServiceTests       : Started ClinicServiceTests in 0.672 seconds (process running for 45.809)
+Hibernate: select v1_0.id,v1_0.first_name,v1_0.last_name from vets v1_0
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape '\'
+Hibernate: select p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from pets p1_0 left join types t1_0 on t1_0.id=p1_0.type_id where p1_0.owner_id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from pets p1_0 left join types t1_0 on t1_0.id=p1_0.type_id where p1_0.owner_id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape '\'
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: insert into visits (visit_date,description,id) values (?,?,default)
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select pt1_0.id,pt1_0.name from types pt1_0 order by pt1_0.name
+Hibernate: insert into pets (birth_date,name,type_id,id) values (?,?,?,default)
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape '\'
+Hibernate: insert into owners (address,city,first_name,last_name,telephone,id) values (?,?,?,?,?,default)
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape '\'
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select pt1_0.id,pt1_0.name from types pt1_0 order by pt1_0.name
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.994 s -- in org.springframework.samples.petclinic.service.ClinicServiceTests
+[INFO] Running org.springframework.samples.petclinic.PostgresIntegrationTests
+2026-02-05T06:05:55.190Z  INFO 8342 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.PostgresIntegrationTests]: PostgresIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-05T06:05:55.192Z  INFO 8342 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.PostgresIntegrationTests
+2026-02-05T06:05:55.197Z  INFO 8342 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-05T06:05:55.216Z  INFO 8342 --- [           main] o.s.s.p.PostgresIntegrationTests         : Starting PostgresIntegrationTests using Java 21.0.10 with PID 8342 (started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T06:05:55.216Z  INFO 8342 --- [           main] o.s.s.p.PostgresIntegrationTests         : The following 1 profile is active: "postgres"
+2026-02-05T06:05:55.222Z  INFO 8342 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file /home/ubuntu/repos/spring-petclinic/docker-compose.yml
+2026-02-05T06:05:55.769Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  postgres Pulling 
+2026-02-05T06:05:57.429Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Pulling fs layer 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Waiting 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Waiting 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Waiting 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Waiting 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Waiting 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Waiting 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Waiting 
+2026-02-05T06:05:57.430Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Waiting 
+2026-02-05T06:05:57.431Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Waiting 
+2026-02-05T06:05:57.431Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Waiting 
+2026-02-05T06:05:57.711Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Downloading [>                                                  ]  67.38kB/6.438MB
+2026-02-05T06:05:57.713Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Downloading [==============================>                    ]     720B/1.175kB
+2026-02-05T06:05:57.713Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Download complete 
+2026-02-05T06:05:57.724Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Downloading [>                                                  ]  303.1kB/29.78MB
+2026-02-05T06:05:57.759Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Verifying Checksum 
+2026-02-05T06:05:57.760Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Download complete 
+2026-02-05T06:05:57.825Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Downloading [============================>                      ]  17.13MB/29.78MB
+2026-02-05T06:05:57.891Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Download complete 
+2026-02-05T06:05:57.931Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [>                                                  ]  327.7kB/29.78MB
+2026-02-05T06:05:58.009Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Downloading [>                                                  ]  13.04kB/1.257MB
+2026-02-05T06:05:58.032Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [==========>                                        ]  6.226MB/29.78MB
+2026-02-05T06:05:58.035Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Verifying Checksum 
+2026-02-05T06:05:58.035Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Download complete 
+2026-02-05T06:05:58.038Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Downloading [>                                                  ]  84.14kB/8.204MB
+2026-02-05T06:05:58.090Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Verifying Checksum 
+2026-02-05T06:05:58.090Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Download complete 
+2026-02-05T06:05:58.136Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [=================>                                 ]  10.16MB/29.78MB
+2026-02-05T06:05:58.194Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Downloading [>                                                  ]  14.41kB/1.312MB
+2026-02-05T06:05:58.219Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Verifying Checksum 
+2026-02-05T06:05:58.219Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Download complete 
+2026-02-05T06:05:58.239Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [=======================>                           ]  13.76MB/29.78MB
+2026-02-05T06:05:58.311Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Downloading [==================================================>]     116B/116B
+2026-02-05T06:05:58.311Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Verifying Checksum 
+2026-02-05T06:05:58.312Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Download complete 
+2026-02-05T06:05:58.341Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [====================================>              ]  21.63MB/29.78MB
+2026-02-05T06:05:58.410Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Downloading [==========>                                        ]     688B/3.145kB
+2026-02-05T06:05:58.410Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Downloading [==================================================>]  3.145kB/3.145kB
+2026-02-05T06:05:58.410Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Verifying Checksum 
+2026-02-05T06:05:58.410Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Download complete 
+2026-02-05T06:05:58.538Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [>                                                  ]  530.7kB/115.2MB
+2026-02-05T06:05:58.570Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [============================================>      ]  26.21MB/29.78MB
+2026-02-05T06:05:58.626Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Downloading [=>                                                 ]     687B/19.19kB
+2026-02-05T06:05:58.626Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Downloading [==================================================>]  19.19kB/19.19kB
+2026-02-05T06:05:58.626Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Verifying Checksum 
+2026-02-05T06:05:58.626Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Download complete 
+2026-02-05T06:05:58.640Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [===>                                               ]  7.469MB/115.2MB
+2026-02-05T06:05:58.685Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [===============================================>   ]  28.51MB/29.78MB
+2026-02-05T06:05:58.696Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Downloading [==================================================>]     127B/127B
+2026-02-05T06:05:58.697Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Verifying Checksum 
+2026-02-05T06:05:58.697Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Download complete 
+2026-02-05T06:05:58.751Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [======>                                            ]  16.02MB/115.2MB
+2026-02-05T06:05:58.858Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [=========>                                         ]  22.94MB/115.2MB
+2026-02-05T06:05:58.878Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Downloading [======>                                            ]     721B/5.838kB
+2026-02-05T06:05:58.878Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Downloading [==================================================>]  5.838kB/5.838kB
+2026-02-05T06:05:58.878Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Download complete 
+2026-02-05T06:05:58.879Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [================================================>  ]  29.16MB/29.78MB
+2026-02-05T06:05:58.964Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [===============>                                   ]  35.26MB/115.2MB
+2026-02-05T06:05:58.970Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Downloading [==================================================>]     186B/186B
+2026-02-05T06:05:58.970Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Verifying Checksum 
+2026-02-05T06:05:58.970Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Download complete 
+2026-02-05T06:05:58.990Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [==================================================>]  29.78MB/29.78MB
+2026-02-05T06:05:59.045Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Pull complete 
+2026-02-05T06:05:59.047Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Extracting [==================================================>]  1.175kB/1.175kB
+2026-02-05T06:05:59.047Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Extracting [==================================================>]  1.175kB/1.175kB
+2026-02-05T06:05:59.057Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Pull complete 
+2026-02-05T06:05:59.060Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Extracting [>                                                  ]  65.54kB/6.438MB
+2026-02-05T06:05:59.065Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [====================>                              ]  46.99MB/115.2MB
+2026-02-05T06:05:59.166Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Extracting [=================================================> ]  6.423MB/6.438MB
+2026-02-05T06:05:59.171Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [=======================>                           ]  53.37MB/115.2MB
+2026-02-05T06:05:59.173Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Extracting [==================================================>]  6.438MB/6.438MB
+2026-02-05T06:05:59.226Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Pull complete 
+2026-02-05T06:05:59.228Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Extracting [=>                                                 ]  32.77kB/1.257MB
+2026-02-05T06:05:59.247Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Extracting [==================================================>]  1.257MB/1.257MB
+2026-02-05T06:05:59.258Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Pull complete 
+2026-02-05T06:05:59.261Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Extracting [>                                                  ]   98.3kB/8.204MB
+2026-02-05T06:05:59.286Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [=========================>                         ]  58.19MB/115.2MB
+2026-02-05T06:05:59.376Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Extracting [=======================>                           ]  3.932MB/8.204MB
+2026-02-05T06:05:59.393Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [============================>                      ]  65.65MB/115.2MB
+2026-02-05T06:05:59.481Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Extracting [===================================>               ]  5.898MB/8.204MB
+2026-02-05T06:05:59.531Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [=============================>                     ]  68.86MB/115.2MB
+2026-02-05T06:05:59.557Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Extracting [==================================================>]  8.204MB/8.204MB
+2026-02-05T06:05:59.581Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Pull complete 
+2026-02-05T06:05:59.584Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Extracting [=>                                                 ]  32.77kB/1.312MB
+2026-02-05T06:05:59.619Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Extracting [==================================================>]  1.312MB/1.312MB
+2026-02-05T06:05:59.640Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Pull complete 
+2026-02-05T06:05:59.641Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Extracting [==================================================>]     116B/116B
+2026-02-05T06:05:59.641Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Extracting [==================================================>]     116B/116B
+2026-02-05T06:05:59.644Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [===============================>                   ]  73.67MB/115.2MB
+2026-02-05T06:05:59.648Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Pull complete 
+2026-02-05T06:05:59.650Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Extracting [==================================================>]  3.145kB/3.145kB
+2026-02-05T06:05:59.650Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Extracting [==================================================>]  3.145kB/3.145kB
+2026-02-05T06:05:59.659Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Pull complete 
+2026-02-05T06:05:59.748Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [=====================================>             ]  86.51MB/115.2MB
+2026-02-05T06:05:59.849Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [===========================================>       ]   99.9MB/115.2MB
+2026-02-05T06:05:59.950Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [==============================================>    ]  107.9MB/115.2MB
+2026-02-05T06:06:00.013Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Verifying Checksum 
+2026-02-05T06:06:00.013Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Download complete 
+2026-02-05T06:06:00.064Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [>                                                  ]  557.1kB/115.2MB
+2026-02-05T06:06:00.168Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===>                                               ]  7.799MB/115.2MB
+2026-02-05T06:06:00.292Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [====>                                              ]  10.58MB/115.2MB
+2026-02-05T06:06:00.401Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [======>                                            ]  14.48MB/115.2MB
+2026-02-05T06:06:00.505Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=======>                                           ]  18.38MB/115.2MB
+2026-02-05T06:06:00.608Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=========>                                         ]  22.84MB/115.2MB
+2026-02-05T06:06:00.711Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [============>                                      ]  28.97MB/115.2MB
+2026-02-05T06:06:00.813Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [================>                                  ]  38.44MB/115.2MB
+2026-02-05T06:06:00.917Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [====================>                              ]  47.91MB/115.2MB
+2026-02-05T06:06:01.045Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [========================>                          ]  55.71MB/115.2MB
+2026-02-05T06:06:01.152Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=========================>                         ]   59.6MB/115.2MB
+2026-02-05T06:06:01.254Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [============================>                      ]  64.62MB/115.2MB
+2026-02-05T06:06:01.357Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [================================>                  ]  74.09MB/115.2MB
+2026-02-05T06:06:01.460Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===================================>               ]  81.89MB/115.2MB
+2026-02-05T06:06:01.562Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=======================================>           ]  90.24MB/115.2MB
+2026-02-05T06:06:01.667Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [==========================================>        ]  96.93MB/115.2MB
+2026-02-05T06:06:01.767Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===========================================>       ]  99.16MB/115.2MB
+2026-02-05T06:06:01.876Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [============================================>      ]  101.9MB/115.2MB
+2026-02-05T06:06:01.992Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=============================================>     ]  105.3MB/115.2MB
+2026-02-05T06:06:02.140Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===============================================>   ]  109.2MB/115.2MB
+2026-02-05T06:06:02.259Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [================================================>  ]  110.9MB/115.2MB
+2026-02-05T06:06:02.390Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [================================================>  ]    112MB/115.2MB
+2026-02-05T06:06:02.645Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=================================================> ]  113.6MB/115.2MB
+2026-02-05T06:06:02.786Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [==================================================>]  115.2MB/115.2MB
+2026-02-05T06:06:02.857Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Pull complete 
+2026-02-05T06:06:02.859Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Extracting [==================================================>]  19.19kB/19.19kB
+2026-02-05T06:06:02.859Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Extracting [==================================================>]  19.19kB/19.19kB
+2026-02-05T06:06:02.869Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Pull complete 
+2026-02-05T06:06:02.870Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Extracting [==================================================>]     127B/127B
+2026-02-05T06:06:02.870Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Extracting [==================================================>]     127B/127B
+2026-02-05T06:06:02.877Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Pull complete 
+2026-02-05T06:06:02.879Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Extracting [==================================================>]  5.838kB/5.838kB
+2026-02-05T06:06:02.879Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Extracting [==================================================>]  5.838kB/5.838kB
+2026-02-05T06:06:02.887Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Pull complete 
+2026-02-05T06:06:02.889Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Extracting [==================================================>]     186B/186B
+2026-02-05T06:06:02.889Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Extracting [==================================================>]     186B/186B
+2026-02-05T06:06:02.897Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Pull complete 
+2026-02-05T06:06:02.905Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  postgres Pulled 
+2026-02-05T06:06:02.908Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Network spring-petclinic_default  Creating
+2026-02-05T06:06:02.968Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Network spring-petclinic_default  Created
+2026-02-05T06:06:02.969Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-postgres-1  Creating
+2026-02-05T06:06:03.304Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-postgres-1  Created
+2026-02-05T06:06:03.305Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-postgres-1  Starting
+2026-02-05T06:06:03.503Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-postgres-1  Started
+2026-02-05T06:06:03.503Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-postgres-1  Waiting
+2026-02-05T06:06:04.006Z  INFO 8342 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-postgres-1  Healthy
+2026-02-05T06:06:05.474Z  INFO 8342 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-05T06:06:05.481Z  INFO 8342 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 3 JPA repository interfaces.
+2026-02-05T06:06:05.560Z  INFO 8342 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-02-05T06:06:05.561Z  INFO 8342 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-05T06:06:05.561Z  INFO 8342 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-02-05T06:06:05.579Z  INFO 8342 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 240 ms
+2026-02-05T06:06:05.631Z  INFO 8342 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-02-05T06:06:05.783Z  INFO 8342 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@7c5ed85c
+2026-02-05T06:06:05.783Z  INFO 8342 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-02-05T06:06:05.858Z  INFO 8342 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-05T06:06:05.877Z  INFO 8342 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-05T06:06:05.897Z  INFO 8342 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://127.0.0.1:5432/petclinic]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: petclinic/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-05T06:06:05.988Z  INFO 8342 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-05T06:06:05.989Z  INFO 8342 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-05T06:06:06.159Z  INFO 8342 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-02-05T06:06:06.183Z  INFO 8342 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 33979 (http) with context path '/'
+2026-02-05T06:06:06.185Z  INFO 8342 --- [           main] o.s.s.p.PostgresIntegrationTests         : Started PostgresIntegrationTests in 10.988 seconds (process running for 57.097)
+2026-02-05T06:06:06.224Z  INFO 8342 --- [o-auto-2-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-05T06:06:06.224Z  INFO 8342 --- [o-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-05T06:06:06.225Z  INFO 8342 --- [o-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.10 s -- in org.springframework.samples.petclinic.PostgresIntegrationTests
+[INFO] Running org.springframework.samples.petclinic.system.CrashControllerTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in org.springframework.samples.petclinic.system.CrashControllerTests
+[INFO] Running org.springframework.samples.petclinic.system.CrashControllerIntegrationTests
+2026-02-05T06:06:06.301Z  INFO 8342 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-05T06:06:06.315Z  INFO 8342 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : Starting CrashControllerIntegrationTests using Java 21.0.10 with PID 8342 (started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T06:06:06.315Z  INFO 8342 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2026-02-05T06:06:06.459Z  INFO 8342 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-02-05T06:06:06.460Z  INFO 8342 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-05T06:06:06.460Z  INFO 8342 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-02-05T06:06:06.470Z  INFO 8342 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 153 ms
+2026-02-05T06:06:06.579Z  INFO 8342 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoints beneath base path '/actuator'
+2026-02-05T06:06:06.589Z  INFO 8342 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 44309 (http) with context path '/'
+2026-02-05T06:06:06.593Z  INFO 8342 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : Started CrashControllerIntegrationTests in 0.292 seconds (process running for 57.505)
+2026-02-05T06:06:06.604Z  INFO 8342 --- [o-auto-3-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-05T06:06:06.604Z  INFO 8342 --- [o-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-05T06:06:06.605Z  INFO 8342 --- [o-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-02-05T06:06:06.610Z ERROR 8342 --- [o-auto-3-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause
+
+java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown
+	at org.springframework.samples.petclinic.system.CrashController.triggerException(CrashController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-02-05T06:06:06.674Z ERROR 8342 --- [o-auto-3-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause
+
+java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown
+	at org.springframework.samples.petclinic.system.CrashController.triggerException(CrashController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.431 s -- in org.springframework.samples.petclinic.system.CrashControllerIntegrationTests
+[INFO] Running org.springframework.samples.petclinic.system.I18nPropertiesSyncTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in org.springframework.samples.petclinic.system.I18nPropertiesSyncTest
+[INFO] Running org.springframework.samples.petclinic.owner.PetTypeFormatterTests
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.512 s -- in org.springframework.samples.petclinic.owner.PetTypeFormatterTests
+[INFO] Running org.springframework.samples.petclinic.owner.OwnerControllerTests
+2026-02-05T06:06:07.294Z  INFO 8342 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: OwnerControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-05T06:06:07.353Z  INFO 8342 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.OwnerControllerTests
+2026-02-05T06:06:07.371Z  INFO 8342 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-05T06:06:07.432Z  INFO 8342 --- [           main] o.s.s.p.owner.OwnerControllerTests       : Starting OwnerControllerTests using Java 21.0.10 with PID 8342 (started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T06:06:07.432Z  INFO 8342 --- [           main] o.s.s.p.owner.OwnerControllerTests       : No active profile set, falling back to 1 default profile: "default"
+2026-02-05T06:06:07.878Z  INFO 8342 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-05T06:06:07.878Z  INFO 8342 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-05T06:06:07.879Z  INFO 8342 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-05T06:06:07.902Z  INFO 8342 --- [           main] o.s.s.p.owner.OwnerControllerTests       : Started OwnerControllerTests in 0.532 seconds (process running for 58.814)
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.030 s -- in org.springframework.samples.petclinic.owner.OwnerControllerTests
+[INFO] Running org.springframework.samples.petclinic.owner.PetValidatorTests
+[INFO] Running org.springframework.samples.petclinic.owner.PetValidatorTests$ValidateHasErrors
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in org.springframework.samples.petclinic.owner.PetValidatorTests$ValidateHasErrors
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s -- in org.springframework.samples.petclinic.owner.PetValidatorTests
+[INFO] Running org.springframework.samples.petclinic.owner.VisitControllerTests
+2026-02-05T06:06:08.330Z  INFO 8342 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.VisitControllerTests]: VisitControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-05T06:06:08.338Z  INFO 8342 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.VisitControllerTests
+2026-02-05T06:06:08.342Z  INFO 8342 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-05T06:06:08.365Z  INFO 8342 --- [           main] o.s.s.p.owner.VisitControllerTests       : Starting VisitControllerTests using Java 21.0.10 with PID 8342 (started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T06:06:08.366Z  INFO 8342 --- [           main] o.s.s.p.owner.VisitControllerTests       : No active profile set, falling back to 1 default profile: "default"
+2026-02-05T06:06:08.534Z  INFO 8342 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-05T06:06:08.535Z  INFO 8342 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-05T06:06:08.536Z  INFO 8342 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-05T06:06:08.543Z  INFO 8342 --- [           main] o.s.s.p.owner.VisitControllerTests       : Started VisitControllerTests in 0.2 seconds (process running for 59.454)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.300 s -- in org.springframework.samples.petclinic.owner.VisitControllerTests
+[INFO] Running org.springframework.samples.petclinic.owner.PetControllerTests
+2026-02-05T06:06:08.632Z  INFO 8342 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests]: PetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-05T06:06:08.639Z  INFO 8342 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests
+2026-02-05T06:06:08.643Z  INFO 8342 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-05T06:06:08.662Z  INFO 8342 --- [           main] o.s.s.p.owner.PetControllerTests         : Starting PetControllerTests using Java 21.0.10 with PID 8342 (started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T06:06:08.662Z  INFO 8342 --- [           main] o.s.s.p.owner.PetControllerTests         : No active profile set, falling back to 1 default profile: "default"
+2026-02-05T06:06:08.821Z  INFO 8342 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-05T06:06:08.821Z  INFO 8342 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-05T06:06:08.822Z  INFO 8342 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-05T06:06:08.827Z  INFO 8342 --- [           main] o.s.s.p.owner.PetControllerTests         : Started PetControllerTests in 0.184 seconds (process running for 59.739)
+[INFO] Running org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors
+2026-02-05T06:06:08.956Z  INFO 8342 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors]: ProcessUpdateFormHasErrors does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-05T06:06:08.966Z  INFO 8342 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.100 s -- in org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors
+[INFO] Running org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors
+2026-02-05T06:06:09.051Z  INFO 8342 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors]: ProcessCreationFormHasErrors does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-05T06:06:09.057Z  INFO 8342 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s -- in org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.581 s -- in org.springframework.samples.petclinic.owner.PetControllerTests
+[INFO] Running org.springframework.samples.petclinic.vet.VetControllerTests
+2026-02-05T06:06:09.214Z  INFO 8342 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.vet.VetControllerTests]: VetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-05T06:06:09.225Z  INFO 8342 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.vet.VetControllerTests
+2026-02-05T06:06:09.229Z  INFO 8342 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-05T06:06:09.250Z  INFO 8342 --- [           main] o.s.s.petclinic.vet.VetControllerTests   : Starting VetControllerTests using Java 21.0.10 with PID 8342 (started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T06:06:09.250Z  INFO 8342 --- [           main] o.s.s.petclinic.vet.VetControllerTests   : No active profile set, falling back to 1 default profile: "default"
+2026-02-05T06:06:09.490Z  INFO 8342 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-05T06:06:09.491Z  INFO 8342 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-05T06:06:09.492Z  INFO 8342 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-05T06:06:09.497Z  INFO 8342 --- [           main] o.s.s.petclinic.vet.VetControllerTests   : Started VetControllerTests in 0.268 seconds (process running for 60.408)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.392 s -- in org.springframework.samples.petclinic.vet.VetControllerTests
+[INFO] Running org.springframework.samples.petclinic.vet.VetTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s -- in org.springframework.samples.petclinic.vet.VetTests
+[INFO] Running org.springframework.samples.petclinic.PetClinicIntegrationTests
+2026-02-05T06:06:09.625Z  INFO 8342 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.PetClinicIntegrationTests]: PetClinicIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-05T06:06:09.626Z  INFO 8342 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.PetClinicIntegrationTests
+2026-02-05T06:06:09.629Z  INFO 8342 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-05T06:06:09.648Z  INFO 8342 --- [           main] o.s.s.p.PetClinicIntegrationTests        : Starting PetClinicIntegrationTests using Java 21.0.10 with PID 8342 (started by ubuntu in /home/ubuntu/repos/spring-petclinic)
+2026-02-05T06:06:09.648Z  INFO 8342 --- [           main] o.s.s.p.PetClinicIntegrationTests        : No active profile set, falling back to 1 default profile: "default"
+2026-02-05T06:06:09.789Z  INFO 8342 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-05T06:06:09.797Z  INFO 8342 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 3 JPA repository interfaces.
+2026-02-05T06:06:09.906Z  INFO 8342 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-02-05T06:06:09.907Z  INFO 8342 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-05T06:06:09.907Z  INFO 8342 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-02-05T06:06:09.922Z  INFO 8342 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 272 ms
+2026-02-05T06:06:09.974Z  INFO 8342 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-02-05T06:06:09.978Z  INFO 8342 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn10: url=jdbc:h2:mem:7dacead0-46f4-4527-9e8c-75f625215b8f user=SA
+2026-02-05T06:06:09.978Z  INFO 8342 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-02-05T06:06:10.026Z  INFO 8342 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-05T06:06:10.049Z  INFO 8342 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-05T06:06:10.051Z  INFO 8342 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:7dacead0-46f4-4527-9e8c-75f625215b8f]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: 7DACEAD0-46F4-4527-9E8C-75F625215B8F/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-05T06:06:10.115Z  INFO 8342 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-05T06:06:10.116Z  INFO 8342 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-05T06:06:10.316Z  INFO 8342 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-02-05T06:06:10.338Z  INFO 8342 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 39081 (http) with context path '/'
+2026-02-05T06:06:10.340Z  INFO 8342 --- [           main] o.s.s.p.PetClinicIntegrationTests        : Started PetClinicIntegrationTests in 0.711 seconds (process running for 61.252)
+2026-02-05T06:06:10.369Z  INFO 8342 --- [o-auto-4-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-05T06:06:10.369Z  INFO 8342 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-05T06:06:10.370Z  INFO 8342 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.786 s -- in org.springframework.samples.petclinic.PetClinicIntegrationTests
+[INFO] Running org.springframework.samples.petclinic.model.ValidatorTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in org.springframework.samples.petclinic.model.ValidatorTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:11 min
+[INFO] Finished at: 2026-02-05T06:06:11Z
+[INFO] ------------------------------------------------------------------------
