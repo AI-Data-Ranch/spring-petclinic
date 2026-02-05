@@ -1,0 +1,415 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 4.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.6.0:check (default-cli) @ spring-petclinic ---
+[INFO] There are 393 errors reported by Checkstyle 12.1.2 with sun_checks.xml ruleset.
+[ERROR] src/main/java/org/springframework/samples/petclinic/PetClinicRuntimeHints.java:[27,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/PetClinicRuntimeHints.java:[27,9] (design) DesignForExtension: Class 'PetClinicRuntimeHints' looks like designed for extension (can be subclassed), but the method 'registerHints' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PetClinicRuntimeHints' final or making the method 'registerHints' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/PetClinicRuntimeHints.java:[28,35] (misc) FinalParameters: Parameter hints should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/PetClinicRuntimeHints.java:[28,55] (misc) FinalParameters: Parameter classLoader should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/PetClinicRuntimeHints.java:[29] (sizes) LineLength: Line is longer than 80 characters (found 121).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java:[25,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CrashController.java:[21] (javadoc) JavadocStyle: First sentence should end with a period.
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CrashController.java:[31,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CrashController.java:[34] (sizes) LineLength: Line is longer than 80 characters (found 119).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/WebConfiguration.java:[17] (sizes) LineLength: Line is longer than 80 characters (found 89).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/WebConfiguration.java:[27,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/WebConfiguration.java:[28] (sizes) LineLength: Line is longer than 80 characters (found 88).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/WebConfiguration.java:[46] (sizes) LineLength: Line is longer than 80 characters (found 84).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/WebConfiguration.java:[52] (sizes) LineLength: Line is longer than 80 characters (found 81).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/WebConfiguration.java:[56,37] (misc) FinalParameters: Parameter registry should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java:[27] (sizes) LineLength: Line is longer than 80 characters (found 87).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java:[35,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java:[41] (sizes) LineLength: Line is longer than 80 characters (found 91).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java:[44] (sizes) LineLength: Line is longer than 80 characters (found 93).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java:[45] (sizes) LineLength: Line is longer than 80 characters (found 83).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java:[46] (sizes) LineLength: Line is longer than 80 characters (found 86).
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java:[49] (javadoc) JavadocMethod: @return tag should be present and have description.
+[ERROR] src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java:[49] (sizes) LineLength: Line is longer than 80 characters (found 94).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[25] (sizes) LineLength: Line is longer than 80 characters (found 89).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[26] (sizes) LineLength: Line is longer than 80 characters (found 90).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[28] (sizes) LineLength: Line is longer than 80 characters (found 112).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[38,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[39] (sizes) LineLength: Line is longer than 80 characters (found 89).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[42] (sizes) LineLength: Line is longer than 80 characters (found 90).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[45] (sizes) LineLength: Line is longer than 80 characters (found 83).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[45,74] (javadoc) JavadocMethod: Expected @param tag for 'pageable'.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[50] (sizes) LineLength: Line is longer than 80 characters (found 92).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[51] (sizes) LineLength: Line is longer than 80 characters (found 82).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[55] (sizes) LineLength: Line is longer than 80 characters (found 89).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:[57] (sizes) LineLength: Line is longer than 80 characters (found 91).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java:[25] (sizes) LineLength: Line is longer than 80 characters (found 87).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java:[34,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java:[34,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java:[36,9] (design) DesignForExtension: Class 'PetValidator' looks like designed for extension (can be subclassed), but the method 'validate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PetValidator' final or making the method 'validate' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java:[37,30] (misc) FinalParameters: Parameter obj should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java:[37,42] (misc) FinalParameters: Parameter errors should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java:[56] (javadoc) JavadocStyle: First sentence should end with a period.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java:[60,33] (misc) FinalParameters: Parameter clazz should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[51,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[51,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[55,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[59,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[64,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[69,9] (design) DesignForExtension: Class 'Owner' looks like designed for extension (can be subclassed), but the method 'getAddress' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Owner' final or making the method 'getAddress' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[69,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[73,9] (design) DesignForExtension: Class 'Owner' looks like designed for extension (can be subclassed), but the method 'setAddress' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Owner' final or making the method 'setAddress' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[73,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[73,32] (misc) FinalParameters: Parameter address should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[73,39] (coding) HiddenField: 'address' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[77,9] (design) DesignForExtension: Class 'Owner' looks like designed for extension (can be subclassed), but the method 'getCity' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Owner' final or making the method 'getCity' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[77,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[81,9] (design) DesignForExtension: Class 'Owner' looks like designed for extension (can be subclassed), but the method 'setCity' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Owner' final or making the method 'setCity' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[81,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[81,29] (misc) FinalParameters: Parameter city should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[81,36] (coding) HiddenField: 'city' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[85,9] (design) DesignForExtension: Class 'Owner' looks like designed for extension (can be subclassed), but the method 'getTelephone' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Owner' final or making the method 'getTelephone' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[85,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[89,9] (design) DesignForExtension: Class 'Owner' looks like designed for extension (can be subclassed), but the method 'setTelephone' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Owner' final or making the method 'setTelephone' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[89,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[89,34] (misc) FinalParameters: Parameter telephone should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[89,41] (coding) HiddenField: 'telephone' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[93,9] (design) DesignForExtension: Class 'Owner' looks like designed for extension (can be subclassed), but the method 'getPets' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Owner' final or making the method 'getPets' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[93,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[97,9] (design) DesignForExtension: Class 'Owner' looks like designed for extension (can be subclassed), but the method 'addPet' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Owner' final or making the method 'addPet' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[97,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[97,28] (misc) FinalParameters: Parameter pet should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[104] (sizes) LineLength: Line is longer than 80 characters (found 84).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[106] (sizes) LineLength: Line is longer than 80 characters (found 92).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[108,27] (misc) FinalParameters: Parameter name should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[113] (sizes) LineLength: Line is longer than 80 characters (found 82).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[115] (sizes) LineLength: Line is longer than 80 characters (found 90).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[117,27] (misc) FinalParameters: Parameter id should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[130] (sizes) LineLength: Line is longer than 80 characters (found 84).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[132] (sizes) LineLength: Line is longer than 80 characters (found 84).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[133] (sizes) LineLength: Line is longer than 80 characters (found 92).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[135,27] (misc) FinalParameters: Parameter name should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[135,40] (misc) FinalParameters: Parameter ignoreNew should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[138] (sizes) LineLength: Line is longer than 80 characters (found 82).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[147,9] (design) DesignForExtension: Class 'Owner' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Owner' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[160] (sizes) LineLength: Line is longer than 80 characters (found 85).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[161] (sizes) LineLength: Line is longer than 80 characters (found 87).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[164,30] (misc) FinalParameters: Parameter petId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Owner.java:[164,45] (misc) FinalParameters: Parameter visit should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[38,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[38,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[42,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[45] (javadoc) JavadocStyle: First sentence should end with a period.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[52,9] (design) DesignForExtension: Class 'Visit' looks like designed for extension (can be subclassed), but the method 'getDate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Visit' final or making the method 'getDate' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[52,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[56,9] (design) DesignForExtension: Class 'Visit' looks like designed for extension (can be subclassed), but the method 'setDate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Visit' final or making the method 'setDate' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[56,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[56,29] (misc) FinalParameters: Parameter date should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[56,39] (coding) HiddenField: 'date' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[60,9] (design) DesignForExtension: Class 'Visit' looks like designed for extension (can be subclassed), but the method 'getDescription' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Visit' final or making the method 'getDescription' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[60,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[64,9] (design) DesignForExtension: Class 'Visit' looks like designed for extension (can be subclassed), but the method 'setDescription' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Visit' final or making the method 'setDescription' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[64,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[64,36] (misc) FinalParameters: Parameter description should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Visit.java:[64,43] (coding) HiddenField: 'description' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[27] (sizes) LineLength: Line is longer than 80 characters (found 86).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[28] (sizes) LineLength: Line is longer than 80 characters (found 82).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[29] (sizes) LineLength: Line is longer than 80 characters (found 83).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[30] (sizes) LineLength: Line is longer than 80 characters (found 99).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[39,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[39,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[41,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[41,33] (misc) FinalParameters: Parameter types should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[41,51] (coding) HiddenField: 'types' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[45,9] (design) DesignForExtension: Class 'PetTypeFormatter' looks like designed for extension (can be subclassed), but the method 'print' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PetTypeFormatter' final or making the method 'print' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[46,29] (misc) FinalParameters: Parameter petType should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[46,46] (misc) FinalParameters: Parameter locale should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[51,9] (design) DesignForExtension: Class 'PetTypeFormatter' looks like designed for extension (can be subclassed), but the method 'parse' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'PetTypeFormatter' final or making the method 'parse' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[52,30] (misc) FinalParameters: Parameter text should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java:[52,43] (misc) FinalParameters: Parameter locale should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[44,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[44,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[46,9] (modifier) RedundantModifier: Redundant 'public' modifier.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[46,32] (misc) FinalParameters: Parameter owners should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[46,48] (coding) HiddenField: 'owners' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[51,38] (misc) FinalParameters: Parameter dataBinder should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[56] (sizes) LineLength: Line is longer than 80 characters (found 94).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[57] (sizes) LineLength: Line is longer than 80 characters (found 92).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[58] (sizes) LineLength: Line is longer than 80 characters (found 86).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[63] (sizes) LineLength: Line is longer than 80 characters (found 109).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[63,39] (misc) FinalParameters: Parameter ownerId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[63,68] (javadoc) JavadocMethod: Expected @param tag for 'ownerId'.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[63,77] (misc) FinalParameters: Parameter petId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[64,25] (misc) FinalParameters: Parameter model should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[64,45] (javadoc) JavadocMethod: Expected @param tag for 'model'.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[66] (sizes) LineLength: Line is longer than 80 characters (found 91).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[67] (sizes) LineLength: Line is longer than 80 characters (found 111).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[72] (sizes) LineLength: Line is longer than 80 characters (found 114).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[82] (sizes) LineLength: Line is longer than 80 characters (found 83).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[89] (sizes) LineLength: Line is longer than 80 characters (found 86).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[92] (sizes) LineLength: Line is longer than 80 characters (found 115).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[92,43] (misc) FinalParameters: Parameter owner should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[92,72] (misc) FinalParameters: Parameter petId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[92,97] (misc) FinalParameters: Parameter visit should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[93] (sizes) LineLength: Line is longer than 80 characters (found 86).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[93,25] (misc) FinalParameters: Parameter result should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[93,47] (misc) FinalParameters: Parameter redirectAttributes should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:[100] (sizes) LineLength: Line is longer than 80 characters (found 94).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[50] (sizes) LineLength: Line is longer than 80 characters (found 100).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[50,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[50,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[52,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[54,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[56,9] (modifier) RedundantModifier: Redundant 'public' modifier.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[56,30] (misc) FinalParameters: Parameter owners should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[56,46] (coding) HiddenField: 'owners' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[56,54] (misc) FinalParameters: Parameter types should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[56,72] (coding) HiddenField: 'types' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[67,32] (misc) FinalParameters: Parameter ownerId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[69] (sizes) LineLength: Line is longer than 80 characters (found 91).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[70] (sizes) LineLength: Line is longer than 80 characters (found 111).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[75,28] (misc) FinalParameters: Parameter ownerId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[76] (sizes) LineLength: Line is longer than 80 characters (found 88).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[76,25] (misc) FinalParameters: Parameter petId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[83] (sizes) LineLength: Line is longer than 80 characters (found 91).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[84] (sizes) LineLength: Line is longer than 80 characters (found 111).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[89,37] (misc) FinalParameters: Parameter dataBinder should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[94,35] (misc) FinalParameters: Parameter dataBinder should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[99,40] (misc) FinalParameters: Parameter owner should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[99,53] (misc) FinalParameters: Parameter model should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[106] (sizes) LineLength: Line is longer than 80 characters (found 92).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[106,43] (misc) FinalParameters: Parameter owner should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[106,56] (misc) FinalParameters: Parameter pet should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[106,72] (misc) FinalParameters: Parameter result should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[107,25] (misc) FinalParameters: Parameter redirectAttributes should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[109] (sizes) LineLength: Line is longer than 80 characters (found 115).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[109,17] (blocks) NeedBraces: 'if' construct must use '{}'s.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[110] (sizes) LineLength: Line is longer than 80 characters (found 82).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[113] (sizes) LineLength: Line is longer than 80 characters (found 92).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[114] (sizes) LineLength: Line is longer than 80 characters (found 82).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[123] (sizes) LineLength: Line is longer than 80 characters (found 90).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[133] (sizes) LineLength: Line is longer than 80 characters (found 90).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[133,41] (misc) FinalParameters: Parameter owner should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[133,54] (misc) FinalParameters: Parameter pet should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[133,70] (misc) FinalParameters: Parameter result should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[134,25] (misc) FinalParameters: Parameter redirectAttributes should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[141] (sizes) LineLength: Line is longer than 80 characters (found 103).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[142] (sizes) LineLength: Line is longer than 80 characters (found 90).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[147] (sizes) LineLength: Line is longer than 80 characters (found 92).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[148] (sizes) LineLength: Line is longer than 80 characters (found 82).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[156] (sizes) LineLength: Line is longer than 80 characters (found 95).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[165,39] (misc) FinalParameters: Parameter owner should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[165,52] (misc) FinalParameters: Parameter pet should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetController.java:[174,17] (blocks) RightCurly: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[51] (sizes) LineLength: Line is longer than 80 characters (found 105).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[51,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[51,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[53,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[55,9] (modifier) RedundantModifier: Redundant 'public' modifier.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[55,32] (misc) FinalParameters: Parameter owners should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[55,48] (coding) HiddenField: 'owners' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[60,38] (misc) FinalParameters: Parameter dataBinder should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[65] (sizes) LineLength: Line is longer than 80 characters (found 99).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[65,32] (misc) FinalParameters: Parameter ownerId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[68] (sizes) LineLength: Line is longer than 80 characters (found 125).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[69] (sizes) LineLength: Line is longer than 80 characters (found 139).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[78] (sizes) LineLength: Line is longer than 80 characters (found 124).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[78,43] (misc) FinalParameters: Parameter owner should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[78,63] (misc) FinalParameters: Parameter result should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[78,85] (misc) FinalParameters: Parameter redirectAttributes should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[80] (sizes) LineLength: Line is longer than 80 characters (found 115).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[85] (sizes) LineLength: Line is longer than 80 characters (found 85).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[95] (sizes) LineLength: Line is longer than 80 characters (found 116).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[95,39] (misc) FinalParameters: Parameter page should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[95,83] (misc) FinalParameters: Parameter owner should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[95,96] (misc) FinalParameters: Parameter result should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[96,25] (misc) FinalParameters: Parameter model should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[97] (sizes) LineLength: Line is longer than 80 characters (found 84).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[100] (sizes) LineLength: Line is longer than 80 characters (found 89).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[104] (sizes) LineLength: Line is longer than 80 characters (found 91).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[121] (sizes) LineLength: Line is longer than 80 characters (found 89).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[121,43] (misc) FinalParameters: Parameter page should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[121,53] (misc) FinalParameters: Parameter model should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[121,66] (misc) FinalParameters: Parameter paginated should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[130] (sizes) LineLength: Line is longer than 80 characters (found 87).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[130,60] (misc) FinalParameters: Parameter page should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[130,70] (misc) FinalParameters: Parameter lastname should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[131,32] (coding) MagicNumber: '5' is a magic number.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[142] (sizes) LineLength: Line is longer than 80 characters (found 124).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[142,46] (misc) FinalParameters: Parameter owner should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[142,66] (misc) FinalParameters: Parameter result should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[142,88] (misc) FinalParameters: Parameter ownerId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[143,25] (misc) FinalParameters: Parameter redirectAttributes should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[145] (sizes) LineLength: Line is longer than 80 characters (found 115).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[150] (sizes) LineLength: Line is longer than 80 characters (found 113).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[151] (sizes) LineLength: Line is longer than 80 characters (found 110).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[157] (sizes) LineLength: Line is longer than 80 characters (found 88).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[167,39] (misc) FinalParameters: Parameter ownerId should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[170] (sizes) LineLength: Line is longer than 80 characters (found 91).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:[171] (sizes) LineLength: Line is longer than 80 characters (found 111).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[48,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[48,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[52,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[56,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[61,9] (design) DesignForExtension: Class 'Pet' looks like designed for extension (can be subclassed), but the method 'setBirthDate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Pet' final or making the method 'setBirthDate' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[61,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[61,34] (misc) FinalParameters: Parameter birthDate should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[61,44] (coding) HiddenField: 'birthDate' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[65,9] (design) DesignForExtension: Class 'Pet' looks like designed for extension (can be subclassed), but the method 'getBirthDate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Pet' final or making the method 'getBirthDate' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[65,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[69,9] (design) DesignForExtension: Class 'Pet' looks like designed for extension (can be subclassed), but the method 'getType' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Pet' final or making the method 'getType' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[69,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[73,9] (design) DesignForExtension: Class 'Pet' looks like designed for extension (can be subclassed), but the method 'setType' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Pet' final or making the method 'setType' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[73,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[73,29] (misc) FinalParameters: Parameter type should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[73,37] (coding) HiddenField: 'type' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[77,9] (design) DesignForExtension: Class 'Pet' looks like designed for extension (can be subclassed), but the method 'getVisits' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Pet' final or making the method 'getVisits' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[77,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[81,9] (design) DesignForExtension: Class 'Pet' looks like designed for extension (can be subclassed), but the method 'addVisit' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Pet' final or making the method 'addVisit' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[81,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/Pet.java:[81,30] (misc) FinalParameters: Parameter visit should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/owner/PetTypeRepository.java:[32,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:[28,1] (design) HideUtilityClassConstructor: Utility classes should not have a public or default constructor.
+[ERROR] src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:[32,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:[32,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:[32,33] (misc) FinalParameters: Parameter args should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[38,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[38,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[40,9] (modifier) RedundantModifier: Redundant 'public' modifier.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[40,30] (misc) FinalParameters: Parameter vetRepository should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[40,44] (coding) HiddenField: 'vetRepository' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[45] (sizes) LineLength: Line is longer than 80 characters (found 92).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[45,35] (misc) FinalParameters: Parameter page should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[45,79] (misc) FinalParameters: Parameter model should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[46] (sizes) LineLength: Line is longer than 80 characters (found 97).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[54] (sizes) LineLength: Line is longer than 80 characters (found 87).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[54,43] (misc) FinalParameters: Parameter page should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[54,53] (misc) FinalParameters: Parameter paginated should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[54,74] (misc) FinalParameters: Parameter model should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[63,41] (misc) FinalParameters: Parameter page should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[64,32] (coding) MagicNumber: '5' is a magic number.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetController.java:[71] (sizes) LineLength: Line is longer than 80 characters (found 97).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:[28] (sizes) LineLength: Line is longer than 80 characters (found 86).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:[29] (sizes) LineLength: Line is longer than 80 characters (found 90).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:[31] (sizes) LineLength: Line is longer than 80 characters (found 112).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:[40,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:[48] (javadoc) JavadocStyle: First sentence should end with a period.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:[54] (javadoc) JavadocMethod: @return tag should be present and have description.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vets.java:[25] (sizes) LineLength: Line is longer than 80 characters (found 88).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vets.java:[33,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vets.java:[33,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vets.java:[35,9] (design) DesignForExtension: Class 'Vets' looks like designed for extension (can be subclassed), but the method 'getVetList' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Vets' final or making the method 'getVetList' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vets.java:[35,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[47,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[47,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[48] (sizes) LineLength: Line is longer than 80 characters (found 88).
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[52,9] (design) DesignForExtension: Class 'Vet' looks like designed for extension (can be subclassed), but the method 'getSpecialtiesInternal' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Vet' final or making the method 'getSpecialtiesInternal' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[59,9] (design) DesignForExtension: Class 'Vet' looks like designed for extension (can be subclassed), but the method 'getSpecialties' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Vet' final or making the method 'getSpecialties' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[59,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[66,9] (design) DesignForExtension: Class 'Vet' looks like designed for extension (can be subclassed), but the method 'getNrOfSpecialties' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Vet' final or making the method 'getNrOfSpecialties' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[66,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[70,9] (design) DesignForExtension: Class 'Vet' looks like designed for extension (can be subclassed), but the method 'addSpecialty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Vet' final or making the method 'addSpecialty' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[70,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/vet/Vet.java:[70,34] (misc) FinalParameters: Parameter specialty should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[23] (sizes) LineLength: Line is longer than 80 characters (found 89).
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[33,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[33,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[37,9] (design) DesignForExtension: Class 'NamedEntity' looks like designed for extension (can be subclassed), but the method 'getName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NamedEntity' final or making the method 'getName' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[37,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[41,9] (design) DesignForExtension: Class 'NamedEntity' looks like designed for extension (can be subclassed), but the method 'setName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NamedEntity' final or making the method 'setName' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[41,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[41,29] (misc) FinalParameters: Parameter name should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[41,36] (coding) HiddenField: 'name' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[45,9] (design) DesignForExtension: Class 'NamedEntity' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'NamedEntity' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java:[47,24] (coding) HiddenField: 'name' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[30,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[30,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[34,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[38,9] (design) DesignForExtension: Class 'Person' looks like designed for extension (can be subclassed), but the method 'getFirstName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Person' final or making the method 'getFirstName' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[38,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[42,9] (design) DesignForExtension: Class 'Person' looks like designed for extension (can be subclassed), but the method 'setFirstName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Person' final or making the method 'setFirstName' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[42,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[42,34] (misc) FinalParameters: Parameter firstName should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[42,41] (coding) HiddenField: 'firstName' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[46,9] (design) DesignForExtension: Class 'Person' looks like designed for extension (can be subclassed), but the method 'getLastName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Person' final or making the method 'getLastName' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[46,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[50,9] (design) DesignForExtension: Class 'Person' looks like designed for extension (can be subclassed), but the method 'setLastName' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Person' final or making the method 'setLastName' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[50,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[50,33] (misc) FinalParameters: Parameter lastName should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/Person.java:[50,40] (coding) HiddenField: 'lastName' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[26] (sizes) LineLength: Line is longer than 80 characters (found 86).
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[35,1] (whitespace) FileTabCharacter: File contains tab characters (this is the first instance).
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[35,9] (javadoc) JavadocVariable: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[39,9] (design) DesignForExtension: Class 'BaseEntity' looks like designed for extension (can be subclassed), but the method 'getId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BaseEntity' final or making the method 'getId' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[39,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[43,9] (design) DesignForExtension: Class 'BaseEntity' looks like designed for extension (can be subclassed), but the method 'setId' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BaseEntity' final or making the method 'setId' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[43,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[43,27] (misc) FinalParameters: Parameter id should be final.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[43,35] (coding) HiddenField: 'id' hides a field.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[47,9] (design) DesignForExtension: Class 'BaseEntity' looks like designed for extension (can be subclassed), but the method 'isNew' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BaseEntity' final or making the method 'isNew' static/final/abstract/empty, or adding allowed annotation for the method.
+[ERROR] src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java:[47,9] (javadoc) MissingJavadocMethod: Missing a Javadoc comment.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) NewlineAtEndOfFile: File does not end with a newline.
+[ERROR] src/main/resources/messages/messages.properties:[41] (regexp) RegexpSingleline: Line has trailing spaces.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'addNewPet' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'addOwner' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'addVisit' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'address' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'birthDate' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'city' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'date' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'description' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'duplicate' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'duplicateFormSubmission' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'editOwner' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'editPet' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'error' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'error.404' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'error.500' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'error.general' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'findOwner' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'findOwners' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'first' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'firstName' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'home' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'last' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'lastName' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'layoutTitle' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'name' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'new' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'next' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'nonNumeric' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'none' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'notFound' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'owner' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'ownerInformation' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'owners' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'pages' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'pet' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'pets' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'petsAndVisits' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'previous' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'previousVisits' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'required' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'somethingHappened' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'specialties' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'telephone' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'telephone.invalid' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'type' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'typeMismatch.birthDate' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'typeMismatch.date' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'updateOwner' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'vets' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'visitDate' missing.
+[ERROR] src/main/resources/messages/messages_en.properties:[1] (misc) Translation: Key 'welcome' missing.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.005 s
+[INFO] Finished at: 2026-02-05T01:23:05Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:3.6.0:check (default-cli) on project spring-petclinic: You have 393 Checkstyle violations. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
