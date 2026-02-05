@@ -1,0 +1,12 @@
+=== Analysis Log ===
+Current Java version: 17
+Target Java version: 21
+Files to update:
+  - pom.xml (java.version property)
+  - build.gradle (java toolchain)
+  - .github/workflows/maven-build.yml
+  - .github/workflows/gradle-build.yml
+=== Build Results ===
+Maven compile: SUCCESS
+Maven test: SUCCESS
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
