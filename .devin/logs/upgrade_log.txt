@@ -1,0 +1,41 @@
+================================================================================
+VULNERABILITY UPGRADE LOG
+================================================================================
+Date: 2026-02-06
+Repository: AI-Data-Ranch/spring-petclinic
+Branch: feature/vulnerability-update_20260205_173608948
+================================================================================
+
+VULNERABILITIES IDENTIFIED (Before Fix):
+--------------------------------------------------------------------------------
+1. CVE-2026-1225 - ch.qos.logback:logback-core@1.5.21
+   - Severity: LOW (CVSS: 1.8)
+   - Type: External Initialization of Trusted Variables or Data Stores
+   - Fixed Version: 1.5.25
+   - Path: spring-petclinic → spring-boot-starter-actuator@4.0.0 → spring-boot-starter@4.0.0 → spring-boot-starter-logging@4.0.0 → logback-classic@1.5.21 → logback-core@1.5.21
+
+2. CVE-2026-24400 - org.assertj:assertj-core@3.27.6
+   - Severity: MEDIUM (CVSS: 6.7)
+   - Type: XML External Entity (XXE) Injection
+   - Fixed Version: 3.27.7
+   - Path: spring-petclinic → spring-boot-starter-data-jpa-test@4.0.0 → spring-boot-starter-test@4.0.0 → assertj-core@3.27.6
+
+FIXES APPLIED:
+--------------------------------------------------------------------------------
+1. Upgraded spring-boot-starter-parent: 4.0.0 → 4.0.2
+   - This transitively upgrades logback-core to 1.5.25
+
+2. Added explicit assertj-core dependency: 3.27.7 (test scope)
+   - Overrides the vulnerable transitive version
+
+VERIFICATION:
+--------------------------------------------------------------------------------
+- Post-fix Snyk scan: "No known vulnerabilities"
+- Build: SUCCESS
+- Tests: 58 passed, 0 failed
+- CI: All checks passed
+
+FILES MODIFIED:
+--------------------------------------------------------------------------------
+1. pom.xml - Updated parent version and added assertj-core dependency
+2. build.gradle - Updated Spring Boot version and added assertj-core dependency
