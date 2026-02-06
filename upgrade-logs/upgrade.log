@@ -1,0 +1,22 @@
+Spring Boot 4.1.0 Upgrade Log
+Start Time: 2026-02-06 07:01:10 UTC
+=== Current Spring Boot Version ===
+pom.xml: 4.0.0
+build.gradle: 4.0.0
+
+=== Dependencies to Update ===
+=== Upgrading Spring Boot from 4.0.0 to 4.1.0 ===
+Updated pom.xml: spring-boot-starter-parent 4.0.0 -> 4.1.0
+Updated pom.xml: project version 4.0.0-SNAPSHOT -> 4.1.0-SNAPSHOT
+Updated build.gradle: org.springframework.boot plugin 4.0.0 -> 4.1.0
+Updated build.gradle: project version 4.0.0-SNAPSHOT -> 4.1.0-SNAPSHOT
+=== Spring Boot 4.1.0 Status ===
+Spring Boot 4.1.0 GA is not yet released. Using 4.1.0-M1 (milestone) version.
+Adding Spring Milestone repository for access to pre-release versions.
+
+=== Build and Test Results ===
+Build Status: SUCCESS
+Tests Run: 58
+Tests Passed: 58
+Tests Failed: 0
+Tests Skipped: 0
