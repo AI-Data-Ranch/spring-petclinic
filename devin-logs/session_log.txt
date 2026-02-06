@@ -1,0 +1,13 @@
+Task Start Time: 2026-02-06 07:01:46 UTC
+Start Timestamp: 1770361299
+=== Logging vulnerability fix details ===
+Vulnerabilities Found: 2
+1. ch.qos.logback:logback-core@1.5.21 -> 1.5.25 (CVE-2026-1225, Low)
+2. org.assertj:assertj-core@3.27.6 -> 3.27.7 (CVE-2026-24400, Medium, XXE)
+Fix: Upgraded Spring Boot Parent from 4.0.0 to 4.0.2
+Fix: Added assertj.version=3.27.7 property override
+Post-fix Snyk Scan: No known vulnerabilities
+Build Status: SUCCESS
+Task End Time: 2026-02-06 07:08:11 UTC
+End Timestamp: 1770361691
+Task Duration: 392 seconds (6 minutes 32 seconds)
