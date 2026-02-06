@@ -1,0 +1,18 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+openjdk-21-jdk is already the newest version (21.0.10+7-1~22.04).
+The following packages were automatically installed and are no longer required:
+  libaopalliance-java libapache-pom-java libatinject-jsr330-api-java
+  libcdi-api-java libcommons-cli-java libcommons-io-java libcommons-lang3-java
+  libcommons-parent-java libev4 libgeronimo-annotation-1.3-spec-java
+  libgeronimo-interceptor-3.0-spec-java libguava-java libguice-java
+  libhawtjni-runtime-java libjansi-java libjansi-native-java libjsr305-java
+  libmaven-parent-java libmaven-resolver-java libmaven-shared-utils-java
+  libmaven3-core-java libplexus-cipher-java libplexus-classworlds-java
+  libplexus-component-annotations-java libplexus-interpolation-java
+  libplexus-sec-dispatcher-java libplexus-utils2-java libsisu-inject-java
+  libsisu-plexus-java libslf4j-java libuv1 libwagon-file-java
+  libwagon-http-shaded-java libwagon-provider-api-java
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 137 not upgraded.
