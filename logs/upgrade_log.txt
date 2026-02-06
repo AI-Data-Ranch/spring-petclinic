@@ -54,3 +54,22 @@ JAVA 21 FEATURES NOW AVAILABLE
 ================================================================================
 END OF UPGRADE LOG
 ================================================================================
+
+================================================================================
+ADDITIONAL CHANGES - CI WORKFLOW UPDATE
+================================================================================
+
+FILE: .github/workflows/maven-build.yml
+---------------------------------------
+Location: Line 18
+Before: java: [ '17' ]
+After:  java: [ '21' ]
+
+FILE: .github/workflows/gradle-build.yml
+----------------------------------------
+Location: Line 18
+Before: java: [ '17' ]
+After:  java: [ '21' ]
+
+Reason: CI workflows need to use Java 21 to match the project's Java version
+requirement enforced by maven-enforcer-plugin.
