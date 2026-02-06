@@ -1,0 +1,303 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/4.0.2/spring-boot-starter-parent-4.0.2.pom
+Progress (1): 1.1 kBProgress (1): 2.7 kBProgress (1): 6.8 kBProgress (1): 11 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/4.0.2/spring-boot-starter-parent-4.0.2.pom (14 kB at 54 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/4.0.2/spring-boot-dependencies-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.4 kBProgress (1): 4.5 kBProgress (1): 6.6 kBProgress (1): 8.4 kBProgress (1): 11 kB Progress (1): 15 kBProgress (1): 21 kBProgress (1): 30 kBProgress (1): 39 kBProgress (1): 43 kBProgress (1): 52 kBProgress (1): 62 kBProgress (1): 72 kBProgress (1): 94 kBProgress (1): 111 kBProgress (1): 117 kBProgress (1): 124 kBProgress (1): 131 kBProgress (1): 136 kBProgress (1): 137 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/4.0.2/spring-boot-dependencies-4.0.2.pom (137 kB at 3.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.11.4/native-maven-plugin-0.11.4.pom
+Progress (1): 937 BProgress (1): 2.7 kBProgress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.11.4/native-maven-plugin-0.11.4.pom (2.7 kB at 110 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/utils/0.11.4/utils-0.11.4.pom
+Progress (1): 945 BProgress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/utils/0.11.4/utils-0.11.4.pom (1.9 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/graalvm-reachability-metadata/0.11.4/graalvm-reachability-metadata-0.11.4.pom
+Progress (1): 973 BProgress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/graalvm-reachability-metadata/0.11.4/graalvm-reachability-metadata-0.11.4.pom (1.9 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.11.4/native-maven-plugin-0.11.4.jar
+Progress (1): 0.9/123 kBProgress (1): 2.3/123 kBProgress (1): 3.7/123 kBProgress (1): 5.0/123 kBProgress (1): 6.4/123 kBProgress (1): 7.8/123 kBProgress (1): 9.1/123 kBProgress (1): 11/123 kB Progress (1): 12/123 kBProgress (1): 13/123 kBProgress (1): 15/123 kBProgress (1): 16/123 kBProgress (1): 17/123 kBProgress (1): 19/123 kBProgress (1): 20/123 kBProgress (1): 21/123 kBProgress (1): 23/123 kBProgress (1): 24/123 kBProgress (1): 26/123 kBProgress (1): 27/123 kBProgress (1): 28/123 kBProgress (1): 30/123 kBProgress (1): 31/123 kBProgress (1): 32/123 kBProgress (1): 33/123 kBProgress (1): 38/123 kBProgress (1): 42/123 kBProgress (1): 46/123 kBProgress (1): 50/123 kBProgress (1): 55/123 kBProgress (1): 59/123 kBProgress (1): 63/123 kBProgress (1): 65/123 kBProgress (1): 69/123 kBProgress (1): 73/123 kBProgress (1): 78/123 kBProgress (1): 82/123 kBProgress (1): 86/123 kBProgress (1): 90/123 kBProgress (1): 94/123 kBProgress (1): 99/123 kBProgress (1): 103/123 kBProgress (1): 107/123 kBProgress (1): 111/123 kBProgress (1): 116/123 kBProgress (1): 120/123 kBProgress (1): 123 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.11.4/native-maven-plugin-0.11.4.jar (123 kB at 3.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/utils/0.11.4/utils-0.11.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/graalvm-reachability-metadata/0.11.4/graalvm-reachability-metadata-0.11.4.jar
+Progress (1): 3.8/47 kBProgress (1): 8.0/47 kBProgress (1): 12/47 kB Progress (1): 16/47 kBProgress (1): 20/47 kBProgress (1): 24/47 kBProgress (1): 28/47 kBProgress (1): 33/47 kBProgress (1): 37/47 kBProgress (1): 41/47 kBProgress (1): 45/47 kBProgress (1): 47 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/utils/0.11.4/utils-0.11.4.jar (47 kB at 1.7 MB/s)
+Progress (1): 0.9/27 kBProgress (1): 2.3/27 kBProgress (1): 3.7/27 kBProgress (1): 5.0/27 kBProgress (1): 6.4/27 kBProgress (1): 7.8/27 kBProgress (1): 9.1/27 kBProgress (1): 11/27 kB Progress (1): 12/27 kBProgress (1): 13/27 kBProgress (1): 15/27 kBProgress (1): 16/27 kBProgress (1): 17/27 kBProgress (1): 18/27 kBProgress (1): 20/27 kBProgress (1): 21/27 kBProgress (1): 23/27 kBProgress (1): 24/27 kBProgress (1): 25/27 kBProgress (1): 27/27 kBProgress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/graalvm-reachability-metadata/0.11.4/graalvm-reachability-metadata-0.11.4.jar (27 kB at 452 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-bom/3.27.7/assertj-bom-3.27.7.pom
+Progress (1): 1.0 kBProgress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-bom/3.27.7/assertj-bom-3.27.7.pom (3.3 kB at 108 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/5.0.3/groovy-bom-5.0.3.pom
+Progress (1): 859 BProgress (1): 2.5 kBProgress (1): 6.2 kBProgress (1): 10 kB Progress (1): 12 kBProgress (1): 16 kBProgress (1): 20 kBProgress (1): 22 kBProgress (1): 27 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/5.0.3/groovy-bom-5.0.3.pom (27 kB at 851 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.20.2/jackson-bom-2.20.2.pom
+Progress (1): 930 BProgress (1): 2.0 kBProgress (1): 4.6 kBProgress (1): 14 kB Progress (1): 18 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.20.2/jackson-bom-2.20.2.pom (20 kB at 652 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/tools/jackson/jackson-bom/3.0.4/jackson-bom-3.0.4.pom
+Progress (1): 901 BProgress (1): 2.0 kBProgress (1): 4.1 kBProgress (1): 12 kB Progress (1): 18 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/tools/jackson/jackson-bom/3.0.4/jackson-bom-3.0.4.pom (20 kB at 602 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-bom/12.1.5/jetty-ee11-bom-12.1.5.pom
+Progress (1): 1.1 kBProgress (1): 4.2 kBProgress (1): 9.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/ee11/jetty-ee11-bom/12.1.5/jetty-ee11-bom-12.1.5.pom (9.4 kB at 347 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.1.5/jetty-bom-12.1.5.pom
+Progress (1): 1.1 kBProgress (1): 4.1 kBProgress (1): 14 kB Progress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/12.1.5/jetty-bom-12.1.5.pom (16 kB at 617 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-bom/3.19.29/jooq-bom-3.19.29.pom
+Progress (1): 1.2 kBProgress (1): 4.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-bom/3.19.29/jooq-bom-3.19.29.pom (4.7 kB at 131 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.25.3/log4j-bom-2.25.3.pom
+Progress (1): 795 BProgress (1): 2.4 kBProgress (1): 5.8 kBProgress (1): 12 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.25.3/log4j-bom-2.25.3.pom (12 kB at 423 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.16.2/micrometer-bom-1.16.2.pom
+Progress (1): 1.0 kBProgress (1): 7.7 kBProgress (1): 8.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.16.2/micrometer-bom-1.16.2.pom (8.6 kB at 296 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.6.2/micrometer-tracing-bom-1.6.2.pom
+Progress (1): 1.0 kBProgress (1): 3.9 kBProgress (1): 4.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bom/1.6.2/micrometer-tracing-bom-1.6.2.pom (4.5 kB at 167 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-bom/5.6.2/mongodb-driver-bom-5.6.2.pom
+Progress (1): 1.0 kBProgress (1): 4.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/mongodb/mongodb-driver-bom/5.6.2/mongodb-driver-bom-5.6.2.pom (4.2 kB at 149 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-bom/4.1.2/pulsar-bom-4.1.2.pom
+Progress (1): 794 BProgress (1): 2.4 kBProgress (1): 4.5 kBProgress (1): 14 kB Progress (1): 25 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-bom/4.1.2/pulsar-bom-4.1.2.pom (25 kB at 900 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2025.0.2/reactor-bom-2025.0.2.pom
+Progress (1): 907 BProgress (1): 4.6 kBProgress (1): 4.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2025.0.2/reactor-bom-2025.0.2.pom (4.6 kB at 170 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/4.0.2/spring-amqp-bom-4.0.2.pom
+Progress (1): 975 BProgress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp-bom/4.0.2/spring-amqp-bom-4.0.2.pom (4.1 kB at 140 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-bom/6.0.2/spring-batch-bom-6.0.2.pom
+Progress (1): 1.2 kBProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/batch/spring-batch-bom/6.0.2/spring-batch-bom-6.0.2.pom (3.2 kB at 110 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2025.1.2/spring-data-bom-2025.1.2.pom
+Progress (1): 961 BProgress (1): 2.5 kBProgress (1): 5.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2025.1.2/spring-data-bom-2025.1.2.pom (5.5 kB at 190 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/7.0.3/spring-framework-bom-7.0.3.pom
+Progress (1): 979 BProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/7.0.3/spring-framework-bom-7.0.3.pom (5.7 kB at 209 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/7.0.2/spring-integration-bom-7.0.2.pom
+Progress (1): 964 BProgress (1): 5.7 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/7.0.2/spring-integration-bom-7.0.2.pom (10 kB at 359 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/2.0.2/spring-pulsar-bom-2.0.2.pom
+Progress (1): 969 BProgress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/pulsar/spring-pulsar-bom/2.0.2/spring-pulsar-bom-2.0.2.pom (2.7 kB at 105 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/7.0.2/spring-security-bom-7.0.2.pom
+Progress (1): 972 BProgress (1): 6.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/7.0.2/spring-security-bom-7.0.2.pom (6.7 kB at 230 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/4.0.1/spring-session-bom-4.0.1.pom
+Progress (1): 1.0 kBProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/4.0.1/spring-session-bom-4.0.1.pom (2.5 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/2.0.3/testcontainers-bom-2.0.3.pom
+Progress (1): 1.2 kBProgress (1): 12 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/2.0.3/testcontainers-bom-2.0.3.pom (12 kB at 437 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/4.0.2/spring-boot-maven-plugin-4.0.2.pom
+Progress (1): 1.3 kBProgress (1): 4.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/4.0.2/spring-boot-maven-plugin-4.0.2.pom (4.0 kB at 138 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/4.0.2/spring-boot-maven-plugin-4.0.2.jar
+Progress (1): 3.8/136 kBProgress (1): 8.0/136 kBProgress (1): 12/136 kB Progress (1): 16/136 kBProgress (1): 21/136 kBProgress (1): 25/136 kBProgress (1): 29/136 kBProgress (1): 32/136 kBProgress (1): 36/136 kBProgress (1): 41/136 kBProgress (1): 45/136 kBProgress (1): 49/136 kBProgress (1): 53/136 kBProgress (1): 70/136 kBProgress (1): 86/136 kBProgress (1): 102/136 kBProgress (1): 119/136 kBProgress (1): 135/136 kBProgress (1): 136 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/4.0.2/spring-boot-maven-plugin-4.0.2.jar (136 kB at 4.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.29/jooq-codegen-maven-3.19.29.pom
+Progress (1): 1.2 kBProgress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.29/jooq-codegen-maven-3.19.29.pom (3.9 kB at 146 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.29/jooq-parent-3.19.29.pom
+Progress (1): 909 BProgress (1): 2.3 kBProgress (1): 4.3 kBProgress (1): 11 kB Progress (1): 17 kBProgress (1): 21 kBProgress (1): 24 kBProgress (1): 29 kBProgress (1): 33 kBProgress (1): 38 kBProgress (1): 41 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.29/jooq-parent-3.19.29.pom (41 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.29/jooq-codegen-maven-3.19.29.jar
+Progress (1): 7.7/18 kBProgress (1): 16/18 kB Progress (1): 18 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.29/jooq-codegen-maven-3.19.29.jar (18 kB at 612 kB/s)
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 4.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/4.0.2/spring-boot-starter-actuator-4.0.2.pom
+Progress (1): 954 BProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/4.0.2/spring-boot-starter-actuator-4.0.2.pom (3.2 kB at 118 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/4.0.2/spring-boot-starter-4.0.2.pom
+Progress (1): 959 BProgress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/4.0.2/spring-boot-starter-4.0.2.pom (2.7 kB at 107 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/4.0.2/spring-boot-starter-logging-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/4.0.2/spring-boot-starter-logging-4.0.2.pom (2.4 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.25.3/log4j-to-slf4j-2.25.3.pom
+Progress (1): 807 BProgress (1): 2.1 kBProgress (1): 5.3 kBProgress (1): 5.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-to-slf4j/2.25.3/log4j-to-slf4j-2.25.3.pom (5.5 kB at 228 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.25.3/log4j-2.25.3.pom
+Progress (1): 727 BProgress (1): 2.2 kBProgress (1): 3.9 kBProgress (1): 5.9 kBProgress (1): 9.9 kBProgress (1): 16 kB Progress (1): 23 kBProgress (1): 28 kBProgress (1): 31 kBProgress (1): 34 kBProgress (1): 36 kBProgress (1): 40 kBProgress (1): 41 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j/2.25.3/log4j-2.25.3.pom (41 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.pom
+Progress (1): 825 BProgress (1): 2.1 kBProgress (1): 4.1 kBProgress (1): 4.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.25.3/log4j-api-2.25.3.pom (4.5 kB at 167 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/4.0.2/spring-boot-autoconfigure-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/4.0.2/spring-boot-autoconfigure-4.0.2.pom (2.1 kB at 76 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/4.0.2/spring-boot-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/4.0.2/spring-boot-4.0.2.pom (2.2 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/7.0.3/spring-core-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/7.0.3/spring-core-7.0.3.pom (2.2 kB at 73 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/7.0.3/spring-context-7.0.3.pom
+Progress (1): 1.0 kBProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context/7.0.3/spring-context-7.0.3.pom (2.8 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/7.0.3/spring-aop-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aop/7.0.3/spring-aop-7.0.3.pom (2.2 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/7.0.3/spring-beans-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-beans/7.0.3/spring-beans-7.0.3.pom (2.0 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/7.0.3/spring-expression-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-expression/7.0.3/spring-expression-7.0.3.pom (2.1 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.2/micrometer-observation-1.16.2.pom
+Progress (1): 1.1 kBProgress (1): 3.4 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.2/micrometer-observation-1.16.2.pom (3.8 kB at 141 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.2/micrometer-commons-1.16.2.pom
+Progress (1): 1.1 kBProgress (1): 3.2 kBProgress (1): 3.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.2/micrometer-commons-1.16.2.pom (3.6 kB at 133 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-micrometer-metrics/4.0.2/spring-boot-starter-micrometer-metrics-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-micrometer-metrics/4.0.2/spring-boot-starter-micrometer-metrics-4.0.2.pom (2.3 kB at 72 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-micrometer-metrics/4.0.2/spring-boot-micrometer-metrics-4.0.2.pom
+Progress (1): 1.1 kBProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-micrometer-metrics/4.0.2/spring-boot-micrometer-metrics-4.0.2.pom (2.5 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-micrometer-observation/4.0.2/spring-boot-micrometer-observation-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-micrometer-observation/4.0.2/spring-boot-micrometer-observation-4.0.2.pom (2.3 kB at 67 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.16.2/micrometer-core-1.16.2.pom
+Progress (1): 997 BProgress (1): 5.1 kBProgress (1): 9.7 kBProgress (1): 11 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.16.2/micrometer-core-1.16.2.pom (11 kB at 331 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/4.0.2/spring-boot-actuator-autoconfigure-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/4.0.2/spring-boot-actuator-autoconfigure-4.0.2.pom (2.3 kB at 70 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/4.0.2/spring-boot-actuator-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/4.0.2/spring-boot-actuator-4.0.2.pom (2.0 kB at 79 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-health/4.0.2/spring-boot-health-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-health/4.0.2/spring-boot-health-4.0.2.pom (2.0 kB at 76 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.16.2/micrometer-jakarta9-1.16.2.pom
+Progress (1): 1.1 kBProgress (1): 3.5 kBProgress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.16.2/micrometer-jakarta9-1.16.2.pom (3.9 kB at 152 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/4.0.2/spring-boot-starter-cache-4.0.2.pom
+Progress (1): 983 BProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-cache/4.0.2/spring-boot-starter-cache-4.0.2.pom (2.3 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-cache/4.0.2/spring-boot-cache-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-cache/4.0.2/spring-boot-cache-4.0.2.pom (2.2 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/7.0.3/spring-context-support-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-context-support/7.0.3/spring-context-support-7.0.3.pom (2.4 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/4.0.2/spring-boot-starter-data-jpa-4.0.2.pom
+Progress (1): 981 BProgress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/4.0.2/spring-boot-starter-data-jpa-4.0.2.pom (2.7 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/4.0.2/spring-boot-starter-jdbc-4.0.2.pom
+Progress (1): 974 BProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/4.0.2/spring-boot-starter-jdbc-4.0.2.pom (2.5 kB at 91 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc/4.0.2/spring-boot-jdbc-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc/4.0.2/spring-boot-jdbc-4.0.2.pom (2.6 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-sql/4.0.2/spring-boot-sql-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-sql/4.0.2/spring-boot-sql-4.0.2.pom (2.0 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-transaction/4.0.2/spring-boot-transaction-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-transaction/4.0.2/spring-boot-transaction-4.0.2.pom (2.4 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-persistence/4.0.2/spring-boot-persistence-4.0.2.pom
+Progress (1): 1.1 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-persistence/4.0.2/spring-boot-persistence-4.0.2.pom (2.2 kB at 80 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/7.0.3/spring-tx-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-tx/7.0.3/spring-tx-7.0.3.pom (2.2 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/7.0.3/spring-jdbc-7.0.3.pom
+Progress (1): 1.0 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/7.0.3/spring-jdbc-7.0.3.pom (2.4 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa/4.0.2/spring-boot-data-jpa-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa/4.0.2/spring-boot-data-jpa-4.0.2.pom (2.6 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-commons/4.0.2/spring-boot-data-commons-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-commons/4.0.2/spring-boot-data-commons-4.0.2.pom (2.5 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/4.0.2/spring-data-commons-4.0.2.pom
+Progress (1): 1.2 kBProgress (1): 5.5 kBProgress (1): 9.5 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/4.0.2/spring-data-commons-4.0.2.pom (10 kB at 363 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/4.0.2/spring-data-parent-4.0.2.pom
+Progress (1): 735 BProgress (1): 2.3 kBProgress (1): 3.5 kBProgress (1): 4.8 kBProgress (1): 6.3 kBProgress (1): 8.4 kBProgress (1): 11 kB Progress (1): 15 kBProgress (1): 19 kBProgress (1): 21 kBProgress (1): 26 kBProgress (1): 31 kBProgress (1): 37 kBProgress (1): 41 kBProgress (1): 45 kBProgress (1): 45 kBProgress (1): 48 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/4.0.2/spring-data-parent-4.0.2.pom (48 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/4.0.2/spring-data-build-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.5 kBProgress (1): 4.7 kBProgress (1): 6.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/4.0.2/spring-data-build-4.0.2.pom (6.0 kB at 224 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/tools/jackson/jackson-bom/3.0.3/jackson-bom-3.0.3.pom
+Progress (1): 901 BProgress (1): 2.7 kBProgress (1): 4.8 kBProgress (1): 14 kB Progress (1): 19 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/tools/jackson/jackson-bom/3.0.3/jackson-bom-3.0.3.pom (20 kB at 602 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-hibernate/4.0.2/spring-boot-hibernate-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-hibernate/4.0.2/spring-boot-hibernate-4.0.2.pom (2.4 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa/4.0.2/spring-boot-jpa-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa/4.0.2/spring-boot-jpa-4.0.2.pom (2.6 kB at 97 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-orm/7.0.3/spring-orm-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-orm/7.0.3/spring-orm-7.0.3.pom (2.6 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/7.2.1.Final/hibernate-core-7.2.1.Final.pom
+Progress (1): 1.2 kBProgress (1): 5.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/7.2.1.Final/hibernate-core-7.2.1.Final.pom (5.4 kB at 199 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/4.0.2/spring-data-jpa-4.0.2.pom
+Progress (1): 1.4 kBProgress (1): 5.4 kBProgress (1): 8.6 kBProgress (1): 12 kB Progress (1): 13 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/4.0.2/spring-data-jpa-4.0.2.pom (13 kB at 490 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa-parent/4.0.2/spring-data-jpa-parent-4.0.2.pom
+Progress (1): 1.2 kBProgress (1): 2.9 kBProgress (1): 5.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa-parent/4.0.2/spring-data-jpa-parent-4.0.2.pom (5.5 kB at 197 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/7.0.3/spring-aspects-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/7.0.3/spring-aspects-7.0.3.pom (2.0 kB at 75 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.25.1/aspectjweaver-1.9.25.1.pom
+Progress (1): 1.0 kBProgress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.25.1/aspectjweaver-1.9.25.1.pom (1.7 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/4.0.2/spring-boot-starter-thymeleaf-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/4.0.2/spring-boot-starter-thymeleaf-4.0.2.pom (2.3 kB at 88 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-thymeleaf/4.0.2/spring-boot-thymeleaf-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-thymeleaf/4.0.2/spring-boot-thymeleaf-4.0.2.pom (2.4 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/7.0.3/spring-web-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-web/7.0.3/spring-web-7.0.3.pom (2.4 kB at 92 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/4.0.2/spring-boot-starter-validation-4.0.2.pom
+Progress (1): 997 BProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-validation/4.0.2/spring-boot-starter-validation-4.0.2.pom (2.3 kB at 77 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-validation/4.0.2/spring-boot-validation-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-validation/4.0.2/spring-boot-validation-4.0.2.pom (2.4 kB at 91 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/11.0.15/tomcat-embed-el-11.0.15.pom
+Progress (1): 852 BProgress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/11.0.15/tomcat-embed-el-11.0.15.pom (1.5 kB at 53 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webmvc/4.0.2/spring-boot-starter-webmvc-4.0.2.pom
+Progress (1): 982 BProgress (1): 2.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webmvc/4.0.2/spring-boot-starter-webmvc-4.0.2.pom (2.9 kB at 116 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jackson/4.0.2/spring-boot-starter-jackson-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jackson/4.0.2/spring-boot-starter-jackson-4.0.2.pom (2.3 kB at 78 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jackson/4.0.2/spring-boot-jackson-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jackson/4.0.2/spring-boot-jackson-4.0.2.pom (2.2 kB at 86 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/3.0.4/jackson-databind-3.0.4.pom
+Progress (1): 961 BProgress (1): 2.4 kBProgress (1): 3.7 kBProgress (1): 5.7 kBProgress (1): 7.8 kBProgress (1): 10 kB Progress (1): 12 kBProgress (1): 14 kBProgress (1): 16 kBProgress (1): 18 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-databind/3.0.4/jackson-databind-3.0.4.pom (18 kB at 668 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/tools/jackson/jackson-base/3.0.4/jackson-base-3.0.4.pom
+Progress (1): 926 BProgress (1): 2.5 kBProgress (1): 4.5 kBProgress (1): 6.7 kBProgress (1): 9.4 kBProgress (1): 12 kB Progress (1): 14 kBProgress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/tools/jackson/jackson-base/3.0.4/jackson-base-3.0.4.pom (16 kB at 490 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/3.0.4/jackson-core-3.0.4.pom
+Progress (1): 953 BProgress (1): 3.2 kBProgress (1): 7.8 kBProgress (1): 10 kB Progress (1): 10 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/tools/jackson/core/jackson-core/3.0.4/jackson-core-3.0.4.pom (10 kB at 333 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/4.0.2/spring-boot-starter-tomcat-4.0.2.pom
+Progress (1): 982 BProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/4.0.2/spring-boot-starter-tomcat-4.0.2.pom (2.5 kB at 81 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat-runtime/4.0.2/spring-boot-starter-tomcat-runtime-4.0.2.pom
+Progress (1): 989 BProgress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat-runtime/4.0.2/spring-boot-starter-tomcat-runtime-4.0.2.pom (3.7 kB at 144 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tomcat/4.0.2/spring-boot-tomcat-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tomcat/4.0.2/spring-boot-tomcat-4.0.2.pom (2.6 kB at 114 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-web-server/4.0.2/spring-boot-web-server-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-web-server/4.0.2/spring-boot-web-server-4.0.2.pom (2.2 kB at 89 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/11.0.15/tomcat-embed-core-11.0.15.pom
+Progress (1): 852 BProgress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/11.0.15/tomcat-embed-core-11.0.15.pom (1.8 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/11.0.15/tomcat-embed-websocket-11.0.15.pom
+Progress (1): 851 BProgress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/11.0.15/tomcat-embed-websocket-11.0.15.pom (1.8 kB at 71 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-http-converter/4.0.2/spring-boot-http-converter-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-http-converter/4.0.2/spring-boot-http-converter-4.0.2.pom (2.2 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-webmvc/4.0.2/spring-boot-webmvc-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-webmvc/4.0.2/spring-boot-webmvc-4.0.2.pom (2.6 kB at 97 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-servlet/4.0.2/spring-boot-servlet-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-servlet/4.0.2/spring-boot-servlet-4.0.2.pom (2.2 kB at 86 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/7.0.3/spring-webmvc-7.0.3.pom
+Progress (1): 1.0 kBProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/7.0.3/spring-webmvc-7.0.3.pom (3.0 kB at 114 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.9/postgresql-42.7.9.pom
+Progress (1): 1.3 kBProgress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.9/postgresql-42.7.9.pom (2.7 kB at 100 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.52.0/checker-qual-3.52.0.pom
+Progress (1): 954 BProgress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.52.0/checker-qual-3.52.0.pom (2.1 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/4.0.2/spring-boot-devtools-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/4.0.2/spring-boot-devtools-4.0.2.pom (2.3 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa-test/4.0.2/spring-boot-starter-data-jpa-test-4.0.2.pom
+Progress (1): 990 BProgress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa-test/4.0.2/spring-boot-starter-data-jpa-test-4.0.2.pom (2.7 kB at 101 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/4.0.2/spring-boot-starter-test-4.0.2.pom
+Progress (1): 927 BProgress (1): 4.2 kBProgress (1): 4.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/4.0.2/spring-boot-starter-test-4.0.2.pom (4.9 kB at 163 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/4.0.2/spring-boot-test-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/4.0.2/spring-boot-test-4.0.2.pom (2.2 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/7.0.3/spring-test-7.0.3.pom
+Progress (1): 1.1 kBProgress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-test/7.0.3/spring-test-7.0.3.pom (2.1 kB at 74 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/4.0.2/spring-boot-test-autoconfigure-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/4.0.2/spring-boot-test-autoconfigure-4.0.2.pom (2.1 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.10.0/json-path-2.10.0.pom
+Progress (1): 961 BProgress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/jayway/jsonpath/json-path/2.10.0/json-path-2.10.0.pom (1.9 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.pom
+Progress (1): 1.2 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.pom (3.8 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/6.0.2/junit-jupiter-6.0.2.pom
+Progress (1): 948 BProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/6.0.2/junit-jupiter-6.0.2.pom (3.2 kB at 97 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.2/junit-jupiter-api-6.0.2.pom
+Progress (1): 952 BProgress (1): 3.3 kBProgress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/6.0.2/junit-jupiter-api-6.0.2.pom (3.4 kB at 141 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/6.0.2/junit-platform-commons-6.0.2.pom
+Progress (1): 968 BProgress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/6.0.2/junit-platform-commons-6.0.2.pom (3.0 kB at 112 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/6.0.2/junit-jupiter-params-6.0.2.pom
+Progress (1): 974 BProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/6.0.2/junit-jupiter-params-6.0.2.pom (3.2 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.2/junit-jupiter-engine-6.0.2.pom
+Progress (1): 957 BProgress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/6.0.2/junit-jupiter-engine-6.0.2.pom (3.4 kB at 130 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/6.0.2/junit-platform-engine-6.0.2.pom
+Progress (1): 956 BProgress (1): 3.4 kBProgress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/6.0.2/junit-platform-engine-6.0.2.pom (3.4 kB at 136 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc-test/4.0.2/spring-boot-starter-jdbc-test-4.0.2.pom
+Progress (1): 977 BProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc-test/4.0.2/spring-boot-starter-jdbc-test-4.0.2.pom (2.5 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc-test/4.0.2/spring-boot-jdbc-test-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jdbc-test/4.0.2/spring-boot-jdbc-test-4.0.2.pom (2.3 kB at 66 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa-test/4.0.2/spring-boot-data-jpa-test-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-data-jpa-test/4.0.2/spring-boot-data-jpa-test-4.0.2.pom (2.5 kB at 88 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa-test/4.0.2/spring-boot-jpa-test-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-jpa-test/4.0.2/spring-boot-jpa-test-4.0.2.pom (2.5 kB at 91 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-restclient-test/4.0.2/spring-boot-starter-restclient-test-4.0.2.pom
+Progress (1): 961 BProgress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-restclient-test/4.0.2/spring-boot-starter-restclient-test-4.0.2.pom (2.8 kB at 103 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-restclient/4.0.2/spring-boot-starter-restclient-4.0.2.pom
+Progress (1): 961 BProgress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-restclient/4.0.2/spring-boot-starter-restclient-4.0.2.pom (2.6 kB at 91 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-restclient/4.0.2/spring-boot-restclient-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-restclient/4.0.2/spring-boot-restclient-4.0.2.pom (2.5 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-http-client/4.0.2/spring-boot-http-client-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-http-client/4.0.2/spring-boot-http-client-4.0.2.pom (2.4 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jackson-test/4.0.2/spring-boot-starter-jackson-test-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jackson-test/4.0.2/spring-boot-starter-jackson-test-4.0.2.pom (2.3 kB at 88 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-restclient-test/4.0.2/spring-boot-restclient-test-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-restclient-test/4.0.2/spring-boot-restclient-test-4.0.2.pom (2.3 kB at 85 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webmvc-test/4.0.2/spring-boot-starter-webmvc-test-4.0.2.pom
+Progress (1): 983 BProgress (1): 2.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-webmvc-test/4.0.2/spring-boot-starter-webmvc-test-4.0.2.pom (2.9 kB at 108 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-webmvc-test/4.0.2/spring-boot-webmvc-test-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-webmvc-test/4.0.2/spring-boot-webmvc-test-4.0.2.pom (2.7 kB at 99 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-resttestclient/4.0.2/spring-boot-resttestclient-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-resttestclient/4.0.2/spring-boot-resttestclient-4.0.2.pom (2.4 kB at 79 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-testcontainers/4.0.2/spring-boot-testcontainers-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-testcontainers/4.0.2/spring-boot-testcontainers-4.0.2.pom (2.3 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-docker-compose/4.0.2/spring-boot-docker-compose-4.0.2.pom
+Progress (1): 1.0 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-docker-compose/4.0.2/spring-boot-docker-compose-4.0.2.pom (2.3 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-junit-jupiter/2.0.3/testcontainers-junit-jupiter-2.0.3.pom
+Progress (1): 1.3 kBProgress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-junit-jupiter/2.0.3/testcontainers-junit-jupiter-2.0.3.pom (1.6 kB at 67 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-mysql/2.0.3/testcontainers-mysql-2.0.3.pom
+Progress (1): 1.3 kBProgress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-mysql/2.0.3/testcontainers-mysql-2.0.3.pom (1.5 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-jdbc/2.0.3/testcontainers-jdbc-2.0.3.pom
+Progress (1): 1.3 kBProgress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-jdbc/2.0.3/testcontainers-jdbc-2.0.3.pom (1.5 kB at 57 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-database-commons/2.0.3/testcontainers-database-commons-2.0.3.pom
+Progress (1): 1.3 kBProgress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-database-commons/2.0.3/testcontainers-database-commons-2.0.3.pom (1.5 kB at 60 kB/s)
+[INFO] 
+[INFO] --- dependency:3.9.0:tree (default-cli) @ spring-petclinic ---
+[INFO] org.springframework.samples:spring-petclinic:jar:4.0.0-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:4.0.2:compile
+[INFO] |  \- org.springframework.boot:spring-boot-starter:jar:4.0.2:compile
+[INFO] |     \- org.springframework.boot:spring-boot-starter-logging:jar:4.0.2:compile
+[INFO] |        \- ch.qos.logback:logback-classic:jar:1.5.25:compile
+[INFO] |           \- ch.qos.logback:logback-core:jar:1.5.25:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-data-jpa-test:jar:4.0.2:test
+[INFO]    \- org.springframework.boot:spring-boot-starter-test:jar:4.0.2:test
+[INFO]       \- org.assertj:assertj-core:jar:3.27.7:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.059 s
+[INFO] Finished at: 2026-02-06T07:03:10Z
+[INFO] ------------------------------------------------------------------------
