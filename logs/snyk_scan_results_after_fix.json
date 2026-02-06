@@ -1,0 +1,805 @@
+[
+  {
+    "vulnerabilities": [
+      {
+        "id": "SNYK-JAVA-CHQOSLOGBACK-15062482",
+        "title": "External Initialization of Trusted Variables or Data Stores",
+        "CVSSv3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+        "credit": [
+          "Unknown"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0.9.20,1.5.25)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "1.5.25"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "low",
+        "cvssScore": 1.8,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "ch.qos.logback:logback-core",
+        "references": [
+          {
+            "url": "https://github.com/qos-ch/logback/commit/1f97ae1844b1be8486e4e9cade98d7123d3eded5",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/qos-ch/logback/issues/997",
+            "title": "GitHub Issue"
+          },
+          {
+            "url": "https://logback.qos.ch/news.html%231.5.25",
+            "title": "Logback Release Notes"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "cvssV3Vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "cvssV3BaseScore": 5,
+            "modificationTime": "2026-01-28T05:31:39.476371Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L",
+            "assigner": "Snyk",
+            "severity": "low",
+            "baseScore": 1.8,
+            "cvssVersion": "4.0",
+            "modificationTime": "2026-01-23T09:52:29.498274Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "assigner": "Snyk",
+            "severity": "medium",
+            "baseScore": 5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-23T09:52:29.498274Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "baseScore": 5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-28T05:31:39.476371Z"
+          }
+        ],
+        "description": "## Overview\n[ch.qos.logback:logback-core](https://mvnrepository.com/artifact/ch.qos.logback/logback-core) is a logback-core module.\n\nAffected versions of this package are vulnerable to External Initialization of Trusted Variables or Data Stores during the configuration file processing. An attacker can instantiate arbitrary classes already present on the class path by compromising an existing configuration file.\n## Remediation\nUpgrade `ch.qos.logback:logback-core` to version 1.5.25 or higher.\n## References\n- [GitHub Commit](https://github.com/qos-ch/logback/commit/1f97ae1844b1be8486e4e9cade98d7123d3eded5)\n- [GitHub Issue](https://github.com/qos-ch/logback/issues/997)\n- [Logback Release Notes](https://logback.qos.ch/news.html#1.5.25)\n",
+        "epssDetails": {
+          "percentile": "0.01138",
+          "probability": "0.00011",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-1225"
+          ],
+          "CWE": [
+            "CWE-454"
+          ],
+          "GHSA": [
+            "GHSA-qqpg-mvqg-649v"
+          ]
+        },
+        "packageName": "ch.qos.logback:logback-core",
+        "proprietary": false,
+        "creationTime": "2026-01-23T09:34:22.083696Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2026-01-22T12:31:22Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-core"
+        },
+        "publicationTime": "2026-01-23T09:34:22.297320Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2026-01-28T05:31:39.476371Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "low",
+        "from": [
+          "spring-petclinic@4.0.0-SNAPSHOT",
+          "ch.qos.logback:logback-core@1.5.21"
+        ],
+        "upgradePath": [
+          false,
+          "ch.qos.logback:logback-core@1.5.25"
+        ],
+        "isUpgradable": true,
+        "isPatchable": false,
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.5.21"
+      },
+      {
+        "id": "SNYK-JAVA-CHQOSLOGBACK-15062482",
+        "title": "External Initialization of Trusted Variables or Data Stores",
+        "CVSSv3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+        "credit": [
+          "Unknown"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0.9.20,1.5.25)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "1.5.25"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "low",
+        "cvssScore": 1.8,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "ch.qos.logback:logback-core",
+        "references": [
+          {
+            "url": "https://github.com/qos-ch/logback/commit/1f97ae1844b1be8486e4e9cade98d7123d3eded5",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/qos-ch/logback/issues/997",
+            "title": "GitHub Issue"
+          },
+          {
+            "url": "https://logback.qos.ch/news.html%231.5.25",
+            "title": "Logback Release Notes"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "cvssV3Vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "cvssV3BaseScore": 5,
+            "modificationTime": "2026-01-28T05:31:39.476371Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L",
+            "assigner": "Snyk",
+            "severity": "low",
+            "baseScore": 1.8,
+            "cvssVersion": "4.0",
+            "modificationTime": "2026-01-23T09:52:29.498274Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "assigner": "Snyk",
+            "severity": "medium",
+            "baseScore": 5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-23T09:52:29.498274Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "baseScore": 5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-28T05:31:39.476371Z"
+          }
+        ],
+        "description": "## Overview\n[ch.qos.logback:logback-core](https://mvnrepository.com/artifact/ch.qos.logback/logback-core) is a logback-core module.\n\nAffected versions of this package are vulnerable to External Initialization of Trusted Variables or Data Stores during the configuration file processing. An attacker can instantiate arbitrary classes already present on the class path by compromising an existing configuration file.\n## Remediation\nUpgrade `ch.qos.logback:logback-core` to version 1.5.25 or higher.\n## References\n- [GitHub Commit](https://github.com/qos-ch/logback/commit/1f97ae1844b1be8486e4e9cade98d7123d3eded5)\n- [GitHub Issue](https://github.com/qos-ch/logback/issues/997)\n- [Logback Release Notes](https://logback.qos.ch/news.html#1.5.25)\n",
+        "epssDetails": {
+          "percentile": "0.01138",
+          "probability": "0.00011",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-1225"
+          ],
+          "CWE": [
+            "CWE-454"
+          ],
+          "GHSA": [
+            "GHSA-qqpg-mvqg-649v"
+          ]
+        },
+        "packageName": "ch.qos.logback:logback-core",
+        "proprietary": false,
+        "creationTime": "2026-01-23T09:34:22.083696Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2026-01-22T12:31:22Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-core"
+        },
+        "publicationTime": "2026-01-23T09:34:22.297320Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2026-01-28T05:31:39.476371Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "low",
+        "from": [
+          "spring-petclinic@4.0.0-SNAPSHOT",
+          "ch.qos.logback:logback-classic@1.5.21",
+          "ch.qos.logback:logback-core@1.5.21"
+        ],
+        "upgradePath": [
+          false,
+          "ch.qos.logback:logback-classic@1.5.25",
+          "ch.qos.logback:logback-core@1.5.25"
+        ],
+        "isUpgradable": true,
+        "isPatchable": false,
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.5.21"
+      },
+      {
+        "id": "SNYK-JAVA-ORGASSERTJ-15102413",
+        "title": "XML External Entity (XXE) Injection",
+        "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:L",
+        "credit": [
+          "wxt201",
+          "Song Li"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[1.4.0,3.27.7)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "3.27.7"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "medium",
+        "cvssScore": 6.7,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "org.assertj:assertj-core",
+        "references": [
+          {
+            "url": "https://github.com/assertj/assertj/commit/85ca7eb6609bb179c043b85ae7d290523b1ba79a",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/assertj/assertj/releases/tag/assertj-build-3.27.7",
+            "title": "GitHub Release"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+            "cvssV3BaseScore": 6.1,
+            "modificationTime": "2026-01-28T05:28:05.565387Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:N/VA:L/SC:H/SI:N/SA:N",
+            "assigner": "Snyk",
+            "severity": "medium",
+            "baseScore": 6.7,
+            "cvssVersion": "4.0",
+            "modificationTime": "2026-01-27T10:11:56.726964Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:L",
+            "assigner": "Snyk",
+            "severity": "medium",
+            "baseScore": 6.7,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-27T10:11:56.726964Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "baseScore": 6.1,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-28T05:28:05.565387Z"
+          }
+        ],
+        "description": "## Overview\n\nAffected versions of this package are vulnerable to XML External Entity (XXE) Injection via the `toXmlDocument` function of `XmlStringPrettyFormatter`. An attacker can read arbitrary local files, perform server-side request forgery, or cause denial of service by providing crafted XML input containing external entities.\r\n\r\n**Note:** This formatter is used by `isXmlEqualTo(CharSequence)` and `xmlPrettyFormat(String)` and could be exploited if untrusted XML input is processed by the methods.\r\n\r\n## Workaround\r\n\r\nReplace use of `isXmlEqualTo(CharSequence)` with `XMLUnit`.\n\n## Details\nXXE Injection is a type of attack against an application that parses XML input.\nXML is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. By default, many XML processors allow specification of an external entity, a URI that is dereferenced and evaluated during XML processing. When an XML document is being parsed, the parser can make a request and include the content at the specified URI inside of the XML document.\n\nAttacks can include disclosing local files, which may contain sensitive data such as passwords or private user data, using file: schemes or relative paths in the system identifier.\n\nFor example, below is a sample XML document, containing an XML element- username.\n\n```\n<xml>\n<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n   <username>John</username>\n</xml>\n```\n\nAn external XML entity - `xxe`, is defined using a system identifier and present within a DOCTYPE header. These entities can access local or remote content. For example the below code contains an external XML entity that would fetch the content of  `/etc/passwd` and display it to the user rendered by `username`.\n\n```\n<xml>\n<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n<!DOCTYPE foo [\n   <!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]>\n   <username>&xxe;</username>\n</xml>\n```\n\nOther XXE Injection attacks can access local resources that may not stop returning data, possibly impacting application availability and leading to Denial of Service.\n\n## Remediation\nUpgrade `org.assertj:assertj-core` to version 3.27.7 or higher.\n## References\n- [GitHub Commit](https://github.com/assertj/assertj/commit/85ca7eb6609bb179c043b85ae7d290523b1ba79a)\n- [GitHub Release](https://github.com/assertj/assertj/releases/tag/assertj-build-3.27.7)\n",
+        "epssDetails": {
+          "percentile": "0.00587",
+          "probability": "0.00008",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-24400"
+          ],
+          "CWE": [
+            "CWE-611"
+          ],
+          "GHSA": [
+            "GHSA-rqfh-9r24-8c9r"
+          ]
+        },
+        "packageName": "org.assertj:assertj-core",
+        "proprietary": false,
+        "creationTime": "2026-01-27T09:51:39.715595Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2026-01-26T21:31:41Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "org.assertj",
+          "artifactId": "assertj-core"
+        },
+        "publicationTime": "2026-01-27T10:11:56.708755Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2026-01-28T05:28:05.565387Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "medium",
+        "from": [
+          "spring-petclinic@4.0.0-SNAPSHOT",
+          "org.springframework.boot:spring-boot-starter-data-jpa-test@4.0.0",
+          "org.springframework.boot:spring-boot-starter-test@4.0.0",
+          "org.assertj:assertj-core@3.27.6"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "org.assertj:assertj-core",
+        "version": "3.27.6"
+      }
+    ],
+    "ok": false,
+    "dependencyCount": 203,
+    "org": "alex.baker",
+    "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.25.1\nignore: {}\npatch: {}\n",
+    "isPrivate": true,
+    "licensesPolicy": {
+      "severities": {},
+      "orgLicenseRules": {
+        "AGPL-1.0": {
+          "licenseType": "AGPL-1.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "AGPL-3.0": {
+          "licenseType": "AGPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "Artistic-1.0": {
+          "licenseType": "Artistic-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "Artistic-2.0": {
+          "licenseType": "Artistic-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CDDL-1.0": {
+          "licenseType": "CDDL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CPOL-1.02": {
+          "licenseType": "CPOL-1.02",
+          "severity": "high",
+          "instructions": ""
+        },
+        "EPL-1.0": {
+          "licenseType": "EPL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "GPL-2.0": {
+          "licenseType": "GPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "GPL-3.0": {
+          "licenseType": "GPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "LGPL-2.0": {
+          "licenseType": "LGPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-2.1": {
+          "licenseType": "LGPL-2.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-3.0": {
+          "licenseType": "LGPL-3.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-1.1": {
+          "licenseType": "MPL-1.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-2.0": {
+          "licenseType": "MPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MS-RL": {
+          "licenseType": "MS-RL",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "SimPL-2.0": {
+          "licenseType": "SimPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        }
+      }
+    },
+    "packageManager": "gradle",
+    "ignoreSettings": {
+      "adminOnly": false,
+      "reasonRequired": false,
+      "disregardFilesystemIgnores": false
+    },
+    "summary": "3 vulnerable dependency paths",
+    "remediation": {
+      "unresolved": [
+        {
+          "id": "SNYK-JAVA-ORGASSERTJ-15102413",
+          "title": "XML External Entity (XXE) Injection",
+          "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:L",
+          "credit": [
+            "wxt201",
+            "Song Li"
+          ],
+          "semver": {
+            "vulnerable": [
+              "[1.4.0,3.27.7)"
+            ]
+          },
+          "exploit": "Not Defined",
+          "fixedIn": [
+            "3.27.7"
+          ],
+          "patches": [],
+          "insights": {
+            "triageAdvice": null
+          },
+          "language": "java",
+          "severity": "medium",
+          "cvssScore": 6.7,
+          "functions": [],
+          "malicious": false,
+          "isDisputed": false,
+          "moduleName": "org.assertj:assertj-core",
+          "references": [
+            {
+              "url": "https://github.com/assertj/assertj/commit/85ca7eb6609bb179c043b85ae7d290523b1ba79a",
+              "title": "GitHub Commit"
+            },
+            {
+              "url": "https://github.com/assertj/assertj/releases/tag/assertj-build-3.27.7",
+              "title": "GitHub Release"
+            }
+          ],
+          "cvssDetails": [
+            {
+              "assigner": "Red Hat",
+              "severity": "medium",
+              "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+              "cvssV3BaseScore": 6.1,
+              "modificationTime": "2026-01-28T05:28:05.565387Z"
+            }
+          ],
+          "cvssSources": [
+            {
+              "type": "primary",
+              "vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:N/VA:L/SC:H/SI:N/SA:N",
+              "assigner": "Snyk",
+              "severity": "medium",
+              "baseScore": 6.7,
+              "cvssVersion": "4.0",
+              "modificationTime": "2026-01-27T10:11:56.726964Z"
+            },
+            {
+              "type": "secondary",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:L",
+              "assigner": "Snyk",
+              "severity": "medium",
+              "baseScore": 6.7,
+              "cvssVersion": "3.1",
+              "modificationTime": "2026-01-27T10:11:56.726964Z"
+            },
+            {
+              "type": "secondary",
+              "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+              "assigner": "Red Hat",
+              "severity": "medium",
+              "baseScore": 6.1,
+              "cvssVersion": "3.1",
+              "modificationTime": "2026-01-28T05:28:05.565387Z"
+            }
+          ],
+          "description": "## Overview\n\nAffected versions of this package are vulnerable to XML External Entity (XXE) Injection via the `toXmlDocument` function of `XmlStringPrettyFormatter`. An attacker can read arbitrary local files, perform server-side request forgery, or cause denial of service by providing crafted XML input containing external entities.\r\n\r\n**Note:** This formatter is used by `isXmlEqualTo(CharSequence)` and `xmlPrettyFormat(String)` and could be exploited if untrusted XML input is processed by the methods.\r\n\r\n## Workaround\r\n\r\nReplace use of `isXmlEqualTo(CharSequence)` with `XMLUnit`.\n\n## Details\nXXE Injection is a type of attack against an application that parses XML input.\nXML is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. By default, many XML processors allow specification of an external entity, a URI that is dereferenced and evaluated during XML processing. When an XML document is being parsed, the parser can make a request and include the content at the specified URI inside of the XML document.\n\nAttacks can include disclosing local files, which may contain sensitive data such as passwords or private user data, using file: schemes or relative paths in the system identifier.\n\nFor example, below is a sample XML document, containing an XML element- username.\n\n```\n<xml>\n<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n   <username>John</username>\n</xml>\n```\n\nAn external XML entity - `xxe`, is defined using a system identifier and present within a DOCTYPE header. These entities can access local or remote content. For example the below code contains an external XML entity that would fetch the content of  `/etc/passwd` and display it to the user rendered by `username`.\n\n```\n<xml>\n<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n<!DOCTYPE foo [\n   <!ENTITY xxe SYSTEM \"file:///etc/passwd\" >]>\n   <username>&xxe;</username>\n</xml>\n```\n\nOther XXE Injection attacks can access local resources that may not stop returning data, possibly impacting application availability and leading to Denial of Service.\n\n## Remediation\nUpgrade `org.assertj:assertj-core` to version 3.27.7 or higher.\n## References\n- [GitHub Commit](https://github.com/assertj/assertj/commit/85ca7eb6609bb179c043b85ae7d290523b1ba79a)\n- [GitHub Release](https://github.com/assertj/assertj/releases/tag/assertj-build-3.27.7)\n",
+          "epssDetails": {
+            "percentile": "0.00587",
+            "probability": "0.00008",
+            "modelVersion": "v2025.03.14"
+          },
+          "identifiers": {
+            "CVE": [
+              "CVE-2026-24400"
+            ],
+            "CWE": [
+              "CWE-611"
+            ],
+            "GHSA": [
+              "GHSA-rqfh-9r24-8c9r"
+            ]
+          },
+          "packageName": "org.assertj:assertj-core",
+          "proprietary": false,
+          "creationTime": "2026-01-27T09:51:39.715595Z",
+          "functions_new": [],
+          "alternativeIds": [],
+          "disclosureTime": "2026-01-26T21:31:41Z",
+          "exploitDetails": {
+            "sources": [],
+            "maturityLevels": [
+              {
+                "type": "secondary",
+                "level": "Not Defined",
+                "format": "CVSSv3"
+              },
+              {
+                "type": "primary",
+                "level": "Not Defined",
+                "format": "CVSSv4"
+              }
+            ]
+          },
+          "packageManager": "maven",
+          "mavenModuleName": {
+            "groupId": "org.assertj",
+            "artifactId": "assertj-core"
+          },
+          "publicationTime": "2026-01-27T10:11:56.708755Z",
+          "severityBasedOn": "CVSS",
+          "modificationTime": "2026-01-28T05:28:05.565387Z",
+          "socialTrendAlert": false,
+          "packagePopularityRank": 99,
+          "from": [
+            "spring-petclinic@4.0.0-SNAPSHOT",
+            "org.springframework.boot:spring-boot-starter-data-jpa-test@4.0.0",
+            "org.springframework.boot:spring-boot-starter-test@4.0.0",
+            "org.assertj:assertj-core@3.27.6"
+          ],
+          "upgradePath": [],
+          "isUpgradable": false,
+          "isPatchable": false,
+          "isPinnable": false,
+          "isRuntime": false,
+          "name": "org.assertj:assertj-core",
+          "version": "3.27.6",
+          "severityWithCritical": "medium"
+        }
+      ],
+      "upgrade": {
+        "ch.qos.logback:logback-classic@1.5.21": {
+          "upgradeTo": "ch.qos.logback:logback-classic@1.5.25",
+          "upgrades": [
+            "ch.qos.logback:logback-core@1.5.21"
+          ],
+          "vulns": [
+            "SNYK-JAVA-CHQOSLOGBACK-15062482"
+          ]
+        },
+        "ch.qos.logback:logback-core@1.5.21": {
+          "upgradeTo": "ch.qos.logback:logback-core@1.5.25",
+          "upgrades": [
+            "ch.qos.logback:logback-core@1.5.21"
+          ],
+          "vulns": [
+            "SNYK-JAVA-CHQOSLOGBACK-15062482"
+          ]
+        }
+      },
+      "patch": {},
+      "ignore": {},
+      "pin": {}
+    },
+    "filesystemPolicy": false,
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 2,
+    "projectName": "spring-petclinic",
+    "foundProjectCount": 1,
+    "displayTargetFile": "build.gradle",
+    "hasUnknownVersions": false,
+    "path": "/home/ubuntu/repos/spring-petclinic"
+  },
+  {
+    "vulnerabilities": [],
+    "ok": true,
+    "dependencyCount": 116,
+    "org": "alex.baker",
+    "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.25.1\nignore: {}\npatch: {}\n",
+    "isPrivate": true,
+    "licensesPolicy": {
+      "severities": {},
+      "orgLicenseRules": {
+        "AGPL-1.0": {
+          "licenseType": "AGPL-1.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "AGPL-3.0": {
+          "licenseType": "AGPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "Artistic-1.0": {
+          "licenseType": "Artistic-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "Artistic-2.0": {
+          "licenseType": "Artistic-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CDDL-1.0": {
+          "licenseType": "CDDL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CPOL-1.02": {
+          "licenseType": "CPOL-1.02",
+          "severity": "high",
+          "instructions": ""
+        },
+        "EPL-1.0": {
+          "licenseType": "EPL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "GPL-2.0": {
+          "licenseType": "GPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "GPL-3.0": {
+          "licenseType": "GPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "LGPL-2.0": {
+          "licenseType": "LGPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-2.1": {
+          "licenseType": "LGPL-2.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-3.0": {
+          "licenseType": "LGPL-3.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-1.1": {
+          "licenseType": "MPL-1.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-2.0": {
+          "licenseType": "MPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MS-RL": {
+          "licenseType": "MS-RL",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "SimPL-2.0": {
+          "licenseType": "SimPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        }
+      }
+    },
+    "packageManager": "maven",
+    "ignoreSettings": {
+      "adminOnly": false,
+      "reasonRequired": false,
+      "disregardFilesystemIgnores": false
+    },
+    "summary": "No known vulnerabilities",
+    "filesystemPolicy": false,
+    "uniqueCount": 0,
+    "projectName": "org.springframework.samples:spring-petclinic",
+    "foundProjectCount": 1,
+    "displayTargetFile": "pom.xml",
+    "hasUnknownVersions": false,
+    "path": "/home/ubuntu/repos/spring-petclinic"
+  }
+]
