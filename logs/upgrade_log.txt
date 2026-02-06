@@ -1,0 +1,75 @@
+================================================================================
+JAVA 21 UPGRADE LOG
+================================================================================
+Upgrade Date: 2026-02-06
+Previous Java Version: 17
+New Java Version: 21
+
+================================================================================
+CHANGES MADE
+================================================================================
+
+FILE: pom.xml
+-------------
+Location: Line 16
+Before: <java.version>17</java.version>
+After:  <java.version>21</java.version>
+
+FILE: build.gradle
+------------------
+Location: Lines 17-21
+Before:
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(17)
+  }
+}
+
+After:
+java {
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(21)
+  }
+}
+
+================================================================================
+COMPATIBILITY NOTES
+================================================================================
+- Spring Boot 4.0.0 is fully compatible with Java 21
+- All existing dependencies work with Java 21
+- No code changes required - only build configuration updates
+- All 58 tests pass with Java 21
+
+================================================================================
+JAVA 21 FEATURES NOW AVAILABLE
+================================================================================
+- Virtual Threads (Project Loom)
+- Pattern Matching for switch (finalized)
+- Record Patterns (finalized)
+- Sequenced Collections
+- String Templates (preview)
+- Unnamed Patterns and Variables (preview)
+- Unnamed Classes and Instance Main Methods (preview)
+
+================================================================================
+END OF UPGRADE LOG
+================================================================================
+
+================================================================================
+ADDITIONAL CHANGES - CI WORKFLOW UPDATE
+================================================================================
+
+FILE: .github/workflows/maven-build.yml
+---------------------------------------
+Location: Line 18
+Before: java: [ '17' ]
+After:  java: [ '21' ]
+
+FILE: .github/workflows/gradle-build.yml
+----------------------------------------
+Location: Line 18
+Before: java: [ '17' ]
+After:  java: [ '21' ]
+
+Reason: CI workflows need to use Java 21 to match the project's Java version
+requirement enforced by maven-enforcer-plugin.
