@@ -1,0 +1,33 @@
+================================================================================
+DEPENDENCY UPGRADE LOG
+================================================================================
+
+UPGRADE 1: Spring Boot Parent
+--------------------------------------------------------------------------------
+Component: spring-boot-starter-parent
+Previous Version: 4.0.0
+New Version: 4.0.2
+Reason: Resolves CVE-2026-1225 in transitive dependency logback-core
+Impact: Updates all Spring Boot managed dependencies to 4.0.2
+
+Transitive Dependencies Updated:
+- ch.qos.logback:logback-core: 1.5.21 -> 1.5.25
+- ch.qos.logback:logback-classic: 1.5.21 -> 1.5.25
+- Various other Spring Boot dependencies
+
+UPGRADE 2: AssertJ Core (Explicit Override)
+--------------------------------------------------------------------------------
+Component: org.assertj:assertj-core
+Previous Version: 3.27.6 (managed by spring-boot-starter-test)
+New Version: 3.27.7 (explicit dependency)
+Reason: Resolves CVE-2026-24400 (XXE Injection vulnerability)
+Impact: Overrides the version managed by Spring Boot for test scope
+
+================================================================================
+COMPATIBILITY VERIFICATION
+================================================================================
+- Build: PASSED
+- Tests: PASSED
+- No breaking changes detected
+
+================================================================================
