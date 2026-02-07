@@ -1,7 +1,7 @@
 plugins {
   id 'java'
   id 'checkstyle'
-  id 'org.springframework.boot' version '4.0.0'
+  id 'org.springframework.boot' version '4.0.2'
   id 'io.spring.dependency-management' version '1.1.7'
   id 'org.graalvm.buildtools.native' version '0.11.1'
   id 'org.cyclonedx.bom' version '3.0.2'
@@ -29,6 +29,7 @@ ext.springJavaformatCheckstyleVersion = "0.0.47"
 ext.webjarsLocatorLiteVersion = "1.1.2"
 ext.webjarsFontawesomeVersion = "4.7.0"
 ext.webjarsBootstrapVersion = "5.3.8"
+ext.assertjVersion = "3.27.7"
 
 dependencies {
   implementation 'org.springframework.boot:spring-boot-starter-cache'
@@ -54,6 +55,7 @@ dependencies {
   testImplementation 'org.springframework.boot:spring-boot-docker-compose'
   testImplementation 'org.testcontainers:testcontainers-junit-jupiter'
   testImplementation 'org.testcontainers:testcontainers-mysql'
+  testImplementation "org.assertj:assertj-core:${assertjVersion}"
   checkstyle "io.spring.javaformat:spring-javaformat-checkstyle:${springJavaformatCheckstyleVersion}"
   checkstyle "com.puppycrawl.tools:checkstyle:${checkstyleVersion}"
 }

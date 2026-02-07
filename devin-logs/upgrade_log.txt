@@ -1,0 +1,34 @@
+=== Vulnerability Upgrade Log ===
+Date: 2026-02-07
+Session: https://jpmc-oss.devinenterprise.com/sessions/7e821653a1de4484b44e70438be88366
+
+=== Vulnerabilities Found (Before Fix) ===
+Total Vulnerabilities: 2
+
+1. CVE-2026-1225 (Low Severity)
+   - Package: ch.qos.logback:logback-core
+   - Vulnerable Version: 1.5.21
+   - Fixed Version: 1.5.25
+   - Description: External Initialization of Trusted Variables or Data Stores
+   - CVSS Score: 1.8 (CVSSv4)
+
+2. CVE-2026-24400 (Medium Severity)
+   - Package: org.assertj:assertj-core
+   - Vulnerable Version: 3.27.6
+   - Fixed Version: 3.27.7
+   - Description: XML External Entity (XXE) Injection
+   - CVSS Score: 6.7 (CVSSv4)
+
+=== Remediation Applied ===
+1. pom.xml:
+   - Upgraded spring-boot-starter-parent from 4.0.0 to 4.0.2 (brings logback 1.5.25)
+   - Added explicit assertj-core dependency version 3.27.7
+
+2. build.gradle:
+   - Upgraded org.springframework.boot plugin from 4.0.0 to 4.0.2
+   - Added explicit assertj-core dependency version 3.27.7
+
+=== Verification Results (After Fix) ===
+- Maven (pom.xml): No known vulnerabilities
+- Gradle (build.gradle): No known vulnerabilities
+- Build Status: SUCCESS
