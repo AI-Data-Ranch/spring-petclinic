@@ -30,8 +30,12 @@
     <lifecycle-mapping>1.0.0</lifecycle-mapping>
     <maven-checkstyle.version>3.6.0</maven-checkstyle.version>
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
-    <spring-format.version>0.0.47</spring-format.version>
-  </properties>
+      <spring-format.version>0.0.47</spring-format.version>
+
+      <!-- Vulnerability fixes - override Spring Boot managed versions -->
+      <logback.version>1.5.25</logback.version>
+      <assertj.version>3.27.7</assertj.version>
+    </properties>
 
   <licenses>
     <license>
