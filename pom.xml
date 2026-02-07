@@ -31,6 +31,10 @@
     <maven-checkstyle.version>3.6.0</maven-checkstyle.version>
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
     <spring-format.version>0.0.47</spring-format.version>
+
+    <!-- Vulnerability fixes -->
+    <logback.version>1.5.25</logback.version>
+    <assertj.version>3.27.7</assertj.version>
   </properties>
 
   <licenses>
@@ -121,6 +125,13 @@
       <optional>true</optional>
     </dependency>
 
+    <!-- AssertJ override to fix CVE-2026-24400 (XXE Injection) -->
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>${assertj.version}</version>
+      <scope>test</scope>
+    </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa-test</artifactId>
