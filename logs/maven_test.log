@@ -1,0 +1,856 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 4.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- enforcer:3.6.2:enforce (enforce-java) @ spring-petclinic ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- spring-javaformat:0.0.47:validate (default) @ spring-petclinic ---
+[INFO] 
+[INFO] --- checkstyle:3.6.0:check (nohttp-checkstyle-validation) @ spring-petclinic ---
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.14:prepare-agent (default) @ spring-petclinic ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.14/org.jacoco.agent-0.8.14-runtime.jar=destfile=/home/ubuntu/repos/spring-petclinic-java21/target/jacoco.exec
+[INFO] 
+[INFO] --- git-commit-id:9.0.2:revision (default) @ spring-petclinic ---
+[INFO] dotGitDirectory '/home/ubuntu/repos/spring-petclinic-java21/.git'
+[INFO] Collected git.build.user.name with value Devin AI
+[INFO] Collected git.build.user.email with value 158243242+devin-ai-integration[bot]@users.noreply.github.com
+[INFO] Collected git.branch with value feature/java21-upgrade_20260206_182724578
+[INFO] Collected git.commit.id.describe with value 3e1ce23-dirty
+[INFO] Collected git.commit.id.describe-short with value 3e1ce23-dirty
+[INFO] Collected git.commit.id with value 3e1ce239f4488f20abda24441388a515ea55a815
+[INFO] Collected git.commit.id.abbrev with value 3e1ce23
+[INFO] Collected git.dirty with value true
+[INFO] Collected git.commit.user.name with value Stéphane Nicoll
+[INFO] Collected git.commit.user.email with value stephane.nicoll@broadcom.com
+[INFO] Collected git.commit.message.full with value Polish
+[INFO] Collected git.commit.message.short with value Polish
+[INFO] Collected git.commit.time with value 2025-11-26T18:56:03Z
+[INFO] Collected git.commit.author.time with value 2025-11-26T18:56:03Z
+[INFO] Collected git.commit.committer.time with value 2025-11-26T18:56:03Z
+[INFO] Collected git.remote.origin.url with value https://github.com/AI-Data-Ranch/spring-petclinic.git
+[INFO] Collected git.tags with value 
+[INFO] Collected git.tag with value 
+[INFO] Collected git.closest.tag.name with value 
+[INFO] Collected git.closest.tag.commit.count with value 
+[INFO] Collected git.total.commit.count with value 1008
+[INFO] Collected git.local.branch.ahead with value NO_REMOTE
+[INFO] Collected git.local.branch.behind with value NO_REMOTE
+[INFO] Collected git.build.time with value 2024-11-28T14:37:52Z
+[INFO] Collected git.build.version with value 4.0.0-SNAPSHOT
+[INFO] Collected git.build.host with value devin-box
+[INFO] including property 'git.tags' in results
+[INFO] including property 'git.build.version' in results
+[INFO] including property 'git.branch' in results
+[INFO] including property 'git.build.host' in results
+[INFO] including property 'git.commit.id' in results
+[INFO] including property 'git.commit.user.email' in results
+[INFO] including property 'git.local.branch.behind' in results
+[INFO] including property 'git.commit.author.time' in results
+[INFO] including property 'git.build.user.name' in results
+[INFO] including property 'git.dirty' in results
+[INFO] including property 'git.closest.tag.commit.count' in results
+[INFO] including property 'git.commit.user.name' in results
+[INFO] including property 'git.commit.id.abbrev' in results
+[INFO] including property 'git.commit.id.describe-short' in results
+[INFO] including property 'git.total.commit.count' in results
+[INFO] including property 'git.commit.id.describe' in results
+[INFO] including property 'git.build.user.email' in results
+[INFO] including property 'git.commit.message.short' in results
+[INFO] including property 'git.commit.committer.time' in results
+[INFO] including property 'git.tag' in results
+[INFO] including property 'git.closest.tag.name' in results
+[INFO] including property 'git.local.branch.ahead' in results
+[INFO] including property 'git.commit.time' in results
+[INFO] including property 'git.build.time' in results
+[INFO] including property 'git.commit.message.full' in results
+[INFO] including property 'git.remote.origin.url' in results
+[INFO] Reading existing properties file [/home/ubuntu/repos/spring-petclinic-java21/target/classes/git.properties] (for project petclinic)...
+[INFO] Properties file [/home/ubuntu/repos/spring-petclinic-java21/target/classes/git.properties] is up-to-date (for module petclinic)...
+[INFO] 
+[INFO] --- spring-boot:4.0.0:build-info (default) @ spring-petclinic ---
+[INFO] 
+[INFO] --- cyclonedx:2.9.1:makeAggregateBom (default) @ spring-petclinic ---
+[INFO] CycloneDX: Resolving Dependencies
+[INFO] CycloneDX: Creating BOM version 1.6 with 108 component(s)
+[INFO] CycloneDX: Writing and validating BOM (JSON): /home/ubuntu/repos/spring-petclinic-java21/target/classes/META-INF/sbom/application.cdx.json
+[WARNING] Unknown keyword meta:enum - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword
+[WARNING] Unknown keyword deprecated - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword
+[INFO]            attaching as spring-petclinic-4.0.0-SNAPSHOT-cyclonedx.json
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ spring-petclinic ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] Copying 47 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ spring-petclinic ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ spring-petclinic ---
+[INFO] skip non existing resourceDirectory /home/ubuntu/repos/spring-petclinic-java21/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ spring-petclinic ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 17 source files with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ spring-petclinic ---
+[WARNING]  Parameter 'systemProperties' is deprecated: Use systemPropertyVariables instead.
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.1/junit-platform-launcher-6.0.1.pom
+Progress (1): 967 BProgress (1): 2.6 kBProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.1/junit-platform-launcher-6.0.1.pom (3.2 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.1/junit-platform-launcher-6.0.1.jar
+Progress (1): 0.9/246 kBProgress (1): 2.3/246 kBProgress (1): 3.7/246 kBProgress (1): 5.0/246 kBProgress (1): 6.4/246 kBProgress (1): 7.8/246 kBProgress (1): 9.1/246 kBProgress (1): 11/246 kB Progress (1): 12/246 kBProgress (1): 13/246 kBProgress (1): 15/246 kBProgress (1): 16/246 kBProgress (1): 17/246 kBProgress (1): 19/246 kBProgress (1): 20/246 kBProgress (1): 21/246 kBProgress (1): 23/246 kBProgress (1): 24/246 kBProgress (1): 26/246 kBProgress (1): 27/246 kBProgress (1): 28/246 kBProgress (1): 30/246 kBProgress (1): 31/246 kBProgress (1): 32/246 kBProgress (1): 34/246 kBProgress (1): 35/246 kBProgress (1): 37/246 kBProgress (1): 38/246 kBProgress (1): 39/246 kBProgress (1): 41/246 kBProgress (1): 42/246 kBProgress (1): 43/246 kBProgress (1): 45/246 kBProgress (1): 46/246 kBProgress (1): 47/246 kBProgress (1): 49/246 kBProgress (1): 50/246 kBProgress (1): 52/246 kBProgress (1): 53/246 kBProgress (1): 57/246 kBProgress (1): 61/246 kBProgress (1): 66/246 kBProgress (1): 70/246 kBProgress (1): 74/246 kBProgress (1): 78/246 kBProgress (1): 83/246 kBProgress (1): 87/246 kBProgress (1): 91/246 kBProgress (1): 95/246 kBProgress (1): 99/246 kBProgress (1): 104/246 kBProgress (1): 108/246 kBProgress (1): 112/246 kBProgress (1): 116/246 kBProgress (1): 121/246 kBProgress (1): 125/246 kBProgress (1): 129/246 kBProgress (1): 133/246 kBProgress (1): 138/246 kBProgress (1): 142/246 kBProgress (1): 146/246 kBProgress (1): 150/246 kBProgress (1): 154/246 kBProgress (1): 159/246 kBProgress (1): 163/246 kBProgress (1): 167/246 kBProgress (1): 171/246 kBProgress (1): 176/246 kBProgress (1): 180/246 kBProgress (1): 184/246 kBProgress (1): 188/246 kBProgress (1): 192/246 kBProgress (1): 197/246 kBProgress (1): 201/246 kBProgress (1): 205/246 kBProgress (1): 209/246 kBProgress (1): 214/246 kBProgress (1): 218/246 kBProgress (1): 222/246 kBProgress (1): 238/246 kBProgress (1): 246 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-launcher/6.0.1/junit-platform-launcher-6.0.1.jar (246 kB at 3.5 MB/s)
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+02:30:22.072 [main] INFO org.testcontainers.DockerClientFactory -- Testcontainers version: 2.0.2
+02:30:22.674 [main] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy -- Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+02:30:23.296 [main] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy -- Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+02:30:23.299 [main] INFO org.testcontainers.DockerClientFactory -- Docker host IP address is localhost
+02:30:23.324 [main] INFO org.testcontainers.DockerClientFactory -- Connected to docker: 
+  Server Version: 27.4.1
+  API Version: 1.47
+  Operating System: Ubuntu 22.04.5 LTS
+  Total Memory: 32122 MB
+02:30:23.343 [main] INFO org.testcontainers.images.PullPolicy -- Image pull policy will be performed by: DefaultPullPolicy()
+02:30:23.346 [main] INFO org.testcontainers.utility.ImageNameSubstitutor -- Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+02:30:23.381 [main] INFO tc.testcontainers/ryuk:0.13.0 -- Creating container for image: testcontainers/ryuk:0.13.0
+02:30:23.598 [main] INFO tc.testcontainers/ryuk:0.13.0 -- Container testcontainers/ryuk:0.13.0 is starting: 5cdd34d79fb0b478cfaaa4930fbd02c24c9d1603034df14b106971377bf75a2a
+02:30:24.117 [main] INFO tc.testcontainers/ryuk:0.13.0 -- Container testcontainers/ryuk:0.13.0 started in PT0.735856995S
+02:30:24.124 [main] INFO org.testcontainers.utility.RyukResourceReaper -- Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+02:30:24.124 [main] INFO org.testcontainers.DockerClientFactory -- Checking the system...
+02:30:24.125 [main] INFO org.testcontainers.DockerClientFactory -- ✔︎ Docker server version should be at least 1.6.0
+[INFO] Running org.springframework.samples.petclinic.MySqlIntegrationTests
+02:30:24.337 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.springframework.samples.petclinic.MySqlIntegrationTests]: MySqlIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+02:30:24.393 [main] INFO tc.mysql:9.5 -- Pulling docker image: mysql:9.5. Please be patient; this may take some time but only needs to be done once.
+02:30:25.445 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Starting to pull image
+02:30:25.477 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+02:30:26.054 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  9 pending,  1 downloaded,  0 extracted, (721 bytes/? MB)
+02:30:26.206 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  8 pending,  2 downloaded,  0 extracted, (20 MB/? MB)
+02:30:26.295 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  7 pending,  3 downloaded,  0 extracted, (41 MB/? MB)
+02:30:26.467 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  6 pending,  4 downloaded,  0 extracted, (41 MB/? MB)
+02:30:26.508 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  5 pending,  5 downloaded,  0 extracted, (41 MB/? MB)
+02:30:26.633 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  4 pending,  6 downloaded,  0 extracted, (41 MB/? MB)
+02:30:26.868 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  3 pending,  7 downloaded,  0 extracted, (42 MB/? MB)
+02:30:27.104 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  2 pending,  8 downloaded,  0 extracted, (101 MB/? MB)
+02:30:27.154 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  1 pending,  9 downloaded,  0 extracted, (101 MB/? MB)
+02:30:27.982 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  0 extracted, (248 MB/262 MB)
+02:30:28.430 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  1 extracted, (251 MB/262 MB)
+02:30:28.443 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  2 extracted, (251 MB/262 MB)
+02:30:28.466 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  3 extracted, (252 MB/262 MB)
+02:30:28.722 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  4 extracted, (258 MB/262 MB)
+02:30:28.732 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  5 extracted, (258 MB/262 MB)
+02:30:28.745 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  6 extracted, (258 MB/262 MB)
+02:30:29.770 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  7 extracted, (259 MB/262 MB)
+02:30:29.785 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  8 extracted, (259 MB/262 MB)
+02:30:42.446 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded,  9 extracted, (262 MB/262 MB)
+02:30:42.464 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pulling image layers:  0 pending, 10 downloaded, 10 extracted, (262 MB/262 MB)
+02:30:42.482 [docker-java-stream--1236969701] INFO tc.mysql:9.5 -- Pull complete. 10 layers, pulled in 17s (downloaded 262 MB at 15 MB/s)
+02:30:42.482 [main] INFO tc.mysql:9.5 -- Image mysql:9.5 pull took PT18.088946892S
+02:30:42.640 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.MySqlIntegrationTests
+02:30:42.830 [main] INFO tc.mysql:9.5 -- Creating container for image: mysql:9.5
+02:30:43.662 [main] INFO tc.mysql:9.5 -- Container mysql:9.5 is starting: b5f367c92abe96a03835eb2879d55a683afc9d0dc991a326df13ac5159e77a66
+02:30:43.930 [main] INFO tc.mysql:9.5 -- Waiting for database connection to become available at jdbc:mysql://localhost:32769/test using query 'SELECT 1'
+02:30:53.267 [main] INFO tc.mysql:9.5 -- Container mysql:9.5 started in PT10.436749155S
+02:30:53.267 [main] INFO tc.mysql:9.5 -- Container is started (JDBC URL: jdbc:mysql://localhost:32769/test)
+02:30:53.352 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-07T02:30:53.797Z  INFO 5991 --- [           main] o.s.s.petclinic.MySqlIntegrationTests    : Starting MySqlIntegrationTests using Java 21.0.10 with PID 5991 (started by ubuntu in /home/ubuntu/repos/spring-petclinic-java21)
+2026-02-07T02:30:53.799Z  INFO 5991 --- [           main] o.s.s.petclinic.MySqlIntegrationTests    : The following 1 profile is active: "mysql"
+2026-02-07T02:30:54.800Z  INFO 5991 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-07T02:30:54.921Z  INFO 5991 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 3 JPA repository interfaces.
+2026-02-07T02:30:55.799Z  INFO 5991 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-02-07T02:30:55.818Z  INFO 5991 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-07T02:30:55.819Z  INFO 5991 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-02-07T02:30:55.882Z  INFO 5991 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2050 ms
+2026-02-07T02:30:56.231Z  INFO 5991 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-07T02:30:56.442Z  INFO 5991 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33145371
+2026-02-07T02:30:56.444Z  INFO 5991 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-07T02:30:56.775Z  INFO 5991 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-07T02:30:56.868Z  INFO 5991 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2026-02-07T02:30:57.494Z  INFO 5991 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-07T02:30:57.645Z  INFO 5991 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:32769/test]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: test/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-07T02:30:59.182Z  INFO 5991 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-07T02:30:59.195Z  INFO 5991 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-07T02:30:59.242Z  INFO 5991 --- [           main] tc.mysql:9.5                             : Creating container for image: mysql:9.5
+2026-02-07T02:30:59.305Z  INFO 5991 --- [           main] tc.mysql:9.5                             : Container mysql:9.5 is starting: 5eb50797874ac9a72e5eff87b90c937f6dddf41fc6daa280acd47ef012da9922
+2026-02-07T02:30:59.582Z  INFO 5991 --- [           main] tc.mysql:9.5                             : Waiting for database connection to become available at jdbc:mysql://localhost:32770/test using query 'SELECT 1'
+2026-02-07T02:31:08.970Z  INFO 5991 --- [           main] tc.mysql:9.5                             : Container mysql:9.5 started in PT9.727535899S
+2026-02-07T02:31:08.970Z  INFO 5991 --- [           main] tc.mysql:9.5                             : Container is started (JDBC URL: jdbc:mysql://localhost:32770/test)
+2026-02-07T02:31:09.068Z  INFO 5991 --- [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-07T02:31:10.476Z  INFO 5991 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-02-07T02:31:10.568Z  INFO 5991 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 36853 (http) with context path '/'
+2026-02-07T02:31:10.578Z  INFO 5991 --- [           main] o.s.s.petclinic.MySqlIntegrationTests    : Started MySqlIntegrationTests in 17.252 seconds (process running for 50.143)
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (/home/ubuntu/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.8/byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+2026-02-07T02:31:11.682Z  INFO 5991 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-07T02:31:11.682Z  INFO 5991 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-07T02:31:11.685Z  INFO 5991 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.55 s -- in org.springframework.samples.petclinic.MySqlIntegrationTests
+[INFO] Running org.springframework.samples.petclinic.service.ClinicServiceTests
+2026-02-07T02:31:12.686Z  INFO 5991 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.service.ClinicServiceTests]: ClinicServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-07T02:31:12.716Z  INFO 5991 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.service.ClinicServiceTests
+2026-02-07T02:31:12.721Z  INFO 5991 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-07T02:31:12.747Z  INFO 5991 --- [           main] o.s.s.p.service.ClinicServiceTests       : Starting ClinicServiceTests using Java 21.0.10 with PID 5991 (started by ubuntu in /home/ubuntu/repos/spring-petclinic-java21)
+2026-02-07T02:31:12.748Z  INFO 5991 --- [           main] o.s.s.p.service.ClinicServiceTests       : No active profile set, falling back to 1 default profile: "default"
+2026-02-07T02:31:12.813Z  INFO 5991 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-07T02:31:12.823Z  INFO 5991 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 3 JPA repository interfaces.
+2026-02-07T02:31:12.851Z  INFO 5991 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-02-07T02:31:13.171Z  INFO 5991 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn0: url=jdbc:h2:mem:64e2894c-2f70-4405-9272-06ad7758e947 user=SA
+2026-02-07T02:31:13.172Z  INFO 5991 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-02-07T02:31:13.269Z  INFO 5991 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-07T02:31:13.294Z  INFO 5991 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-07T02:31:13.312Z  INFO 5991 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:64e2894c-2f70-4405-9272-06ad7758e947]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: 64E2894C-2F70-4405-9272-06AD7758E947/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-07T02:31:13.425Z  INFO 5991 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-07T02:31:13.425Z  INFO 5991 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-07T02:31:13.471Z  INFO 5991 --- [           main] o.s.s.p.service.ClinicServiceTests       : Started ClinicServiceTests in 0.749 seconds (process running for 53.036)
+Hibernate: select v1_0.id,v1_0.first_name,v1_0.last_name from vets v1_0
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select s1_0.vet_id,s1_1.id,s1_1.name from vet_specialties s1_0 join specialties s1_1 on s1_1.id=s1_0.specialty_id where s1_0.vet_id=?
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape '\'
+Hibernate: select p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from pets p1_0 left join types t1_0 on t1_0.id=p1_0.type_id where p1_0.owner_id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from pets p1_0 left join types t1_0 on t1_0.id=p1_0.type_id where p1_0.owner_id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape '\'
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: insert into visits (visit_date,description,id) values (?,?,default)
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select pt1_0.id,pt1_0.name from types pt1_0 order by pt1_0.name
+Hibernate: insert into pets (birth_date,name,type_id,id) values (?,?,?,default)
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape '\'
+Hibernate: insert into owners (address,city,first_name,last_name,telephone,id) values (?,?,?,?,?,default)
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone from owners o1_0 where o1_0.last_name like ? escape '\'
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select o1_0.id,o1_0.address,o1_0.city,o1_0.first_name,o1_0.last_name,o1_0.telephone,p1_0.owner_id,p1_0.id,p1_0.birth_date,p1_0.name,t1_0.id,t1_0.name from owners o1_0 left join pets p1_0 on o1_0.id=p1_0.owner_id left join types t1_0 on t1_0.id=p1_0.type_id where o1_0.id=? order by p1_0.name
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select v1_0.pet_id,v1_0.id,v1_0.visit_date,v1_0.description from visits v1_0 where v1_0.pet_id=? order by v1_0.visit_date
+Hibernate: select pt1_0.id,pt1_0.name from types pt1_0 order by pt1_0.name
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.175 s -- in org.springframework.samples.petclinic.service.ClinicServiceTests
+[INFO] Running org.springframework.samples.petclinic.PostgresIntegrationTests
+2026-02-07T02:31:13.865Z  INFO 5991 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.PostgresIntegrationTests]: PostgresIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-07T02:31:13.868Z  INFO 5991 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.PostgresIntegrationTests
+2026-02-07T02:31:13.877Z  INFO 5991 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-07T02:31:13.908Z  INFO 5991 --- [           main] o.s.s.p.PostgresIntegrationTests         : Starting PostgresIntegrationTests using Java 21.0.10 with PID 5991 (started by ubuntu in /home/ubuntu/repos/spring-petclinic-java21)
+2026-02-07T02:31:13.908Z  INFO 5991 --- [           main] o.s.s.p.PostgresIntegrationTests         : The following 1 profile is active: "postgres"
+2026-02-07T02:31:13.914Z  INFO 5991 --- [           main] .s.b.d.c.l.DockerComposeLifecycleManager : Using Docker Compose file /home/ubuntu/repos/spring-petclinic-java21/docker-compose.yml
+2026-02-07T02:31:14.593Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  postgres Pulling 
+2026-02-07T02:31:15.872Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Pulling fs layer 
+2026-02-07T02:31:15.872Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Pulling fs layer 
+2026-02-07T02:31:15.872Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Pulling fs layer 
+2026-02-07T02:31:15.872Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Pulling fs layer 
+2026-02-07T02:31:15.872Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Pulling fs layer 
+2026-02-07T02:31:15.872Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Pulling fs layer 
+2026-02-07T02:31:15.872Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Pulling fs layer 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Pulling fs layer 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Pulling fs layer 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Pulling fs layer 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Pulling fs layer 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Pulling fs layer 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Pulling fs layer 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Waiting 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Waiting 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Waiting 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Waiting 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Waiting 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Waiting 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Waiting 
+2026-02-07T02:31:15.873Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Waiting 
+2026-02-07T02:31:15.874Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Waiting 
+2026-02-07T02:31:15.874Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Waiting 
+2026-02-07T02:31:16.154Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Downloading [==============================>                    ]     720B/1.175kB
+2026-02-07T02:31:16.154Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Downloading [==================================================>]  1.175kB/1.175kB
+2026-02-07T02:31:16.154Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Verifying Checksum 
+2026-02-07T02:31:16.154Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Download complete 
+2026-02-07T02:31:16.159Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Downloading [>                                                  ]   67.2kB/6.438MB
+2026-02-07T02:31:16.178Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Downloading [>                                                  ]  303.1kB/29.78MB
+2026-02-07T02:31:16.197Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Verifying Checksum 
+2026-02-07T02:31:16.197Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Download complete 
+2026-02-07T02:31:16.280Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Downloading [===========================>                       ]   16.2MB/29.78MB
+2026-02-07T02:31:16.356Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Verifying Checksum 
+2026-02-07T02:31:16.356Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Download complete 
+2026-02-07T02:31:16.411Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [>                                                  ]  327.7kB/29.78MB
+2026-02-07T02:31:16.437Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Downloading [>                                                  ]  13.49kB/1.257MB
+2026-02-07T02:31:16.460Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Verifying Checksum 
+2026-02-07T02:31:16.460Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Download complete 
+2026-02-07T02:31:16.488Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Downloading [>                                                  ]  84.14kB/8.204MB
+2026-02-07T02:31:16.517Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [========>                                          ]  4.915MB/29.78MB
+2026-02-07T02:31:16.546Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Verifying Checksum 
+2026-02-07T02:31:16.546Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Download complete 
+2026-02-07T02:31:16.628Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [===============>                                   ]  9.503MB/29.78MB
+2026-02-07T02:31:16.629Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Downloading [>                                                  ]  14.41kB/1.312MB
+2026-02-07T02:31:16.655Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Verifying Checksum 
+2026-02-07T02:31:16.656Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Download complete 
+2026-02-07T02:31:16.723Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Downloading [==================================================>]     116B/116B
+2026-02-07T02:31:16.724Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Verifying Checksum 
+2026-02-07T02:31:16.724Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Download complete 
+2026-02-07T02:31:16.736Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [==================>                                ]  11.14MB/29.78MB
+2026-02-07T02:31:16.799Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Downloading [==========>                                        ]     688B/3.145kB
+2026-02-07T02:31:16.800Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Downloading [==================================================>]  3.145kB/3.145kB
+2026-02-07T02:31:16.800Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Verifying Checksum 
+2026-02-07T02:31:16.800Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Download complete 
+2026-02-07T02:31:16.839Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [==========================>                        ]  15.73MB/29.78MB
+2026-02-07T02:31:16.941Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [=====================================>             ]  22.61MB/29.78MB
+2026-02-07T02:31:16.959Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [>                                                  ]  527.6kB/115.2MB
+2026-02-07T02:31:16.995Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Downloading [=>                                                 ]     687B/19.19kB
+2026-02-07T02:31:16.995Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Verifying Checksum 
+2026-02-07T02:31:16.995Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Download complete 
+2026-02-07T02:31:17.060Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [======>                                            ]  15.47MB/115.2MB
+2026-02-07T02:31:17.073Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Downloading [==================================================>]     127B/127B
+2026-02-07T02:31:17.073Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Verifying Checksum 
+2026-02-07T02:31:17.073Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Download complete 
+2026-02-07T02:31:17.161Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [=============>                                     ]  30.95MB/115.2MB
+2026-02-07T02:31:17.225Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [============================================>      ]  26.21MB/29.78MB
+2026-02-07T02:31:17.263Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [===================>                               ]  45.37MB/115.2MB
+2026-02-07T02:31:17.290Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Downloading [======>                                            ]     720B/5.838kB
+2026-02-07T02:31:17.290Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Downloading [==================================================>]  5.838kB/5.838kB
+2026-02-07T02:31:17.290Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Verifying Checksum 
+2026-02-07T02:31:17.290Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Download complete 
+2026-02-07T02:31:17.348Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Downloading [==================================================>]     186B/186B
+2026-02-07T02:31:17.349Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Verifying Checksum 
+2026-02-07T02:31:17.349Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Download complete 
+2026-02-07T02:31:17.364Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [===========================>                       ]  62.47MB/115.2MB
+2026-02-07T02:31:17.377Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [===============================================>   ]  28.51MB/29.78MB
+2026-02-07T02:31:17.464Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [==============================>                    ]  69.95MB/115.2MB
+2026-02-07T02:31:17.480Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [================================================>  ]  28.84MB/29.78MB
+2026-02-07T02:31:17.588Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [=================================>                 ]  77.96MB/115.2MB
+2026-02-07T02:31:17.615Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [================================================>  ]  29.16MB/29.78MB
+2026-02-07T02:31:17.703Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [=====================================>             ]  85.95MB/115.2MB
+2026-02-07T02:31:17.753Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Extracting [==================================================>]  29.78MB/29.78MB
+2026-02-07T02:31:17.805Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [===========================================>       ]  100.9MB/115.2MB
+2026-02-07T02:31:17.837Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0c8d55a45c0d Pull complete 
+2026-02-07T02:31:17.839Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Extracting [==================================================>]  1.175kB/1.175kB
+2026-02-07T02:31:17.839Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Extracting [==================================================>]  1.175kB/1.175kB
+2026-02-07T02:31:17.853Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  d7071d8cd1af Pull complete 
+2026-02-07T02:31:17.855Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Extracting [>                                                  ]  65.54kB/6.438MB
+2026-02-07T02:31:17.908Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Downloading [================================================>  ]  112.7MB/115.2MB
+2026-02-07T02:31:17.918Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Download complete 
+2026-02-07T02:31:17.956Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Extracting [===========================================>       ]  5.571MB/6.438MB
+2026-02-07T02:31:18.000Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Extracting [==================================================>]  6.438MB/6.438MB
+2026-02-07T02:31:18.076Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  e3d994429678 Pull complete 
+2026-02-07T02:31:18.079Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Extracting [=>                                                 ]  32.77kB/1.257MB
+2026-02-07T02:31:18.107Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Extracting [==================================================>]  1.257MB/1.257MB
+2026-02-07T02:31:18.123Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  512b7ea3ac5d Pull complete 
+2026-02-07T02:31:18.125Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Extracting [>                                                  ]   98.3kB/8.204MB
+2026-02-07T02:31:18.230Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Extracting [===================>                               ]  3.146MB/8.204MB
+2026-02-07T02:31:18.338Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Extracting [=============================>                     ]  4.817MB/8.204MB
+2026-02-07T02:31:18.446Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Extracting [======================================>            ]  6.291MB/8.204MB
+2026-02-07T02:31:18.504Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Extracting [==================================================>]  8.204MB/8.204MB
+2026-02-07T02:31:18.530Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  c4fa1de5526b Pull complete 
+2026-02-07T02:31:18.532Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Extracting [=>                                                 ]  32.77kB/1.312MB
+2026-02-07T02:31:18.577Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Extracting [==================================================>]  1.312MB/1.312MB
+2026-02-07T02:31:18.598Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  67efc7fd0cb7 Pull complete 
+2026-02-07T02:31:18.600Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Extracting [==================================================>]     116B/116B
+2026-02-07T02:31:18.601Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Extracting [==================================================>]     116B/116B
+2026-02-07T02:31:18.610Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  0b231e82c9b6 Pull complete 
+2026-02-07T02:31:18.612Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Extracting [==================================================>]  3.145kB/3.145kB
+2026-02-07T02:31:18.613Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Extracting [==================================================>]  3.145kB/3.145kB
+2026-02-07T02:31:18.626Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b61b9ed964eb Pull complete 
+2026-02-07T02:31:18.690Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [>                                                  ]  557.1kB/115.2MB
+2026-02-07T02:31:18.799Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===>                                               ]  7.242MB/115.2MB
+2026-02-07T02:31:18.926Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [====>                                              ]  10.03MB/115.2MB
+2026-02-07T02:31:19.044Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=====>                                             ]  13.37MB/115.2MB
+2026-02-07T02:31:19.156Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=======>                                           ]  17.27MB/115.2MB
+2026-02-07T02:31:19.260Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=========>                                         ]  21.73MB/115.2MB
+2026-02-07T02:31:19.360Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===========>                                       ]  25.62MB/115.2MB
+2026-02-07T02:31:19.462Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [==============>                                    ]  32.87MB/115.2MB
+2026-02-07T02:31:19.562Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=================>                                 ]  40.67MB/115.2MB
+2026-02-07T02:31:19.668Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=====================>                             ]  49.58MB/115.2MB
+2026-02-07T02:31:19.786Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [========================>                          ]  55.71MB/115.2MB
+2026-02-07T02:31:19.896Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=========================>                         ]   59.6MB/115.2MB
+2026-02-07T02:31:19.997Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===========================>                       ]  64.06MB/115.2MB
+2026-02-07T02:31:20.099Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===============================>                   ]  72.42MB/115.2MB
+2026-02-07T02:31:20.199Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [==================================>                ]  79.66MB/115.2MB
+2026-02-07T02:31:20.303Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=====================================>             ]   86.9MB/115.2MB
+2026-02-07T02:31:20.409Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=========================================>         ]  95.81MB/115.2MB
+2026-02-07T02:31:20.534Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [==========================================>        ]  98.04MB/115.2MB
+2026-02-07T02:31:20.646Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===========================================>       ]  100.8MB/115.2MB
+2026-02-07T02:31:20.759Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [============================================>      ]  101.9MB/115.2MB
+2026-02-07T02:31:20.865Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [============================================>      ]  103.6MB/115.2MB
+2026-02-07T02:31:20.983Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=============================================>     ]  105.8MB/115.2MB
+2026-02-07T02:31:21.114Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [==============================================>    ]  108.1MB/115.2MB
+2026-02-07T02:31:21.229Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===============================================>   ]  109.2MB/115.2MB
+2026-02-07T02:31:21.354Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [===============================================>   ]  110.3MB/115.2MB
+2026-02-07T02:31:21.544Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [================================================>  ]  111.4MB/115.2MB
+2026-02-07T02:31:21.645Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=================================================> ]  113.1MB/115.2MB
+2026-02-07T02:31:21.921Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=================================================> ]  113.6MB/115.2MB
+2026-02-07T02:31:22.051Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [=================================================> ]  114.8MB/115.2MB
+2026-02-07T02:31:22.121Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Extracting [==================================================>]  115.2MB/115.2MB
+2026-02-07T02:31:22.196Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  6bc137f970e3 Pull complete 
+2026-02-07T02:31:22.199Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Extracting [==================================================>]  19.19kB/19.19kB
+2026-02-07T02:31:22.199Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Extracting [==================================================>]  19.19kB/19.19kB
+2026-02-07T02:31:22.211Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  46dc4e6582cd Pull complete 
+2026-02-07T02:31:22.214Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Extracting [==================================================>]     127B/127B
+2026-02-07T02:31:22.214Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Extracting [==================================================>]     127B/127B
+2026-02-07T02:31:22.226Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  b04fada31d68 Pull complete 
+2026-02-07T02:31:22.228Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Extracting [==================================================>]  5.838kB/5.838kB
+2026-02-07T02:31:22.228Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Extracting [==================================================>]  5.838kB/5.838kB
+2026-02-07T02:31:22.238Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  f7652ec73b05 Pull complete 
+2026-02-07T02:31:22.240Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Extracting [==================================================>]     186B/186B
+2026-02-07T02:31:22.240Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Extracting [==================================================>]     186B/186B
+2026-02-07T02:31:22.250Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  9b8484f1a1e6 Pull complete 
+2026-02-07T02:31:22.259Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  postgres Pulled 
+2026-02-07T02:31:22.263Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Network spring-petclinic-java21_default  Creating
+2026-02-07T02:31:22.334Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Network spring-petclinic-java21_default  Created
+2026-02-07T02:31:22.334Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-java21-postgres-1  Creating
+2026-02-07T02:31:22.723Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-java21-postgres-1  Created
+2026-02-07T02:31:22.724Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-java21-postgres-1  Starting
+2026-02-07T02:31:22.964Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-java21-postgres-1  Started
+2026-02-07T02:31:22.964Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-java21-postgres-1  Waiting
+2026-02-07T02:31:23.466Z  INFO 5991 --- [utReader-stderr] o.s.boot.docker.compose.core.DockerCli   :  Container spring-petclinic-java21-postgres-1  Healthy
+2026-02-07T02:31:25.005Z  INFO 5991 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-07T02:31:25.017Z  INFO 5991 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 3 JPA repository interfaces.
+2026-02-07T02:31:25.108Z  INFO 5991 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-02-07T02:31:25.109Z  INFO 5991 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-07T02:31:25.109Z  INFO 5991 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-02-07T02:31:25.122Z  INFO 5991 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 285 ms
+2026-02-07T02:31:25.174Z  INFO 5991 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-02-07T02:31:25.366Z  INFO 5991 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@38726836
+2026-02-07T02:31:25.367Z  INFO 5991 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-02-07T02:31:25.454Z  INFO 5991 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-07T02:31:25.476Z  INFO 5991 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-07T02:31:25.499Z  INFO 5991 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://127.0.0.1:5432/petclinic]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: petclinic/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-07T02:31:25.601Z  INFO 5991 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-07T02:31:25.602Z  INFO 5991 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-07T02:31:25.837Z  INFO 5991 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-02-07T02:31:25.859Z  INFO 5991 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 41377 (http) with context path '/'
+2026-02-07T02:31:25.862Z  INFO 5991 --- [           main] o.s.s.p.PostgresIntegrationTests         : Started PostgresIntegrationTests in 11.985 seconds (process running for 65.428)
+2026-02-07T02:31:25.909Z  INFO 5991 --- [o-auto-2-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-07T02:31:25.909Z  INFO 5991 --- [o-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-07T02:31:25.911Z  INFO 5991 --- [o-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.13 s -- in org.springframework.samples.petclinic.PostgresIntegrationTests
+[INFO] Running org.springframework.samples.petclinic.system.CrashControllerTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in org.springframework.samples.petclinic.system.CrashControllerTests
+[INFO] Running org.springframework.samples.petclinic.system.CrashControllerIntegrationTests
+2026-02-07T02:31:26.013Z  INFO 5991 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-07T02:31:26.026Z  INFO 5991 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : Starting CrashControllerIntegrationTests using Java 21.0.10 with PID 5991 (started by ubuntu in /home/ubuntu/repos/spring-petclinic-java21)
+2026-02-07T02:31:26.026Z  INFO 5991 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : No active profile set, falling back to 1 default profile: "default"
+2026-02-07T02:31:26.190Z  INFO 5991 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-02-07T02:31:26.191Z  INFO 5991 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-07T02:31:26.191Z  INFO 5991 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-02-07T02:31:26.201Z  INFO 5991 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 173 ms
+2026-02-07T02:31:26.335Z  INFO 5991 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 0 endpoints beneath base path '/actuator'
+2026-02-07T02:31:26.347Z  INFO 5991 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 38681 (http) with context path '/'
+2026-02-07T02:31:26.351Z  INFO 5991 --- [           main] .s.s.p.s.CrashControllerIntegrationTests : Started CrashControllerIntegrationTests in 0.338 seconds (process running for 65.916)
+2026-02-07T02:31:26.362Z  INFO 5991 --- [o-auto-3-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-07T02:31:26.362Z  INFO 5991 --- [o-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-07T02:31:26.364Z  INFO 5991 --- [o-auto-3-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-02-07T02:31:26.372Z ERROR 5991 --- [o-auto-3-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause
+
+java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown
+	at org.springframework.samples.petclinic.system.CrashController.triggerException(CrashController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-02-07T02:31:26.449Z ERROR 5991 --- [o-auto-3-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown] with root cause
+
+java.lang.RuntimeException: Expected: controller used to showcase what happens when an exception is thrown
+	at org.springframework.samples.petclinic.system.CrashController.triggerException(CrashController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.14.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:66) ~[spring-webmvc-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.1.jar:7.0.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.14.jar:11.0.14]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.502 s -- in org.springframework.samples.petclinic.system.CrashControllerIntegrationTests
+[INFO] Running org.springframework.samples.petclinic.system.I18nPropertiesSyncTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.020 s -- in org.springframework.samples.petclinic.system.I18nPropertiesSyncTest
+[INFO] Running org.springframework.samples.petclinic.owner.PetTypeFormatterTests
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.575 s -- in org.springframework.samples.petclinic.owner.PetTypeFormatterTests
+[INFO] Running org.springframework.samples.petclinic.owner.OwnerControllerTests
+2026-02-07T02:31:27.141Z  INFO 5991 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: OwnerControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-07T02:31:27.205Z  INFO 5991 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.OwnerControllerTests
+2026-02-07T02:31:27.230Z  INFO 5991 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-07T02:31:27.315Z  INFO 5991 --- [           main] o.s.s.p.owner.OwnerControllerTests       : Starting OwnerControllerTests using Java 21.0.10 with PID 5991 (started by ubuntu in /home/ubuntu/repos/spring-petclinic-java21)
+2026-02-07T02:31:27.316Z  INFO 5991 --- [           main] o.s.s.p.owner.OwnerControllerTests       : No active profile set, falling back to 1 default profile: "default"
+2026-02-07T02:31:27.849Z  INFO 5991 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-07T02:31:27.849Z  INFO 5991 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-07T02:31:27.850Z  INFO 5991 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-07T02:31:27.878Z  INFO 5991 --- [           main] o.s.s.p.owner.OwnerControllerTests       : Started OwnerControllerTests in 0.65 seconds (process running for 67.443)
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.371 s -- in org.springframework.samples.petclinic.owner.OwnerControllerTests
+[INFO] Running org.springframework.samples.petclinic.owner.PetValidatorTests
+[INFO] Running org.springframework.samples.petclinic.owner.PetValidatorTests$ValidateHasErrors
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in org.springframework.samples.petclinic.owner.PetValidatorTests$ValidateHasErrors
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in org.springframework.samples.petclinic.owner.PetValidatorTests
+[INFO] Running org.springframework.samples.petclinic.owner.VisitControllerTests
+2026-02-07T02:31:28.528Z  INFO 5991 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.VisitControllerTests]: VisitControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-07T02:31:28.536Z  INFO 5991 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.VisitControllerTests
+2026-02-07T02:31:28.540Z  INFO 5991 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-07T02:31:28.571Z  INFO 5991 --- [           main] o.s.s.p.owner.VisitControllerTests       : Starting VisitControllerTests using Java 21.0.10 with PID 5991 (started by ubuntu in /home/ubuntu/repos/spring-petclinic-java21)
+2026-02-07T02:31:28.571Z  INFO 5991 --- [           main] o.s.s.p.owner.VisitControllerTests       : No active profile set, falling back to 1 default profile: "default"
+2026-02-07T02:31:28.766Z  INFO 5991 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-07T02:31:28.766Z  INFO 5991 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-07T02:31:28.767Z  INFO 5991 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-07T02:31:28.773Z  INFO 5991 --- [           main] o.s.s.p.owner.VisitControllerTests       : Started VisitControllerTests in 0.233 seconds (process running for 68.339)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.339 s -- in org.springframework.samples.petclinic.owner.VisitControllerTests
+[INFO] Running org.springframework.samples.petclinic.owner.PetControllerTests
+2026-02-07T02:31:28.869Z  INFO 5991 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests]: PetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-07T02:31:28.876Z  INFO 5991 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests
+2026-02-07T02:31:28.880Z  INFO 5991 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-07T02:31:28.901Z  INFO 5991 --- [           main] o.s.s.p.owner.PetControllerTests         : Starting PetControllerTests using Java 21.0.10 with PID 5991 (started by ubuntu in /home/ubuntu/repos/spring-petclinic-java21)
+2026-02-07T02:31:28.902Z  INFO 5991 --- [           main] o.s.s.p.owner.PetControllerTests         : No active profile set, falling back to 1 default profile: "default"
+2026-02-07T02:31:29.070Z  INFO 5991 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-07T02:31:29.071Z  INFO 5991 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-07T02:31:29.072Z  INFO 5991 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-07T02:31:29.078Z  INFO 5991 --- [           main] o.s.s.p.owner.PetControllerTests         : Started PetControllerTests in 0.198 seconds (process running for 68.644)
+[INFO] Running org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors
+2026-02-07T02:31:29.250Z  INFO 5991 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors]: ProcessUpdateFormHasErrors does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-07T02:31:29.259Z  INFO 5991 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 s -- in org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors
+[INFO] Running org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors
+2026-02-07T02:31:29.353Z  INFO 5991 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors]: ProcessCreationFormHasErrors does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-07T02:31:29.358Z  INFO 5991 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.197 s -- in org.springframework.samples.petclinic.owner.PetControllerTests$ProcessCreationFormHasErrors
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.684 s -- in org.springframework.samples.petclinic.owner.PetControllerTests
+[INFO] Running org.springframework.samples.petclinic.vet.VetControllerTests
+2026-02-07T02:31:29.556Z  INFO 5991 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.vet.VetControllerTests]: VetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-07T02:31:29.575Z  INFO 5991 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.vet.VetControllerTests
+2026-02-07T02:31:29.579Z  INFO 5991 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-07T02:31:29.608Z  INFO 5991 --- [           main] o.s.s.petclinic.vet.VetControllerTests   : Starting VetControllerTests using Java 21.0.10 with PID 5991 (started by ubuntu in /home/ubuntu/repos/spring-petclinic-java21)
+2026-02-07T02:31:29.609Z  INFO 5991 --- [           main] o.s.s.petclinic.vet.VetControllerTests   : No active profile set, falling back to 1 default profile: "default"
+2026-02-07T02:31:29.902Z  INFO 5991 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-02-07T02:31:29.902Z  INFO 5991 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-02-07T02:31:29.903Z  INFO 5991 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-02-07T02:31:29.909Z  INFO 5991 --- [           main] o.s.s.petclinic.vet.VetControllerTests   : Started VetControllerTests in 0.329 seconds (process running for 69.474)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.513 s -- in org.springframework.samples.petclinic.vet.VetControllerTests
+[INFO] Running org.springframework.samples.petclinic.vet.VetTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in org.springframework.samples.petclinic.vet.VetTests
+[INFO] Running org.springframework.samples.petclinic.PetClinicIntegrationTests
+2026-02-07T02:31:30.101Z  INFO 5991 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.PetClinicIntegrationTests]: PetClinicIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-02-07T02:31:30.104Z  INFO 5991 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.PetClinicIntegrationTests
+2026-02-07T02:31:30.107Z  INFO 5991 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.0.0
+
+
+2026-02-07T02:31:30.124Z  INFO 5991 --- [           main] o.s.s.p.PetClinicIntegrationTests        : Starting PetClinicIntegrationTests using Java 21.0.10 with PID 5991 (started by ubuntu in /home/ubuntu/repos/spring-petclinic-java21)
+2026-02-07T02:31:30.124Z  INFO 5991 --- [           main] o.s.s.p.PetClinicIntegrationTests        : No active profile set, falling back to 1 default profile: "default"
+2026-02-07T02:31:30.326Z  INFO 5991 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-07T02:31:30.347Z  INFO 5991 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 3 JPA repository interfaces.
+2026-02-07T02:31:30.469Z  INFO 5991 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 0 (http)
+2026-02-07T02:31:30.470Z  INFO 5991 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-07T02:31:30.470Z  INFO 5991 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2026-02-07T02:31:30.487Z  INFO 5991 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 361 ms
+2026-02-07T02:31:30.544Z  INFO 5991 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-02-07T02:31:30.549Z  INFO 5991 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection conn10: url=jdbc:h2:mem:247bae73-9b19-4bf6-a873-7d9040db9fcf user=SA
+2026-02-07T02:31:30.549Z  INFO 5991 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-02-07T02:31:30.602Z  INFO 5991 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-07T02:31:30.628Z  INFO 5991 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-07T02:31:30.630Z  INFO 5991 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:247bae73-9b19-4bf6-a873-7d9040db9fcf]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: 247BAE73-9B19-4BF6-A873-7D9040DB9FCF/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-07T02:31:30.708Z  INFO 5991 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-07T02:31:30.709Z  INFO 5991 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-07T02:31:30.956Z  INFO 5991 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-02-07T02:31:30.978Z  INFO 5991 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 33209 (http) with context path '/'
+2026-02-07T02:31:30.981Z  INFO 5991 --- [           main] o.s.s.p.PetClinicIntegrationTests        : Started PetClinicIntegrationTests in 0.874 seconds (process running for 70.546)
+2026-02-07T02:31:31.015Z  INFO 5991 --- [o-auto-4-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-07T02:31:31.015Z  INFO 5991 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-07T02:31:31.017Z  INFO 5991 --- [o-auto-4-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.960 s -- in org.springframework.samples.petclinic.PetClinicIntegrationTests
+[INFO] Running org.springframework.samples.petclinic.model.ValidatorTests
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in org.springframework.samples.petclinic.model.ValidatorTests
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:21 min
+[INFO] Finished at: 2026-02-07T02:31:32Z
+[INFO] ------------------------------------------------------------------------
