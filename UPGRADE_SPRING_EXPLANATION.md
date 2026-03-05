@@ -4,7 +4,7 @@
 **Upgrade Status**: SUCCESSFUL
 
 ### Key Metrics
-- **Files Modified**: 1 (pom.xml)
+- **Files Modified**: 3 (pom.xml, build.gradle, I18nPropertiesSyncTest.java)
 - **Tests Status**: 58/58 passing
 - **Build Status**: SUCCESS
 - **Application Status**: RUNNING
@@ -13,6 +13,8 @@
 1. Updated Spring Boot parent version from 4.0.0 to 4.1.0-M2 (latest available milestone)
 2. Added Spring Milestones repository (4.1.0 GA not yet released)
 3. Updated project version from 4.0.0-SNAPSHOT to 4.1.0-SNAPSHOT
+4. Updated build.gradle to match Maven version bump (plugin version, project version, milestone repo)
+5. OpenRewrite modernization: `Paths.get()` -> `Path.of()` in test file
 
 ### Breaking Changes Handled
 - None — this minor version upgrade required no code or configuration changes
@@ -100,6 +102,8 @@
 
 ### Affected Files
 - `pom.xml` — Updated parent version and added milestone repository
+- `build.gradle` — Updated plugin version, project version, added milestone repository
+- `src/test/java/.../I18nPropertiesSyncTest.java` — OpenRewrite modernization
 
 ## OpenRewrite Migration Results
 ### Recipe Executed
@@ -149,6 +153,7 @@ No test failures encountered.
 ## Application Verification
 ### Startup Status
 - Application started: SUCCESS
+- Startup time: ~4.8 seconds
 - Build Time: ~56 seconds (full build with tests)
 - Errors during startup: NO
 
@@ -159,10 +164,28 @@ No test failures encountered.
 | `mvn clean test` | SUCCESS | ~53s | All 58 tests pass |
 | `mvn clean install` | SUCCESS | ~56s | Full build with packaging |
 
+### Endpoint Testing Results
+| Endpoint | Status | Notes |
+|----------|--------|-------|
+| `/` (Welcome) | 200 OK | Home page loads correctly |
+| `/actuator/health` | 200 OK | Returns `{"groups":["liveness","readiness"],"status":"UP"}` |
+| `/owners/find` | 200 OK | Owner search page loads |
+| `/owners/1` | 200 OK | Owner details page loads |
+| `/vets.html` | 200 OK | Vet listing page loads |
+
 ## Code Quality and Security
 ### Static Analysis
 - Checkstyle: PASS (validated during build)
 - Spring Java Format: PASS (validated during build)
+
+### Security Analysis (Snyk SCA Scan)
+- **Scan Date**: 2026-03-05
+- **Critical vulnerabilities**: 0
+- **High vulnerabilities**: 2 (transitive, not directly upgradable)
+  - `tools.jackson.core:jackson-core` 3.0.4 — DoS via async parser number length bypass (GHSA-72hv-8253-57qq)
+  - `tools.jackson.core:jackson-core` 3.0.4 — DoS via deep nesting bypass (CVE-2026-29062)
+- **Fix available**: jackson-core 3.1.0 (not yet available in Spring Boot BOM)
+- **Note**: These are transitive dependencies via `spring-boot-docker-compose` -> `jackson-databind` -> `jackson-core`. They will be resolved when Spring Boot updates its jackson dependency. No direct action required in this PR.
 
 ## Performance Analysis
 ### Build Performance
@@ -178,4 +201,4 @@ No test failures encountered.
 
 ---
 *Document generated and maintained by upgrade-springboot skill*
-*Last updated: 2026-03-05T21:49Z*
+*Last updated: 2026-03-05T22:01Z*
